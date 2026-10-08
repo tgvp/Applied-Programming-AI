@@ -1,4 +1,4 @@
-# Programming for AI
+# Applied Programming for AI
 
 Repository containing support material, Jupyter notebooks, and practical exercises for **Programming for AI**.
 
