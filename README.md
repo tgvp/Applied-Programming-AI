@@ -42,6 +42,14 @@ Guia de instalação e configuração em português:
 
 ---
 
+## 🌱 Git and Version Control
+
+Learn to install Git, set up your identity, clone a practice repository, and use `pull`, `add`, `commit`, and `push` to save and share your work on GitHub. This hands-on tutorial uses Windows + Git Bash and includes troubleshooting tips and a daily command reference.
+
+[![Git Getting Started](https://img.shields.io/badge/Git-Getting_Started-F05032?style=for-the-badge&logo=git&logoColor=white)](Git-Getting-Started.md)
+
+---
+
 ## 📅 Course Schedule
 
 The complete course schedule, including the weekly topics and planned activities, is available here:
