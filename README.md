@@ -60,33 +60,34 @@ The complete course schedule, including the weekly topics and planned activities
 
 ## 📆 Week 1
 
-### 🧩 Student Version
+### Basics
 
-#### Basics
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics.ipynb)
-
-[![Open In Colab](https://img.shields.io/badge/Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics.ipynb)
+| 🧩 Student | ✅ Solution |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics.ipynb) | [![GitHub Solution](https://img.shields.io/badge/GitHub-Solution-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics-solution.ipynb) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics.ipynb) | [![Colab Solution](https://img.shields.io/badge/Colab-Solution-238636?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-basics-solution.ipynb) |
 
 ---
-#### Numpy
 
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-student.ipynb)
+### NumPy
 
-[![Open In Colab](https://img.shields.io/badge/Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-student.ipynb)
+| 🧩 Student | ✅ Solution |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-student.ipynb) | [![GitHub Solution](https://img.shields.io/badge/GitHub-Solution-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-solution.ipynb) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-student.ipynb) | [![Colab Solution](https://img.shields.io/badge/Colab-Solution-238636?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-1/mia-pr-week-1-solution.ipynb) |
 
 ---
 
 ## 📆 Week 2
 
-### 🧩 Student Version
-
-#### Pandas
+### Pandas
 
 DataFrames, selection and filtering, transformations, data types, and exploration of datasets.
 
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb)
-
-[![Open In Colab](https://img.shields.io/badge/Open_in_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb)
+| 🧩 Student | 🔒 Solution (coming soon) |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | ![GitHub Solution — unavailable](https://img.shields.io/badge/GitHub-Solution-9CA3AF?style=for-the-badge&logo=github&logoColor=D1D5DB&labelColor=6B7280) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | ![Colab Solution — unavailable](https://img.shields.io/badge/Colab-Solution-9CA3AF?style=for-the-badge&logo=googlecolab&logoColor=D1D5DB&labelColor=6B7280) |
 
 [![Download Titanic CSV](https://img.shields.io/badge/Download-Titanic_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/titanic.csv)
 
