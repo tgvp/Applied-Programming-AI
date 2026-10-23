@@ -1,0 +1,892 @@
+;survived;pclass;sex;age;sibsp;parch;fare;adult_male;dreck;embark_town;passengerId;name
+0;0;3;Male;22.0;1;0;7.25;True;;Southampton;T3-1912-S-P0001;Dustin Flores
+1;1;1;female;38.0;1;0;71.2833;False;C;Cherbourg;T1-1912-C-P0001;Mary Tyler
+2;1;3;female;26.0;0;0;7.925;False;;Southampton;T3-1912-S-P0002;Anna Mendoza
+3;1;1;female;35.0;1;0;53.1;False;C;Southampton;T1-1912-S-P0001;Debra Pearson
+4;0;3;Male;35.0;0;0;8.05;True;;Southampton;T3-1912-S-P0003;Anthony Taylor
+5;0;3;Male;nan;0;0;8.4583;True;;Queenstown;T3-1912-Q-P0001;Eric Mayo
+6;0;1;Male;54.0;0;0;51.8625;True;E;Southampton;T1-1912-S-P0002;Brian James
+7;0;3;Male;2.0;3;1;21.075 USD;False;;Southampton;T3-1912-S-P0004;Tyler Smith
+8;1;3;female;27.0;0;2;11.1333 USD;False;;Southampton;T3-1912-S-P0005;Robin Dodson
+9;1;2;female;14.0;1;0;30.0708;False;;Cherbourg;T2-1912-C-P0001;Sandra Ward
+10;1;3;female;4.0;1;1;16.7 USD;False;G;Southampton;T3-1912-S-P0006;Kimberly Stevenson DDS
+11;1;1;female;58.0;0;0;26.55 USD;False;C;Southampton;T1-1912-S-P0003;Michelle Wood
+12;0;3;Male;20.0;0;0;8.05;True;;Southampton;T3-1912-S-P0007;Russell Carey
+13;0;3;Male;39.0;1;5;31.275;True;;Southampton;T3-1912-S-P0008;Ryan Parker
+14;0;3;female;14.0;0;0;7.8542;False;;Southampton;T3-1912-S-P0009;Whitney Wong
+15;1;2;female;55.0;0;0;16.0;False;;Southampton;T2-1912-S-P0001;Monica Park
+16;0;3;Male;2.0;4;1;29.125;False;;Queenstown;T3-1912-Q-P0002;Mr. Ian Wolfe
+17;1;2;Male;;0;0;13.0;True;;Southampton;T2-1912-S-P0002;David Lester
+18;0;3;female;31.0;1;0;18.0;False;;Southampton;T3-1912-S-P0010;Kimberly Lin
+19;1;3;female;nan;0;0;7.225;False;;Cherbourg;T3-1912-C-P0001;Wendy Taylor
+20;0;2;Male;35.0;0;0;;True;;Southampton;T2-1912-S-P0003;Andrew Wright
+21;1;2;Male;34.0;0;0;13.0;True;D;Southampton;T2-1912-S-P0004;Bruce Young
+22;1;3;female;15.0;0;0;8.0292;False;;Queenstown;T3-1912-Q-P0003;Maria Stephens
+23;1;1;Male;28.0;0;0;35.5;True;A;Southampton;T1-1912-S-P0004;Robert Harrell
+24;0;3;female;8.0;3;1;21.075;False;;Southampton;T3-1912-S-P0011;Wanda Coffey
+25;1;3;female;38.0;1;5;31.3875;False;;Southampton;T3-1912-S-P0012;Amy Cole
+26;0;3;Male;nan;0;0;7.225;True;;Cherbourg;T3-1912-C-P0002;Mark Black
+27;0;1;Male;19.0;3;2;263.0;True;C;Southampton;T1-1912-S-P0005;Nathan Cisneros
+28;1;3;female;;0;0;7.8792 USD;False;;Queenstown;T3-1912-Q-P0004;Cynthia Flores
+29;0;3;Male;nan;0;0;7.8958;True;;Southampton;T3-1912-S-P0013;Philip Drake
+30;0;1;Male;40.0;0;0;27.7208;True;;Cherbourg;T1-1912-C-P0002;Francisco Joseph
+31;1;1;female;nan;1;0;146.5208;False;B;Cherbourg;T1-1912-C-P0003;Mckenzie Cisneros
+32;1;3;female;nan;0;0;7.75;False;;Queenstown;T3-1912-Q-P0005;Taylor Smith
+33;0;2;Male;66.0;0;0;10.5;True;;Southampton;T2-1912-S-P0005;Jonathan Hart
+34;0;1;Male;28.0;1;0;;True;;Cherbourg;T1-1912-C-P0004;Robert Mendez
+35;0;1;Male;42.0;1;0;52.0;True;;Southampton;T1-1912-S-P0006;Alan Mills
+36;1;3;Male;;0;0;;True;;Cherbourg;T3-1912-C-P0003;Christian Henderson
+37;0;3;Male;21.0;0;0;8.05;True;;Southampton;T3-1912-S-P0014;Paul Shaw
+38;0;3;female;18.0;2;0;18.0;False;;Southampton;T3-1912-S-P0015;Tracy Harper
+39;1;3;female;14.0;1;0;11.2417 USD;False;;Cherbourg;T3-1912-C-P0004;Karen Lopez
+40;0;3;female;40.0;1;0;9.475;False;;Southampton;T3-1912-S-P0016;Kimberly Johnson
+41;0;2;female;27.0;1;0;;False;;Southampton;T2-1912-S-P0006;Natalie Nichols
+42;0;3;Male;nan;0;0;7.8958;True;;Cherbourg;T3-1912-C-P0005;Francisco Gilmore
+43;1;2;female;3.0;1;2;41.5792 USD;False;;Cherbourg;T2-1912-C-P0002;Kathryn Smith
+44;1;3;female;19.0;0;0;7.8792;False;;Queenstown;T3-1912-Q-P0006;Tamara Castaneda
+45;0;3;Male;;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0017;Brandon Holt
+46;0;3;Male;;1;0;15.5;True;;Queenstown;T3-1912-Q-P0007;Frank Richardson
+47;1;3;female;;0;0;7.75 USD;False;;Queenstown;T3-1912-Q-P0008;Kathryn Perry
+48;0;3;Male;;2;0;21.6792;True;;Cherbourg;T3-1912-C-P0006;Charles Anderson
+49;0;3;female;18.0;1;0;17.8;False;;Southampton;T3-1912-S-P0018;Amy Jenkins
+50;0;3;Male;7.0;4;1;39.6875;False;;Southampton;T3-1912-S-P0019;Lawrence Sherman
+51;0;3;Male;21.0;0;0;7.8;True;;Southampton;T3-1912-S-P0020;Tony Mathews
+52;1;1;female;49.0;1;0;76.7292;False;D;Cherbourg;T1-1912-C-P0005;Brittany Parrish
+53;1;2;female;29.0;1;0;26.0;False;;Southampton;T2-1912-S-P0007;Kimberly Ellis
+54;0;1;Male;65.0;0;1;61.9792 USD;True;B;Cherbourg;T1-1912-C-P0006;Harry Williams
+55;1;1;Male;;0;0;35.5 USD;True;C;Southampton;T1-1912-S-P0007;Dale Pope
+56;1;2;female;21.0;0;0;10.5;False;;Southampton;T2-1912-S-P0008;Regina Ryan
+57;0;3;Male;28.5;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0007;Shannon Perez
+58;1;2;female;5.0;1;2;27.75;False;;Southampton;T2-1912-S-P0009;Ann Ramos
+59;0;3;Male;11.0;5;2;;False;;Southampton;T3-1912-S-P0021;Timothy Mercado
+60;0;3;Male;22.0;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0008;Aaron Gonzalez
+61;1;1;female;38.0;0;0;80.0 USD;False;B;;T1-1912-U-P0001;Kelly Smith
+62;0;1;Male;45.0;1;0;83.475;True;C;Southampton;T1-1912-S-P0008;Jerry Little
+63;0;3;Male;4.0;3;2;27.9;False;;Southampton;T3-1912-S-P0022;Jeremy Olson
+64;0;1;Male;nan;0;0;27.7208;True;;Cherbourg;T1-1912-C-P0007;Anthony Gonzalez
+65;1;3;Male;;1;1;15.2458;True;;Cherbourg;T3-1912-C-P0009;Christopher Decker
+66;1;2;female;29.0;0;0;10.5 USD;False;F;Southampton;T2-1912-S-P0010;Sherry Hill
+67;0;3;Male;19.0;0;0;8.1583 USD;True;;Southampton;T3-1912-S-P0023;David Ware
+68;1;3;female;17.0;4;2;7.925;False;;Southampton;T3-1912-S-P0024;Jessica Copeland
+69;0;3;Male;26.0;2;0;8.6625 USD;True;;Southampton;T3-1912-S-P0025;Aaron Smith
+70;0;2;Male;32.0;0;0;10.5;True;;Southampton;T2-1912-S-P0011;Gregory Hernandez
+71;0;3;female;16.0;5;2;46.9;False;;Southampton;T3-1912-S-P0026;Christina Warner
+72;0;2;Male;21.0;0;0;73.5;True;;Southampton;T2-1912-S-P0012;Jason Baker
+73;0;3;Male;26.0;1;0;14.4542;True;;Cherbourg;T3-1912-C-P0010;Anthony Parker
+74;1;3;Male;32.0;0;0;56.4958;True;;Southampton;T3-1912-S-P0027;John Shannon
+75;0;3;Male;25.0;0;0;7.65;True;F;Southampton;T3-1912-S-P0028;Clayton Nash
+76;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0029;Chris Brown
+77;0;3;Male;nan;0;0;8.05;True;;Southampton;T3-1912-S-P0030;Stephen Ramsey
+78;1;2;Male;0.83;0;2;29.0;False;;Southampton;T2-1912-S-P0013;Daniel Montoya
+79;1;3;female;30.0;0;0;12.475;False;;Southampton;T3-1912-S-P0031;Mary Saunders
+80;0;3;Male;22.0;0;0;9.0;True;;Southampton;T3-1912-S-P0032;Tom Boyle
+81;1;3;Male;29.0;0;0;9.5;True;;Southampton;T3-1912-S-P0033;Roger Valdez
+82;1;3;female;;0;0;7.7875;False;;Queenstown;T3-1912-Q-P0009;Kaitlyn Guzman
+83;0;1;Male;28.0;0;0;47.1 USD;True;;Southampton;T1-1912-S-P0009;Brett Ruiz
+84;1;2;female;17.0;0;0;10.5;False;;Southampton;T2-1912-S-P0014;Jennifer Rodriguez
+85;1;3;female;33.0;3;0;15.85;False;;Southampton;T3-1912-S-P0034;Teresa Smith
+86;0;3;Male;16.0;1;3;34.375 USD;True;;Southampton;T3-1912-S-P0035;Andrew Griffith
+87;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0036;Nathaniel Avila
+88;1;1;female;23.0;3;2;263.0;False;C;Southampton;T1-1912-S-P0010;Elizabeth Preston
+89;0;3;Male;24.0;0;0;8.05;True;;Southampton;T3-1912-S-P0037;John Wilson
+90;0;3;Male;29.0;0;0;8.05;True;;Southampton;T3-1912-S-P0038;Brian Wright
+91;0;3;Male;20.0;0;0;7.8542 USD;True;;Southampton;T3-1912-S-P0039;Jesse Taylor
+92;0;1;Male;46.0;1;0;61.175 USD;True;E;Southampton;T1-1912-S-P0011;Douglas Sanders DDS
+93;0;3;Male;26.0;1;2;20.575;True;;Southampton;T3-1912-S-P0040;Donald Johnson
+94;0;3;Male;59.0;0;0;7.25;True;;Southampton;T3-1912-S-P0041;Cesar Walters
+95;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0042;William Kennedy
+96;0;1;Male;71.0;0;0;34.6542;True;A;Cherbourg;T1-1912-C-P0008;Cole Hurley
+97;1;1;Male;23.0;0;1;63.3583;True;D;Cherbourg;T1-1912-C-P0009;Ryan Robbins
+98;1;2;female;34.0;0;1;23.0;False;;Southampton;T2-1912-S-P0015;Whitney Adams
+99;0;2;Male;34.0;1;0;26.0;True;;Southampton;T2-1912-S-P0016;Jeffrey Martinez
+100;0;3;female;28.0;0;0;7.8958;False;;Southampton;T3-1912-S-P0043;Nicole Tate
+101;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0044;William Roberts
+102;0;1;Male;21.0;0;1;77.2875;True;D;Southampton;T1-1912-S-P0012;John Parks
+103;0;3;Male;33.0;0;0;8.6542;True;;Southampton;T3-1912-S-P0045;Michael Shea
+104;0;3;Male;37.0;2;0;7.925 USD;True;;Southampton;T3-1912-S-P0046;William Griffin
+105;0;3;Male;28.0;0;0;;True;;Southampton;T3-1912-S-P0047;Dr. Kevin Turner
+106;1;3;female;21.0;0;0;7.65 USD;False;;Southampton;T3-1912-S-P0048;Vanessa Ford
+107;1;3;Male;;0;0;7.775;True;;Southampton;T3-1912-S-P0049;Robert Murphy
+108;0;3;Male;38.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0050;Matthew Hopkins
+109;1;3;female;nan;1;0;;False;;Queenstown;T3-1912-Q-P0010;Nichole Nguyen
+110;0;1;Male;47.0;0;0;52.0;True;C;Southampton;T1-1912-S-P0013;William Reyes
+111;0;3;female;14.5;1;0;14.4542;False;;Cherbourg;T3-1912-C-P0011;Yvonne Marshall
+112;0;3;Male;22.0;0;0;8.05;True;;Southampton;T3-1912-S-P0051;Oscar Wong
+113;0;3;female;20.0;1;0;9.825;False;;Southampton;T3-1912-S-P0052;Sabrina Sosa
+114;0;3;female;17.0;0;0;14.4583;False;;Cherbourg;T3-1912-C-P0012;Valerie Wright
+115;0;3;Male;21.0;0;0;7.925;True;;Southampton;T3-1912-S-P0053;Benjamin Marks
+116;0;3;Male;70.5;0;0;7.75;True;;Queenstown;T3-1912-Q-P0011;George Vincent
+117;0;2;Male;29.0;1;0;21.0;True;;Southampton;T2-1912-S-P0017;Scott Chase
+118;0;1;Male;24.0;0;1;247.5208;True;B;Cherbourg;T1-1912-C-P0010;Kenneth Farrell
+119;0;3;female;2.0;4;2;;False;;Southampton;T3-1912-S-P0054;Jaclyn Williams
+120;0;2;Male;21.0;2;0;73.5;True;;Southampton;T2-1912-S-P0018;Gregory Edwards
+121;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0055;James Ellis
+122;0;2;Male;32.5;1;0;30.0708 USD;True;;Cherbourg;T2-1912-C-P0003;Matthew Jones
+123;1;2;female;32.5;0;0;13.0;False;E;Southampton;T2-1912-S-P0019;Christie Morgan
+124;0;1;Male;54.0;0;1;77.2875;True;D;Southampton;T1-1912-S-P0014;Robert Soto
+125;1;3;Male;12.0;1;0;11.2417 USD;False;;Cherbourg;T3-1912-C-P0013;Jason Johnson
+126;0;3;Male;;0;0;7.75;True;;Queenstown;T3-1912-Q-P0012;Brett Henry
+127;1;3;Male;24.0;0;0;7.1417;True;;Southampton;T3-1912-S-P0056;Thomas Coleman
+128;1;3;female;nan;1;1;22.3583 USD;False;F;Cherbourg;T3-1912-C-P0014;Diana Ritter
+129;0;3;Male;45.0;0;0;;True;;Southampton;T3-1912-S-P0057;Gregory Thomas
+130;0;3;Male;33.0;0;0;7.8958;True;;Cherbourg;T3-1912-C-P0015;Chad Ross
+131;0;3;Male;20.0;0;0;7.05;True;;Southampton;T3-1912-S-P0058;Richard Wilson
+132;0;3;female;47.0;1;0;14.5;False;;Southampton;T3-1912-S-P0059;Sonia Wood
+133;1;2;female;29.0;1;0;26.0;False;;Southampton;T2-1912-S-P0020;Angela Santos
+134;0;2;Male;25.0;0;0;13.0;True;;Southampton;T2-1912-S-P0021;Keith Thomas
+135;0;2;Male;23.0;0;0;15.0458;True;;Cherbourg;T2-1912-C-P0004;Mr. Bryan Pittman
+136;1;1;female;19.0;0;2;26.2833;False;D;Southampton;T1-1912-S-P0015;Margaret Brown
+137;0;1;Male;37.0;1;0;53.1;True;C;Southampton;T1-1912-S-P0016;Michael Hart
+138;0;3;Male;16.0;0;0;9.2167;True;;Southampton;T3-1912-S-P0060;Cody Phillips
+139;0;1;Male;24.0;0;0;79.2 USD;True;B;Cherbourg;T1-1912-C-P0011;George Bell
+140;0;3;female;;0;2;15.2458;False;;Cherbourg;T3-1912-C-P0016;Kelsey Torres
+141;1;3;female;22.0;0;0;7.75;False;;Southampton;T3-1912-S-P0061;Lisa Stephens
+142;1;3;female;24.0;1;0;15.85 USD;False;;Southampton;T3-1912-S-P0062;Jessica Lewis
+143;0;3;Male;19.0;0;0;6.75 USD;True;;Queenstown;T3-1912-Q-P0013;Jorge Boyer
+144;0;2;Male;18.0;0;0;11.5;True;;Southampton;T2-1912-S-P0022;Reginald Garcia
+145;0;2;Male;19.0;1;1;36.75;True;;Southampton;T2-1912-S-P0023;Marcus Gill
+146;1;3;Male;27.0;0;0;7.7958;True;;Southampton;T3-1912-S-P0063;Adam Huff
+147;0;3;female;9.0;2;2;34.375 USD;False;;Southampton;T3-1912-S-P0064;Tracy Rodriguez
+148;0;2;Male;36.5;0;2;26.0;True;F;Southampton;T2-1912-S-P0024;Nathan Bowman
+149;0;2;Male;42.0;0;0;13.0;True;;Southampton;T2-1912-S-P0025;Daniel Ross
+150;0;2;Male;51.0;0;0;12.525;True;;Southampton;T2-1912-S-P0026;Michael Young
+151;1;1;female;22.0;1;0;;False;C;Southampton;T1-1912-S-P0017;Kristin Patterson
+152;0;3;Male;55.5;0;0;8.05;True;;Southampton;T3-1912-S-P0065;Gregory Duncan
+153;0;3;Male;40.5;0;2;14.5;True;;Southampton;T3-1912-S-P0066;Michael Smith
+154;0;3;Male;;0;0;7.3125;True;;Southampton;T3-1912-S-P0067;William Wilson MD
+155;0;1;Male;51.0;0;1;61.3792;True;;Cherbourg;T1-1912-C-P0012;Erik Richards
+156;1;3;female;16.0;0;0;7.7333 USD;False;;Queenstown;T3-1912-Q-P0014;Amanda Woods
+157;0;3;Male;30.0;0;0;8.05;True;;Southampton;T3-1912-S-P0068;James Cook
+158;0;3;Male;nan;0;0;8.6625 USD;True;;Southampton;T3-1912-S-P0069;Jimmy Patterson
+159;0;3;Male;;8;2;69.55;True;;Southampton;T3-1912-S-P0070;Christopher Garcia
+160;0;3;Male;44.0;0;1;16.1;True;;Southampton;T3-1912-S-P0071;Joshua Neal
+161;1;2;female;40.0;0;0;15.75;False;;Southampton;T2-1912-S-P0027;Stacey Rocha
+162;0;3;Male;26.0;0;0;7.775;True;;Southampton;T3-1912-S-P0072;Preston Kennedy
+163;0;3;Male;17.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0073;Christopher Barajas Jr.
+164;0;3;Male;1.0;4;1;39.6875;False;;Southampton;T3-1912-S-P0074;Michael Reid
+165;1;3;Male;9.0;0;2;20.525;False;;Southampton;T3-1912-S-P0075;Travis Yang
+166;1;1;female;;0;1;55.0;False;E;Southampton;T1-1912-S-P0018;Jasmine Spears
+167;0;3;female;45.0;1;4;27.9;False;;Southampton;T3-1912-S-P0076;Samantha Howard
+168;0;1;Male;nan;0;0;25.925;True;;Southampton;T1-1912-S-P0019;Joseph Hayes
+169;0;3;Male;28.0;0;0;56.4958;True;;Southampton;T3-1912-S-P0077;Dr. Jared Hayden II
+170;0;1;Male;61.0;0;0;33.5;True;B;Southampton;T1-1912-S-P0020;Michael Henderson
+171;0;3;Male;4.0;4;1;;False;;Queenstown;T3-1912-Q-P0015;Richard Clark
+172;1;3;female;1.0;1;1;11.1333;False;;Southampton;T3-1912-S-P0078;Bethany Collins
+173;0;3;Male;21.0;0;0;7.925;True;;Southampton;T3-1912-S-P0079;Steven Burgess
+174;0;1;Male;56.0;0;0;30.6958;True;A;Cherbourg;T1-1912-C-P0013;Jeffrey Boone
+175;0;3;Male;18.0;1;1;;True;;Southampton;T3-1912-S-P0080;Timothy Walker
+176;0;3;Male;;3;1;25.4667 USD;True;;Southampton;T3-1912-S-P0081;Michael Coffey
+177;0;1;female;50.0;0;0;28.7125;False;C;Cherbourg;T1-1912-C-P0014;Kimberly Mckinney
+178;0;2;Male;30.0;0;0;13.0;True;;Southampton;T2-1912-S-P0028;Brian Garcia
+179;0;3;Male;36.0;0;0;0.0;True;;Southampton;T3-1912-S-P0082;James Marshall
+180;0;3;female;;8;2;69.55;False;;Southampton;T3-1912-S-P0083;Angelica Floyd
+181;0;2;Male;nan;0;0;15.05 USD;True;;Cherbourg;T2-1912-C-P0005;Robert Kidd
+182;0;3;Male;9.0;4;2;31.3875 USD;False;;Southampton;T3-1912-S-P0084;Steven Reynolds
+183;1;2;Male;1.0;2;1;39.0;False;F;Southampton;T2-1912-S-P0029;Richard Carpenter
+184;1;3;female;4.0;0;2;22.025;False;;Southampton;T3-1912-S-P0085;Nicole Castro
+185;0;1;Male;;0;0;50.0;True;A;Southampton;T1-1912-S-P0021;Taylor Yoder
+186;1;3;female;;1;0;15.5;False;;Queenstown;T3-1912-Q-P0016;Daisy Adams
+187;1;1;Male;45.0;0;0;26.55;True;;Southampton;T1-1912-S-P0022;Anthony Scott
+188;0;3;Male;40.0;1;1;15.5;True;;Queenstown;T3-1912-Q-P0017;Jonathon Vasquez
+189;0;3;Male;36.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0086;Ryan Roberts
+190;1;2;female;32.0;0;0;13.0 USD;False;;Southampton;T2-1912-S-P0030;Danielle Marshall
+191;0;2;Male;19.0;0;0;;True;;Southampton;T2-1912-S-P0031;Aaron Cantu
+192;1;3;female;19.0;1;0;7.8542;False;;Southampton;T3-1912-S-P0087;Lori Alvarez
+193;1;2;Male;3.0;1;1;26.0;False;F;Southampton;T2-1912-S-P0032;John Flores
+194;1;1;female;44.0;0;0;27.7208;False;B;Cherbourg;T1-1912-C-P0015;Alexis Aguirre
+195;1;1;female;58.0;0;0;146.5208;False;B;Cherbourg;T1-1912-C-P0016;Maria York
+196;0;3;Male;;0;0;7.75 USD;True;;Queenstown;T3-1912-Q-P0018;James Pratt
+197;0;3;Male;42.0;0;1;8.4042;True;;Southampton;T3-1912-S-P0088;Brian Cline
+198;1;3;female;;0;0;7.75;False;;Queenstown;T3-1912-Q-P0019;Marisa Lewis
+199;0;2;female;24.0;0;0;13.0;False;;Southampton;T2-1912-S-P0033;Carrie Brown
+200;0;3;Male;28.0;0;0;9.5;True;;Southampton;T3-1912-S-P0089;Shane Moore
+201;0;3;Male;nan;8;2;69.55;True;;Southampton;T3-1912-S-P0090;Harold Taylor
+202;0;3;Male;34.0;0;0;6.4958;True;;Southampton;T3-1912-S-P0091;James Hernandez
+203;0;3;Male;45.5;0;0;7.225;True;;Cherbourg;T3-1912-C-P0017;Brian Thomas
+204;1;3;Male;18.0;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0092;John Randall Jr.
+205;0;3;female;2.0;0;1;10.4625;False;G;Southampton;T3-1912-S-P0093;Ashley Smith
+206;0;3;Male;32.0;1;0;15.85 USD;True;;Southampton;T3-1912-S-P0094;David Henry
+207;1;3;Male;26.0;0;0;18.7875;True;;Cherbourg;T3-1912-C-P0018;Corey Hill
+208;1;3;female;16.0;0;0;7.75;False;;Queenstown;T3-1912-Q-P0020;Karen Jackson
+209;1;1;Male;40.0;0;0;31.0 USD;True;A;Cherbourg;T1-1912-C-P0017;Robert May DDS
+210;0;3;Male;24.0;0;0;7.05;True;;Southampton;T3-1912-S-P0095;Wayne Brown III
+211;1;2;female;35.0;0;0;21.0;False;;Southampton;T2-1912-S-P0034;Sandy Lozano
+212;0;3;Male;22.0;0;0;7.25;True;;Southampton;T3-1912-S-P0096;Ivan Tran
+213;0;2;Male;30.0;0;0;13.0;True;;Southampton;T2-1912-S-P0035;Matthew Hutchinson
+214;0;3;Male;;1;0;7.75 USD;True;;Queenstown;T3-1912-Q-P0021;Jeffrey Mclaughlin
+215;1;1;female;31.0;1;0;113.275;False;D;Cherbourg;T1-1912-C-P0018;Donna Nguyen
+216;1;3;female;27.0;0;0;7.925;False;;Southampton;T3-1912-S-P0097;Emily Lynch
+217;0;2;Male;42.0;1;0;27.0;True;;Southampton;T2-1912-S-P0036;Justin Powers
+218;1;1;female;32.0;0;0;;False;D;Cherbourg;T1-1912-C-P0019;Taylor Brooks
+219;0;2;Male;30.0;0;0;10.5;True;;Southampton;T2-1912-S-P0037;Terry Valdez
+220;1;3;Male;16.0;0;0;8.05;True;;Southampton;T3-1912-S-P0098;Cory Cunningham
+221;0;2;Male;27.0;0;0;13.0;True;;Southampton;T2-1912-S-P0038;Alfred Burke
+222;0;3;Male;51.0;0;0;8.05;True;;Southampton;T3-1912-S-P0099;Michael Smith
+223;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0100;David Salazar
+224;1;1;Male;38.0;1;0;90.0;True;C;Southampton;T1-1912-S-P0023;Joseph Delacruz
+225;0;3;Male;22.0;0;0;9.35 USD;True;;Southampton;T3-1912-S-P0101;Andrew Mckinney
+226;1;2;Male;19.0;0;0;10.5;True;;Southampton;T2-1912-S-P0039;Luis Moss
+227;0;3;Male;20.5;0;0;7.25;True;;Southampton;T3-1912-S-P0102;Shawn Stein
+228;0;2;Male;18.0;0;0;13.0 USD;True;;Southampton;T2-1912-S-P0040;William Nguyen
+229;0;3;female;;3;1;25.4667;False;;Southampton;T3-1912-S-P0103;Kara Butler
+230;1;1;female;35.0;1;0;83.475;False;C;Southampton;T1-1912-S-P0024;Teresa Lane
+231;0;3;Male;29.0;0;0;7.775;True;;Southampton;T3-1912-S-P0104;Edward Whitaker
+232;0;2;Male;59.0;0;0;13.5;True;;Southampton;T2-1912-S-P0041;Rick Farmer
+233;1;3;female;5.0;4;2;;False;;Southampton;T3-1912-S-P0105;Erica Gomez
+234;0;2;Male;24.0;0;0;10.5;True;;Southampton;T2-1912-S-P0042;William Wiley
+235;0;3;female;;0;0;7.55 USD;False;;Southampton;T3-1912-S-P0106;Nicole White
+236;0;2;Male;44.0;1;0;26.0;True;;Southampton;T2-1912-S-P0043;Christopher Booth
+237;1;2;female;8.0;0;2;26.25;False;;Southampton;T2-1912-S-P0044;Ashley Taylor
+238;0;2;Male;19.0;0;0;10.5;True;;Southampton;T2-1912-S-P0045;Dustin Hicks
+239;0;2;Male;33.0;0;0;12.275;True;;Southampton;T2-1912-S-P0046;Matthew Garcia
+240;0;3;female;;1;0;14.4542;False;;Cherbourg;T3-1912-C-P0019;Erin Matthews
+241;1;3;female;;1;0;15.5 USD;False;;Queenstown;T3-1912-Q-P0022;Brandy Bailey
+242;0;2;Male;29.0;0;0;10.5;True;;Southampton;T2-1912-S-P0047;Tyler Smith
+243;0;3;Male;22.0;0;0;7.125;True;;Southampton;T3-1912-S-P0107;Matthew Graham
+244;0;3;Male;30.0;0;0;7.225 USD;True;;Cherbourg;T3-1912-C-P0020;Richard Green
+245;0;1;Male;44.0;2;0;90.0;True;C;Queenstown;T1-1912-Q-P0001;Dean Ford
+246;0;3;female;25.0;0;0;7.775;False;;Southampton;T3-1912-S-P0108;Melinda Taylor
+247;1;2;female;24.0;0;2;14.5;False;;Southampton;T2-1912-S-P0048;Mrs. Ashley Crawford PhD
+248;1;1;Male;37.0;1;1;52.5542;True;D;Southampton;T1-1912-S-P0025;Richard Walker
+249;0;2;Male;54.0;1;0;;True;;Southampton;T2-1912-S-P0049;Michael Baker
+250;0;3;Male;nan;0;0;7.25;True;;Southampton;T3-1912-S-P0109;William Schwartz
+251;0;3;female;29.0;1;1;10.4625;False;G;Southampton;T3-1912-S-P0110;Mary Wright
+252;0;1;Male;62.0;0;0;26.55;True;C;Southampton;T1-1912-S-P0026;Kevin Johnson
+253;0;3;Male;30.0;1;0;16.1;True;;Southampton;T3-1912-S-P0111;Jorge Lopez
+254;0;3;female;41.0;0;2;20.2125;False;;Southampton;T3-1912-S-P0112;Kimberly Miller
+255;1;3;female;29.0;0;2;15.2458;False;;Cherbourg;T3-1912-C-P0021;Stephanie Herrera
+256;1;1;female;;0;0;79.2;False;;Cherbourg;T1-1912-C-P0020;Amanda Sparks
+257;1;1;female;30.0;0;0;86.5;False;B;Southampton;T1-1912-S-P0027;Denise Anthony
+258;1;1;female;35.0;0;0;512.3292;False;;Cherbourg;T1-1912-C-P0021;Sarah Barnes
+259;1;2;female;50.0;0;1;26.0;False;;Southampton;T2-1912-S-P0050;Paula Morgan
+260;0;3;Male;;0;0;7.75;True;;Queenstown;T3-1912-Q-P0023;Ricardo Bates
+261;1;3;Male;3.0;4;2;31.3875;False;;Southampton;T3-1912-S-P0113;Jose Robbins
+262;0;1;Male;52.0;1;1;79.65;True;E;Southampton;T1-1912-S-P0028;Francisco King
+263;0;1;Male;40.0;0;0;0.0;True;B;Southampton;T1-1912-S-P0029;Jason Trujillo
+264;0;3;female;;0;0;7.75;False;;Queenstown;T3-1912-Q-P0024;Joy Ward
+265;0;2;Male;36.0;0;0;10.5 USD;True;;Southampton;T2-1912-S-P0051;Christopher Gross
+266;0;3;Male;16.0;4;1;39.6875;True;;Southampton;T3-1912-S-P0114;Richard Thomas
+267;1;3;Male;25.0;1;0;7.775;True;;Southampton;T3-1912-S-P0115;Mr. Robert Lewis
+268;1;1;female;58.0;0;1;153.4625 USD;False;C;Southampton;T1-1912-S-P0030;Christina Frederick
+269;1;1;female;35.0;0;0;;False;C;Southampton;T1-1912-S-P0031;Bethany Gallegos
+270;0;1;Male;;0;0;31.0 USD;True;;Southampton;T1-1912-S-P0032;Patrick Welch
+271;1;3;Male;25.0;0;0;0.0;True;;Southampton;T3-1912-S-P0116;Matthew Jones
+272;1;2;female;41.0;0;1;19.5;False;;Southampton;T2-1912-S-P0052;Tanya Brown
+273;0;1;Male;37.0;0;1;29.7 USD;True;C;Cherbourg;T1-1912-C-P0022;Thomas Fischer
+274;1;3;female;;0;0;7.75;False;;Queenstown;T3-1912-Q-P0025;Jessica Reed
+275;1;1;female;63.0;1;0;77.9583;False;D;Southampton;T1-1912-S-P0033;Amanda Adams
+276;0;3;female;45.0;0;0;7.75;False;;Southampton;T3-1912-S-P0117;Heather Martin
+277;0;2;Male;;0;0;0.0 USD;True;;Southampton;T2-1912-S-P0053;Michael Zamora
+278;0;3;Male;7.0;4;1;29.125;False;;Queenstown;T3-1912-Q-P0026;Gregory Bell
+279;1;3;female;35.0;1;1;20.25;False;;Southampton;T3-1912-S-P0118;Christy Smith
+280;0;3;Male;65.0;0;0;7.75;True;;Queenstown;T3-1912-Q-P0027;Donald Wells
+281;0;3;Male;28.0;0;0;7.8542;True;;Southampton;T3-1912-S-P0119;Dakota Jackson
+282;0;3;Male;16.0;0;0;9.5;True;;Southampton;T3-1912-S-P0120;Jason Ali
+283;1;3;Male;19.0;0;0;8.05;True;;Southampton;T3-1912-S-P0121;Thomas Chavez
+284;0;1;Male;;0;0;26.0;True;A;Southampton;T1-1912-S-P0034;James Smith
+285;0;3;Male;33.0;0;0;8.6625;True;;Cherbourg;T3-1912-C-P0022;Nathaniel King
+286;1;3;Male;30.0;0;0;9.5 USD;True;;Southampton;T3-1912-S-P0122;Brandon Moss
+287;0;3;Male;22.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0123;Jeffrey Garcia
+288;1;2;Male;42.0;0;0;13.0;True;;Southampton;T2-1912-S-P0054;Brian Anderson
+289;1;3;female;22.0;0;0;7.75;False;;Queenstown;T3-1912-Q-P0028;Jessica Chapman
+290;1;1;female;26.0;0;0;78.85;False;;Southampton;T1-1912-S-P0035;Samantha Taylor
+291;1;1;female;19.0;1;0;91.0792;False;B;Cherbourg;T1-1912-C-P0023;Deborah Dalton
+292;0;2;Male;36.0;0;0;12.875;True;D;Cherbourg;T2-1912-C-P0006;John Lopez
+293;0;3;female;24.0;0;0;8.85 USD;False;;Southampton;T3-1912-S-P0124;Lisa White
+294;0;3;Male;24.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0125;James Wise
+295;0;1;Male;;0;0;27.7208;True;;Cherbourg;T1-1912-C-P0024;Mark Lawrence
+296;0;3;Male;23.5;0;0;7.2292 USD;True;;Cherbourg;T3-1912-C-P0023;Nicholas King MD
+297;0;1;female;2.0;1;2;151.55;False;C;Southampton;T1-1912-S-P0036;Wanda Smith
+298;1;1;Male;;0;0;30.5;True;C;Southampton;T1-1912-S-P0037;Jason Todd
+299;1;1;female;50.0;0;1;247.5208 USD;False;B;Cherbourg;T1-1912-C-P0025;Stephanie Kelly
+300;1;3;female;nan;0;0;7.75;False;;Queenstown;T3-1912-Q-P0029;Shannon Bender
+301;1;3;Male;;2;0;23.25;True;;Queenstown;T3-1912-Q-P0030;Anthony Blair
+302;0;3;Male;19.0;0;0;0.0;True;;Southampton;T3-1912-S-P0126;Christopher Jackson
+303;1;2;female;;0;0;12.35 USD;False;E;Queenstown;T2-1912-Q-P0001;Anna Aguilar
+304;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0127;Matthew Nguyen
+305;1;1;Male;0.92;1;2;151.55;False;C;Southampton;T1-1912-S-P0038;Randy Rogers
+306;1;1;female;;0;0;110.8833;False;;Cherbourg;T1-1912-C-P0026;Brenda Miller
+307;1;1;female;17.0;1;0;108.9;False;C;Cherbourg;T1-1912-C-P0027;Tiffany Mckenzie
+308;0;2;Male;30.0;1;0;24.0 USD;True;;Cherbourg;T2-1912-C-P0007;Brian Sherman
+309;1;1;female;30.0;0;0;;False;E;Cherbourg;T1-1912-C-P0028;Cynthia Anderson
+310;1;1;female;24.0;0;0;83.1583 USD;False;C;Cherbourg;T1-1912-C-P0029;Rachel Duffy
+311;1;1;female;18.0;2;2;262.375 USD;False;B;Cherbourg;T1-1912-C-P0030;Beth Harrison
+312;0;2;female;26.0;1;1;26.0;False;;Southampton;T2-1912-S-P0055;Katherine Matthews
+313;0;3;Male;28.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0128;Danny Baldwin
+314;0;2;Male;43.0;1;1;26.25;True;;Southampton;T2-1912-S-P0056;Patrick Henderson
+315;1;3;female;26.0;0;0;7.8542;False;;Southampton;T3-1912-S-P0129;Brittany Hernandez
+316;1;2;female;24.0;1;0;26.0;False;;Southampton;T2-1912-S-P0057;Kathleen Hoffman
+317;0;2;Male;54.0;0;0;14.0;True;;Southampton;T2-1912-S-P0058;Alan Rose
+318;1;1;female;31.0;0;2;164.8667;False;C;Southampton;T1-1912-S-P0039;Laura Brooks
+319;1;1;female;40.0;1;1;134.5;False;E;Cherbourg;T1-1912-C-P0031;Tiffany Bennett
+320;0;3;Male;22.0;0;0;7.25;True;;Southampton;T3-1912-S-P0130;Edward Hanson
+321;0;3;Male;27.0;0;0;7.8958 USD;True;;Southampton;T3-1912-S-P0131;Leonard Johnson
+322;1;2;female;30.0;0;0;12.35;False;;Queenstown;T2-1912-Q-P0002;Tracy Pittman
+323;1;2;female;22.0;1;1;29.0;False;;Southampton;T2-1912-S-P0059;Angela Riley
+324;0;3;Male;;8;2;69.55;True;;Southampton;T3-1912-S-P0132;Daniel Torres
+325;1;1;female;36.0;0;0;135.6333 USD;False;C;Cherbourg;T1-1912-C-P0032;Linda Johnson
+326;0;3;Male;61.0;0;0;6.2375;True;;Southampton;T3-1912-S-P0133;Dylan Graham
+327;1;2;female;36.0;0;0;13.0;False;D;Southampton;T2-1912-S-P0060;Lisa Hunter
+328;1;3;female;31.0;1;1;20.525;False;;Southampton;T3-1912-S-P0134;Dana Barajas
+329;1;1;female;16.0;0;1;57.9792;False;B;Cherbourg;T1-1912-C-P0033;Lisa Harper
+330;1;3;female;;2;0;23.25 USD;False;;Queenstown;T3-1912-Q-P0031;Alexa Acevedo
+331;0;1;Male;45.5;0;0;28.5;True;C;Southampton;T1-1912-S-P0040;Steve Duarte
+332;0;1;Male;38.0;0;1;153.4625;True;C;Southampton;T1-1912-S-P0041;Luis Flores
+333;0;3;Male;16.0;2;0;18.0;True;;Southampton;T3-1912-S-P0135;Casey Williams
+334;1;1;female;nan;1;0;;False;;Southampton;T1-1912-S-P0042;Natasha Powell
+335;0;3;Male;nan;0;0;7.8958;True;;Southampton;T3-1912-S-P0136;John Rodriguez MD
+336;0;1;Male;29.0;1;0;66.6;True;C;Southampton;T1-1912-S-P0043;David Harris
+337;1;1;female;41.0;0;0;134.5;False;E;Cherbourg;T1-1912-C-P0034;Linda Schneider
+338;1;3;Male;45.0;0;0;8.05;True;;Southampton;T3-1912-S-P0137;Samuel Grant
+339;0;1;Male;45.0;0;0;35.5;True;;Southampton;T1-1912-S-P0044;Brandon Wyatt
+340;1;2;Male;2.0;1;1;26.0;False;F;Southampton;T2-1912-S-P0061;Evan Rios
+341;1;1;female;24.0;3;2;263.0;False;C;Southampton;T1-1912-S-P0045;Jessica Drake
+342;0;2;Male;28.0;0;0;13.0 USD;True;;Southampton;T2-1912-S-P0062;Andrew Leach
+343;0;2;Male;25.0;0;0;13.0;True;;Southampton;T2-1912-S-P0063;Luke Jones
+344;0;2;Male;36.0;0;0;13.0;True;;Southampton;T2-1912-S-P0064;Steven Brown
+345;1;2;female;24.0;0;0;;False;F;Southampton;T2-1912-S-P0065;Jordan Johnson
+346;1;2;female;40.0;0;0;13.0;False;;Southampton;T2-1912-S-P0066;Mary Quinn
+347;1;3;female;nan;1;0;16.1;False;;Southampton;T3-1912-S-P0138;Maureen Holland
+348;1;3;Male;3.0;1;1;15.9 USD;False;;Southampton;T3-1912-S-P0139;Sean Jacobson
+349;0;3;Male;42.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0140;Mr. Joshua Estrada
+350;0;3;Male;23.0;0;0;9.225;True;;Southampton;T3-1912-S-P0141;Cody Klein
+351;0;1;Male;;0;0;35.0;True;C;Southampton;T1-1912-S-P0046;Jeffrey West
+352;0;3;Male;15.0;1;1;;False;;Cherbourg;T3-1912-C-P0024;Corey Weaver
+353;0;3;Male;25.0;1;0;17.8;True;;Southampton;T3-1912-S-P0142;Julian Turner
+354;0;3;Male;nan;0;0;7.225;True;;Cherbourg;T3-1912-C-P0025;Michael Thompson
+355;0;3;Male;28.0;0;0;9.5 USD;True;;Southampton;T3-1912-S-P0143;Eric Carpenter
+356;1;1;female;22.0;0;1;55.0 USD;False;E;Southampton;T1-1912-S-P0047;Kelly Graves
+357;0;2;female;38.0;0;0;13.0;False;;Southampton;T2-1912-S-P0067;Breanna King
+358;1;3;female;;0;0;7.8792;False;;Queenstown;T3-1912-Q-P0032;Lisa Fields
+359;1;3;female;;0;0;7.8792;False;;Queenstown;T3-1912-Q-P0033;Rebecca Myers
+360;0;3;Male;40.0;1;4;27.9;True;;Southampton;T3-1912-S-P0144;Dalton Jones
+361;0;2;Male;29.0;1;0;27.7208 USD;True;;Cherbourg;T2-1912-C-P0008;James Smith
+362;0;3;female;45.0;0;1;14.4542 USD;False;;Cherbourg;T3-1912-C-P0026;Tina Hodges
+363;0;3;Male;35.0;0;0;7.05;True;;Southampton;T3-1912-S-P0145;Eric Mitchell
+364;0;3;Male;;1;0;15.5;True;;Queenstown;T3-1912-Q-P0034;Marcus Freeman
+365;0;3;Male;30.0;0;0;7.25;True;;Southampton;T3-1912-S-P0146;Nicholas Weaver
+366;1;1;female;60.0;1;0;75.25;False;D;Cherbourg;T1-1912-C-P0035;Amy Whitaker
+367;1;3;female;;0;0;7.2292 USD;False;;Cherbourg;T3-1912-C-P0027;Laura Mccullough
+368;1;3;female;nan;0;0;7.75;False;;Queenstown;T3-1912-Q-P0035;April Meyer
+369;1;1;female;24.0;0;0;69.3;False;B;Cherbourg;T1-1912-C-P0036;Sarah Martin
+370;1;1;Male;25.0;1;0;55.4417;True;E;Cherbourg;T1-1912-C-P0037;Jeremy Keller
+371;0;3;Male;18.0;1;0;6.4958;True;;Southampton;T3-1912-S-P0147;David Thompson
+372;0;3;Male;19.0;0;0;8.05;True;;Southampton;T3-1912-S-P0148;Scott Nelson
+373;0;1;Male;22.0;0;0;135.6333 USD;True;;Cherbourg;T1-1912-C-P0038;Daniel Hunt
+374;0;3;female;3.0;3;1;21.075 USD;False;;Southampton;T3-1912-S-P0149;Linda Garcia
+375;1;1;female;;1;0;82.1708;False;;Cherbourg;T1-1912-C-P0039;Melissa Pham
+376;1;3;female;22.0;0;0;;False;;Southampton;T3-1912-S-P0150;Tammy Clark
+377;0;1;Male;27.0;0;2;211.5;True;C;Cherbourg;T1-1912-C-P0040;Brian Dawson
+378;0;3;Male;20.0;0;0;4.0125;True;;Cherbourg;T3-1912-C-P0028;Todd Jones
+379;0;3;Male;19.0;0;0;7.775;True;;Southampton;T3-1912-S-P0151;Daniel Hernandez
+380;1;1;female;42.0;0;0;227.525;False;;Cherbourg;T1-1912-C-P0041;Courtney Thomas
+381;1;3;female;1.0;0;2;15.7417;False;;Cherbourg;T3-1912-C-P0029;Susan Dickerson
+382;0;3;Male;32.0;0;0;7.925 USD;True;;Southampton;T3-1912-S-P0152;Isaac Munoz
+383;1;1;female;35.0;1;0;52.0;False;;Southampton;T1-1912-S-P0048;Tracy Buchanan
+384;0;3;Male;;0;0;7.8958 USD;True;;Southampton;T3-1912-S-P0153;Joel Park
+385;0;2;Male;18.0;0;0;;True;;Southampton;T2-1912-S-P0068;Austin Weber
+386;0;3;Male;1.0;5;2;46.9;False;;Southampton;T3-1912-S-P0154;Alan Horton
+387;1;2;female;36.0;0;0;13.0 USD;False;;Southampton;T2-1912-S-P0069;Jordan Martin
+388;0;3;Male;;0;0;7.7292;True;;Queenstown;T3-1912-Q-P0036;Craig Mckinney
+389;1;2;female;17.0;0;0;12.0;False;;Cherbourg;T2-1912-C-P0009;Tabitha Adams
+390;1;1;Male;36.0;1;2;120.0;True;B;Southampton;T1-1912-S-P0049;Ronald Sanchez
+391;1;3;Male;21.0;0;0;7.7958;True;;Southampton;T3-1912-S-P0155;Derrick Miller
+392;0;3;Male;28.0;2;0;7.925 USD;True;;Southampton;T3-1912-S-P0156;Robert Combs
+393;1;1;female;23.0;1;0;113.275;False;D;Cherbourg;T1-1912-C-P0042;Krystal Salinas
+394;1;3;female;24.0;0;2;16.7;False;G;Southampton;T3-1912-S-P0157;Cheryl Williams
+395;0;3;Male;22.0;0;0;7.7958 USD;True;;Southampton;T3-1912-S-P0158;Joshua Mccormick
+396;0;3;female;31.0;0;0;7.8542;False;;Southampton;T3-1912-S-P0159;Amanda Ayala
+397;0;2;Male;46.0;0;0;26.0 USD;True;;Southampton;T2-1912-S-P0070;Allen Rodriguez
+398;0;2;Male;23.0;0;0;10.5 USD;True;;Southampton;T2-1912-S-P0071;Daniel Park
+399;1;2;female;28.0;0;0;12.65;False;;Southampton;T2-1912-S-P0072;Shelly Lopez
+400;1;3;Male;39.0;0;0;7.925 USD;True;;Southampton;T3-1912-S-P0160;Kyle Merritt
+401;0;3;Male;26.0;0;0;8.05;True;;Southampton;T3-1912-S-P0161;Cory Parker
+402;0;3;female;21.0;1;0;9.825;False;;Southampton;T3-1912-S-P0162;Rachel Adams
+403;0;3;Male;28.0;1;0;15.85;True;;Southampton;T3-1912-S-P0163;Christopher Brown
+404;0;3;female;20.0;0;0;8.6625;False;;Southampton;T3-1912-S-P0164;Jennifer Wilkins
+405;0;2;Male;34.0;1;0;;True;;Southampton;T2-1912-S-P0073;Ryan Stewart
+406;0;3;Male;51.0;0;0;7.75 USD;True;;Southampton;T3-1912-S-P0165;Justin Brown
+407;1;2;Male;3.0;1;1;18.75;False;;Southampton;T2-1912-S-P0074;Peter Flowers
+408;0;3;Male;21.0;0;0;7.775;True;;Southampton;T3-1912-S-P0166;Cory Johnson
+409;0;3;female;nan;3;1;25.4667 USD;False;;Southampton;T3-1912-S-P0167;Kaitlin Castro
+410;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0168;John Lee
+411;0;3;Male;;0;0;6.8583 USD;True;;Queenstown;T3-1912-Q-P0037;Ethan Johnston
+412;1;1;female;33.0;1;0;;False;C;Queenstown;T1-1912-Q-P0002;Kathy Hayes
+413;0;2;Male;;0;0;0.0;True;;Southampton;T2-1912-S-P0075;Gregory Carlson
+414;1;3;Male;44.0;0;0;;True;;Southampton;T3-1912-S-P0169;Hunter Lamb
+415;0;3;female;;0;0;8.05;False;;Southampton;T3-1912-S-P0170;Rebecca Gray
+416;1;2;female;34.0;1;1;32.5;False;;Southampton;T2-1912-S-P0076;Ms. Emily Haley DDS
+417;1;2;female;18.0;0;2;13.0;False;;Southampton;T2-1912-S-P0077;Amanda Williams
+418;0;2;Male;30.0;0;0;;True;;Southampton;T2-1912-S-P0078;Christopher Johnson
+419;0;3;female;10.0;0;2;24.15 USD;False;;Southampton;T3-1912-S-P0171;Miss Linda Moses DDS
+420;0;3;Male;;0;0;7.8958;True;;Cherbourg;T3-1912-C-P0030;Timothy Wright
+421;0;3;Male;21.0;0;0;7.7333;True;;Queenstown;T3-1912-Q-P0038;Bernard Mcmahon
+422;0;3;Male;29.0;0;0;7.875;True;;Southampton;T3-1912-S-P0172;Eric Marquez
+423;0;3;female;28.0;1;1;;False;;Southampton;T3-1912-S-P0173;Lisa Turner
+424;0;3;Male;18.0;1;1;20.2125;True;;Southampton;T3-1912-S-P0174;Dr. Christopher Hernandez Jr.
+425;0;3;Male;;0;0;7.25;True;;Southampton;T3-1912-S-P0175;Mr. Luis Thompson
+426;1;2;female;28.0;1;0;;False;;Southampton;T2-1912-S-P0079;Stephanie Turner
+427;1;2;female;19.0;0;0;26.0 USD;False;;Southampton;T2-1912-S-P0080;Barbara Cohen
+428;0;3;Male;;0;0;7.75 USD;True;;Queenstown;T3-1912-Q-P0039;Donald Garcia
+429;1;3;Male;32.0;0;0;8.05;True;E;Southampton;T3-1912-S-P0176;Nathan Grant
+430;1;1;Male;28.0;0;0;26.55 USD;True;C;Southampton;T1-1912-S-P0050;Donald Sullivan
+431;1;3;female;;1;0;16.1;False;;Southampton;T3-1912-S-P0177;Barbara Lewis
+432;1;2;female;42.0;1;0;26.0;False;;Southampton;T2-1912-S-P0081;Sabrina Dudley
+433;0;3;Male;17.0;0;0;7.125;True;;Southampton;T3-1912-S-P0178;Brent Campbell
+434;0;1;Male;50.0;1;0;55.9;True;E;Southampton;T1-1912-S-P0051;Jose Mccormick
+435;1;1;female;14.0;1;2;120.0 USD;False;B;Southampton;T1-1912-S-P0052;April Beasley
+436;0;3;female;21.0;2;2;34.375;False;;Southampton;T3-1912-S-P0179;Tiffany Cabrera
+437;1;2;female;24.0;2;3;18.75;False;;Southampton;T2-1912-S-P0082;Wendy Swanson
+438;0;1;Male;64.0;1;4;;True;C;Southampton;T1-1912-S-P0053;Jacob Clark
+439;0;2;Male;31.0;0;0;10.5;True;;Southampton;T2-1912-S-P0083;Jeffrey Noble
+440;1;2;female;45.0;1;1;26.25;False;;Southampton;T2-1912-S-P0084;Brianna Roberts
+441;0;3;Male;20.0;0;0;;True;;Southampton;T3-1912-S-P0180;Gregory Garcia
+442;0;3;Male;25.0;1;0;7.775;True;;Southampton;T3-1912-S-P0181;Craig Bradley
+443;1;2;female;28.0;0;0;13.0;False;;Southampton;T2-1912-S-P0085;Ann Dodson DDS
+444;1;3;Male;;0;0;8.1125;True;;Southampton;T3-1912-S-P0182;Michael Jones
+445;1;1;Male;4.0;0;2;81.8583 USD;False;A;Southampton;T1-1912-S-P0054;Caleb Shepherd
+446;1;2;female;13.0;0;1;19.5;False;;Southampton;T2-1912-S-P0086;Brenda Hester
+447;1;1;Male;34.0;0;0;26.55 USD;True;;Southampton;T1-1912-S-P0055;Daniel Warner
+448;1;3;female;5.0;2;1;19.2583 USD;False;;Cherbourg;T3-1912-C-P0031;Emily Doyle
+449;1;1;Male;52.0;0;0;30.5;True;C;Southampton;T1-1912-S-P0056;Devin Lee
+450;0;2;Male;36.0;1;2;27.75;True;;Southampton;T2-1912-S-P0087;Shawn Khan
+451;0;3;Male;;1;0;19.9667;True;;Southampton;T3-1912-S-P0183;Bobby Williams
+452;0;1;Male;30.0;0;0;27.75;True;C;Cherbourg;T1-1912-C-P0043;Troy Gibson
+453;1;1;Male;49.0;1;0;89.1042;True;C;Cherbourg;T1-1912-C-P0044;Michael Evans
+454;0;3;Male;nan;0;0;8.05;True;;Southampton;T3-1912-S-P0184;Robert Davis
+455;1;3;Male;29.0;0;0;7.8958;True;;Cherbourg;T3-1912-C-P0032;John Robinson
+456;0;1;Male;65.0;0;0;26.55;True;E;Southampton;T1-1912-S-P0057;Steven Bauer
+457;1;1;female;;1;0;51.8625;False;D;Southampton;T1-1912-S-P0058;Taylor Torres
+458;1;2;female;50.0;0;0;10.5 USD;False;;Southampton;T2-1912-S-P0088;Alexis Turner
+459;0;3;Male;nan;0;0;7.75;True;;Queenstown;T3-1912-Q-P0040;Tony Mendoza
+460;1;1;Male;48.0;0;0;26.55;True;E;Southampton;T1-1912-S-P0059;Francisco Thompson
+461;0;3;Male;34.0;0;0;8.05;True;;Southampton;T3-1912-S-P0185;Jeffrey Tran
+462;0;1;Male;47.0;0;0;38.5;True;E;Southampton;T1-1912-S-P0060;Jeffrey Mckinney
+463;0;2;Male;48.0;0;0;13.0;True;;Southampton;T2-1912-S-P0089;Michael Carroll
+464;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0186;Nathaniel Gibbs
+465;0;3;Male;38.0;0;0;7.05;True;;Southampton;T3-1912-S-P0187;Andrew Sullivan
+466;0;2;Male;nan;0;0;0.0;True;;Southampton;T2-1912-S-P0090;John Swanson
+467;0;1;Male;56.0;0;0;26.55;True;;Southampton;T1-1912-S-P0061;Brian Johnson
+468;0;3;Male;nan;0;0;7.725;True;;Queenstown;T3-1912-Q-P0041;Ralph Gibson Jr.
+469;1;3;female;0.75;2;1;19.2583;False;;Cherbourg;T3-1912-C-P0033;Laura Walker
+470;0;3;Male;nan;0;0;7.25;True;;Southampton;T3-1912-S-P0188;Michael Johnson
+471;0;3;Male;38.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0189;Joshua Jensen
+472;1;2;female;33.0;1;2;27.75;False;;Southampton;T2-1912-S-P0091;Jennifer Warren
+473;1;2;female;23.0;0;0;13.7917;False;D;Cherbourg;T2-1912-C-P0010;Kathy Harris
+474;0;3;female;22.0;0;0;9.8375 USD;False;;Southampton;T3-1912-S-P0190;Kathryn Proctor
+475;0;1;Male;;0;0;52.0;True;A;Southampton;T1-1912-S-P0062;Michael George PhD
+476;0;2;Male;34.0;1;0;21.0;True;;Southampton;T2-1912-S-P0092;James Rivera
+477;0;3;Male;29.0;1;0;7.0458 USD;True;;Southampton;T3-1912-S-P0191;Brian Wilson
+478;0;3;Male;22.0;0;0;7.5208;True;;Southampton;T3-1912-S-P0192;Joshua Brady
+479;1;3;female;2.0;0;1;12.2875;False;;Southampton;T3-1912-S-P0193;Ashley Anderson
+480;0;3;Male;9.0;5;2;46.9 USD;False;;Southampton;T3-1912-S-P0194;Mr. Zachary Blackwell
+481;0;2;Male;;0;0;0.0;True;;Southampton;T2-1912-S-P0093;Joshua Donovan
+482;0;3;Male;50.0;0;0;8.05;True;;Southampton;T3-1912-S-P0195;Clayton Nguyen
+483;1;3;female;63.0;0;0;9.5875;False;;Southampton;T3-1912-S-P0196;Linda Dalton
+484;1;1;Male;25.0;1;0;91.0792;True;B;Cherbourg;T1-1912-C-P0045;Johnny Ross
+485;0;3;female;;3;1;25.4667;False;;Southampton;T3-1912-S-P0197;Mrs. Stephanie Harmon
+486;1;1;female;35.0;1;0;90.0;False;C;Southampton;T1-1912-S-P0063;Deborah Dalton
+487;0;1;Male;58.0;0;0;29.7;True;B;Cherbourg;T1-1912-C-P0046;Raymond Novak
+488;0;3;Male;30.0;0;0;8.05;True;;Southampton;T3-1912-S-P0198;William Casey
+489;1;3;Male;9.0;1;1;15.9 USD;False;;Southampton;T3-1912-S-P0199;Charles Chavez
+490;0;3;Male;;1;0;19.9667;True;;Southampton;T3-1912-S-P0200;Jose Mckay
+491;0;3;Male;21.0;0;0;7.25;True;;Southampton;T3-1912-S-P0201;Trevor Franklin
+492;0;1;Male;55.0;0;0;30.5;True;C;Southampton;T1-1912-S-P0064;Scott Sanchez
+493;0;1;Male;71.0;0;0;49.5042;True;;Cherbourg;T1-1912-C-P0047;Jonathan Smith
+494;0;3;Male;21.0;0;0;8.05;True;;Southampton;T3-1912-S-P0202;Cameron Patel
+495;0;3;Male;;0;0;14.4583;True;;Cherbourg;T3-1912-C-P0034;Grant Cain
+496;1;1;female;54.0;1;0;78.2667 USD;False;D;Cherbourg;T1-1912-C-P0048;Kristen Young
+497;0;3;Male;nan;0;0;15.1;True;;Southampton;T3-1912-S-P0203;Blake Marquez
+498;0;1;female;25.0;1;2;151.55;False;C;Southampton;T1-1912-S-P0065;Valerie Dickerson
+499;0;3;Male;24.0;0;0;7.7958;True;;Southampton;T3-1912-S-P0204;Steven Thomas
+500;0;3;Male;17.0;0;0;8.6625 USD;True;;Southampton;T3-1912-S-P0205;David Krueger
+501;0;3;female;21.0;0;0;7.75 USD;False;;Queenstown;T3-1912-Q-P0042;Carrie Adams
+502;0;3;female;;0;0;7.6292;False;;Queenstown;T3-1912-Q-P0043;Claire Frederick DDS
+503;0;3;female;37.0;0;0;9.5875;False;;Southampton;T3-1912-S-P0206;Emily Thompson
+504;1;1;female;16.0;0;0;86.5;False;B;Southampton;T1-1912-S-P0066;Cheryl Gray
+505;0;1;Male;18.0;1;0;108.9;True;C;Cherbourg;T1-1912-C-P0049;James Richardson
+506;1;2;female;33.0;0;2;26.0;False;;Southampton;T2-1912-S-P0094;Brenda Schroeder
+507;1;1;Male;;0;0;26.55;True;;Southampton;T1-1912-S-P0067;Ryan Lopez
+508;0;3;Male;28.0;0;0;22.525;True;;Southampton;T3-1912-S-P0207;Timothy Smith
+509;1;3;Male;26.0;0;0;56.4958 USD;True;;Southampton;T3-1912-S-P0208;Michael Morales
+510;1;3;Male;29.0;0;0;7.75 USD;True;;Queenstown;T3-1912-Q-P0044;Dr. Richard Mccullough
+511;0;3;Male;;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0209;Scott Hughes
+512;1;1;Male;36.0;0;0;26.2875;True;E;Southampton;T1-1912-S-P0068;Gabriel Mitchell
+513;1;1;female;54.0;1;0;59.4;False;;Cherbourg;T1-1912-C-P0050;Jessica Jackson
+514;0;3;Male;24.0;0;0;7.4958;True;;Southampton;T3-1912-S-P0210;Kyle Russell
+515;0;1;Male;47.0;0;0;34.0208;True;D;Southampton;T1-1912-S-P0069;Brandon Stewart
+516;1;2;female;34.0;0;0;10.5;False;F;Southampton;T2-1912-S-P0095;Gina Anderson
+517;0;3;Male;;0;0;;True;;Queenstown;T3-1912-Q-P0045;Thomas Jackson
+518;1;2;female;36.0;1;0;26.0;False;;Southampton;T2-1912-S-P0096;Cassandra Campbell
+519;0;3;Male;32.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0211;Christopher Martinez
+520;1;1;female;30.0;0;0;93.5 USD;False;B;Southampton;T1-1912-S-P0070;Anna Collier
+521;0;3;Male;22.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0212;Cesar Adams
+522;0;3;Male;;0;0;7.225 USD;True;;Cherbourg;T3-1912-C-P0035;Jason Watson
+523;1;1;female;44.0;0;1;57.9792;False;B;Cherbourg;T1-1912-C-P0051;Bianca Douglas
+524;0;3;Male;;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0036;Walter Thomas
+525;0;3;Male;40.5;0;0;7.75 USD;True;;Queenstown;T3-1912-Q-P0046;Charles Rangel
+526;1;2;female;50.0;0;0;10.5 USD;False;;Southampton;T2-1912-S-P0097;Laura Cain
+527;0;1;Male;nan;0;0;221.7792;True;C;Southampton;T1-1912-S-P0071;John Cruz
+528;0;3;Male;39.0;0;0;7.925;True;;Southampton;T3-1912-S-P0213;Edward Love
+529;0;2;Male;23.0;2;1;11.5;True;;Southampton;T2-1912-S-P0098;Edward Small
+530;1;2;female;2.0;1;1;26.0;False;;Southampton;T2-1912-S-P0099;Annette Stanton
+531;0;3;Male;;0;0;7.2292 USD;True;;Cherbourg;T3-1912-C-P0037;Cory Molina
+532;0;3;Male;17.0;1;1;7.2292 USD;True;;Cherbourg;T3-1912-C-P0038;Mark Ayala
+533;1;3;female;;0;2;22.3583;False;;Cherbourg;T3-1912-C-P0039;Danielle Cross
+534;0;3;female;30.0;0;0;8.6625;False;;Southampton;T3-1912-S-P0214;Amy Peterson
+535;1;2;female;7.0;0;2;26.25 USD;False;;Southampton;T2-1912-S-P0100;Cassandra Figueroa
+536;0;1;Male;45.0;0;0;26.55;True;B;Southampton;T1-1912-S-P0072;Anthony Mata
+537;1;1;female;30.0;0;0;106.425;False;;Cherbourg;T1-1912-C-P0052;Jaclyn Cox
+538;0;3;Male;;0;0;14.5;True;;Southampton;T3-1912-S-P0215;Tim Rodriguez
+539;1;1;female;22.0;0;2;49.5;False;B;Cherbourg;T1-1912-C-P0053;Debra Carr
+540;1;1;female;36.0;0;2;71.0;False;B;Southampton;T1-1912-S-P0073;Jamie Reed
+541;0;3;female;9.0;4;2;31.275;False;;Southampton;T3-1912-S-P0216;Kimberly Lewis
+542;0;3;female;11.0;4;2;31.275;False;;Southampton;T3-1912-S-P0217;Susan Gill
+543;1;2;Male;32.0;1;0;26.0 USD;True;;Southampton;T2-1912-S-P0101;Robert Hunter
+544;0;1;Male;50.0;1;0;106.425 USD;True;C;Cherbourg;T1-1912-C-P0054;Martin Conley
+545;0;1;Male;64.0;0;0;26.0;True;;Southampton;T1-1912-S-P0074;Joseph Crawford
+546;1;2;female;19.0;1;0;26.0;False;;Southampton;T2-1912-S-P0102;Morgan Smith
+547;1;2;Male;;0;0;13.8625;True;;Cherbourg;T2-1912-C-P0011;Charles Casey
+548;0;3;Male;33.0;1;1;20.525;True;;Southampton;T3-1912-S-P0218;Jerome Clark
+549;1;2;Male;8.0;1;1;36.75;False;;Southampton;T2-1912-S-P0103;Michael Hester
+550;1;1;Male;17.0;0;2;110.8833 USD;True;C;Cherbourg;T1-1912-C-P0055;Miguel Decker
+551;0;2;Male;27.0;0;0;26.0;True;;Southampton;T2-1912-S-P0104;Steven Cook
+552;0;3;Male;;0;0;7.8292;True;;Queenstown;T3-1912-Q-P0047;Michael Mclaughlin
+553;1;3;Male;22.0;0;0;7.225;True;;Cherbourg;T3-1912-C-P0040;James Sellers
+554;1;3;female;22.0;0;0;7.775 USD;False;;Southampton;T3-1912-S-P0219;Michelle Smith
+555;0;1;Male;62.0;0;0;26.55;True;;Southampton;T1-1912-S-P0075;Chad Wilson
+556;1;1;female;48.0;1;0;39.6;False;A;Cherbourg;T1-1912-C-P0056;Tiffany Johnson
+557;0;1;Male;nan;0;0;227.525;True;;Cherbourg;T1-1912-C-P0057;Johnathan Gross
+558;1;1;female;39.0;1;1;79.65;False;E;Southampton;T1-1912-S-P0076;Angela Smith
+559;1;3;female;36.0;1;0;17.4;False;;Southampton;T3-1912-S-P0220;Christina Smith
+560;0;3;Male;;0;0;7.75;True;;Queenstown;T3-1912-Q-P0048;Nathan Hansen
+561;0;3;Male;40.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0221;Nicholas Nash
+562;0;2;Male;28.0;0;0;13.5;True;;Southampton;T2-1912-S-P0105;Willie Dudley
+563;0;3;Male;nan;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0222;Joseph Moss
+564;0;3;female;;0;0;8.05;False;;Southampton;T3-1912-S-P0223;Cassandra Hansen
+565;0;3;Male;24.0;2;0;24.15;True;;Southampton;T3-1912-S-P0224;Gregory Green
+566;0;3;Male;19.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0225;Seth Williams
+567;0;3;female;29.0;0;4;21.075;False;;Southampton;T3-1912-S-P0226;Pamela Wright
+568;0;3;Male;;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0041;Kevin Roy
+569;1;3;Male;32.0;0;0;7.8542;True;;Southampton;T3-1912-S-P0227;Paul Robbins
+570;1;2;Male;62.0;0;0;10.5;True;;Southampton;T2-1912-S-P0106;Scott Roberts
+571;1;1;female;53.0;2;0;51.4792 USD;False;C;Southampton;T1-1912-S-P0077;Angelica Cooper
+572;1;1;Male;36.0;0;0;26.3875;True;E;Southampton;T1-1912-S-P0078;Austin Williams
+573;1;3;female;;0;0;7.75;False;;Queenstown;T3-1912-Q-P0049;Jessica Morgan
+574;0;3;Male;16.0;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0228;Daniel Hickman
+575;0;3;Male;19.0;0;0;14.5;True;;Southampton;T3-1912-S-P0229;Troy Griffith
+576;1;2;female;34.0;0;0;13.0;False;;Southampton;T2-1912-S-P0107;Cynthia Cooper
+577;1;1;female;39.0;1;0;55.9;False;E;Southampton;T1-1912-S-P0079;Hannah Davies
+578;0;3;female;;1;0;14.4583;False;;Cherbourg;T3-1912-C-P0042;Dr. Audrey Ellis
+579;1;3;Male;32.0;0;0;7.925;True;;Southampton;T3-1912-S-P0230;Michael Richardson
+580;1;2;female;25.0;1;1;30.0;False;;Southampton;T2-1912-S-P0108;Mrs. Jennifer Wagner
+581;1;1;female;39.0;1;1;110.8833;False;C;Cherbourg;T1-1912-C-P0058;Deborah Campbell
+582;0;2;Male;54.0;0;0;26.0;True;;Southampton;T2-1912-S-P0109;Thomas Larson DVM
+583;0;1;Male;36.0;0;0;40.125;True;A;Cherbourg;T1-1912-C-P0059;Tyler Chavez
+584;0;3;Male;;0;0;8.7125;True;;Cherbourg;T3-1912-C-P0043;Jacob Smith
+585;1;1;female;18.0;0;2;79.65;False;E;Southampton;T1-1912-S-P0080;Mrs. Cynthia Morse
+586;0;2;Male;47.0;0;0;15.0;True;;Southampton;T2-1912-S-P0110;Jeffrey Gonzalez
+587;1;1;Male;60.0;1;1;79.2;True;B;Cherbourg;T1-1912-C-P0060;Billy Wheeler
+588;0;3;Male;22.0;0;0;8.05;True;;Southampton;T3-1912-S-P0231;Bryan West
+589;0;3;Male;nan;0;0;8.05;True;;Southampton;T3-1912-S-P0232;Gabriel Steele
+590;0;3;Male;35.0;0;0;7.125 USD;True;;Southampton;T3-1912-S-P0233;Andrew Ochoa
+591;1;1;female;52.0;1;0;78.2667;False;D;Cherbourg;T1-1912-C-P0061;Melissa Weaver
+592;0;3;Male;47.0;0;0;7.25 USD;True;;Southampton;T3-1912-S-P0234;Christopher Fields
+593;0;3;female;;0;2;7.75;False;;Queenstown;T3-1912-Q-P0050;Teresa Richardson
+594;0;2;Male;37.0;1;0;26.0;True;;Southampton;T2-1912-S-P0111;Kevin Stewart
+595;0;3;Male;36.0;1;1;24.15;True;;Southampton;T3-1912-S-P0235;Craig Stevenson
+596;1;2;female;;0;0;33.0;False;;Southampton;T2-1912-S-P0112;Lindsay Taylor
+597;0;3;Male;49.0;0;0;0.0;True;;Southampton;T3-1912-S-P0236;Nicholas Chandler
+598;0;3;Male;nan;0;0;7.225;True;;Cherbourg;T3-1912-C-P0044;John Davis
+599;1;1;Male;49.0;1;0;56.9292;True;A;Cherbourg;T1-1912-C-P0062;Justin Lara
+600;1;2;female;24.0;2;1;27.0;False;;Southampton;T2-1912-S-P0113;Alicia Erickson
+601;0;3;Male;nan;0;0;7.8958;True;;Southampton;T3-1912-S-P0237;Dr. Craig Pace
+602;0;1;Male;nan;0;0;42.4 USD;True;;Southampton;T1-1912-S-P0081;Willie Johnson
+603;0;3;Male;44.0;0;0;8.05;True;;Southampton;T3-1912-S-P0238;Jonathan Robinson
+604;1;1;Male;35.0;0;0;26.55;True;;Cherbourg;T1-1912-C-P0063;Joshua Walker
+605;0;3;Male;36.0;1;0;15.55;True;;Southampton;T3-1912-S-P0239;James Lopez
+606;0;3;Male;30.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0240;Billy Robertson
+607;1;1;Male;27.0;0;0;30.5;True;;Southampton;T1-1912-S-P0082;Jason Cox
+608;1;2;female;22.0;1;2;41.5792;False;;Cherbourg;T2-1912-C-P0012;Nicole Ho
+609;1;1;female;40.0;0;0;153.4625;False;C;Southampton;T1-1912-S-P0083;Barbara Salazar
+610;0;3;female;39.0;1;5;31.275;False;;Southampton;T3-1912-S-P0241;Linda Diaz
+611;0;3;Male;;0;0;7.05 USD;True;;Southampton;T3-1912-S-P0242;Ricky Smith
+612;1;3;female;;1;0;15.5;False;;Queenstown;T3-1912-Q-P0051;Ann Jones
+613;0;3;Male;nan;0;0;7.75;True;;Queenstown;T3-1912-Q-P0052;James Cervantes
+614;0;3;Male;35.0;0;0;8.05;True;;Southampton;T3-1912-S-P0243;Christian Huber
+615;1;2;female;24.0;1;2;65.0;False;;Southampton;T2-1912-S-P0114;Patricia Sullivan
+616;0;3;Male;34.0;1;1;14.4;True;;Southampton;T3-1912-S-P0244;George Hicks
+617;0;3;female;26.0;1;0;16.1;False;;Southampton;T3-1912-S-P0245;Chelsea Lopez
+618;1;2;female;4.0;2;1;39.0;False;F;Southampton;T2-1912-S-P0115;Sierra Robles
+619;0;2;Male;26.0;0;0;10.5;True;;Southampton;T2-1912-S-P0116;Robert Michael
+620;0;3;Male;27.0;1;0;14.4542;True;;Cherbourg;T3-1912-C-P0045;Kyle Coleman
+621;1;1;Male;42.0;1;0;52.5542;True;D;Southampton;T1-1912-S-P0084;Aaron Anderson
+622;1;3;Male;20.0;1;1;15.7417 USD;True;;Cherbourg;T3-1912-C-P0046;Ryan Herrera Jr.
+623;0;3;Male;21.0;0;0;7.8542 USD;True;;Southampton;T3-1912-S-P0246;Daniel Norris
+624;0;3;Male;21.0;0;0;16.1 USD;True;;Southampton;T3-1912-S-P0247;Brian Sanchez
+625;0;1;Male;61.0;0;0;32.3208;True;D;Southampton;T1-1912-S-P0085;Mark Fletcher
+626;0;2;Male;57.0;0;0;12.35;True;;Queenstown;T2-1912-Q-P0003;Dave Friedman
+627;1;1;female;21.0;0;0;77.9583;False;D;Southampton;T1-1912-S-P0086;Tina Sherman
+628;0;3;Male;26.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0248;Juan Leonard
+629;0;3;Male;nan;0;0;7.7333 USD;True;;Queenstown;T3-1912-Q-P0053;Dylan Gaines
+630;1;1;Male;80.0;0;0;30.0;True;A;Southampton;T1-1912-S-P0087;David Stevens
+631;0;3;Male;51.0;0;0;7.0542;True;;Southampton;T3-1912-S-P0249;Michael Miller
+632;1;1;Male;32.0;0;0;;True;B;Cherbourg;T1-1912-C-P0064;Corey Kennedy
+633;0;1;Male;;0;0;0.0;True;;Southampton;T1-1912-S-P0088;Jason Porter
+634;0;3;female;9.0;3;2;27.9;False;;Southampton;T3-1912-S-P0250;Jordan Brock
+635;1;2;female;28.0;0;0;13.0;False;;Southampton;T2-1912-S-P0117;Barbara Mullen
+636;0;3;Male;32.0;0;0;7.925;True;;Southampton;T3-1912-S-P0251;Robert Jones
+637;0;2;Male;31.0;1;1;26.25;True;;Southampton;T2-1912-S-P0118;Brandon Peters
+638;0;3;female;41.0;0;5;39.6875;False;;Southampton;T3-1912-S-P0252;Karen Patrick
+639;0;3;Male;;1;0;16.1;True;;Southampton;T3-1912-S-P0253;Robert Davidson
+640;0;3;Male;20.0;0;0;7.8542;True;;Southampton;T3-1912-S-P0254;Joshua Watson
+641;1;1;female;24.0;0;0;69.3;False;B;Cherbourg;T1-1912-C-P0065;Ashley Aguilar
+642;0;3;female;2.0;3;2;27.9;False;;Southampton;T3-1912-S-P0255;Dr. Lisa Ferguson
+643;1;3;Male;;0;0;56.4958;True;;Southampton;T3-1912-S-P0256;Richard Lambert
+644;1;3;female;0.75;2;1;19.2583 USD;False;;Cherbourg;T3-1912-C-P0047;Elizabeth Jones
+645;1;1;Male;48.0;1;0;76.7292 USD;True;D;Cherbourg;T1-1912-C-P0066;Aaron Wheeler
+646;0;3;Male;19.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0257;Donald Martinez
+647;1;1;Male;56.0;0;0;35.5 USD;True;A;Cherbourg;T1-1912-C-P0067;Paul Ball
+648;0;3;Male;;0;0;;True;;Southampton;T3-1912-S-P0258;Kevin Davis
+649;1;3;female;23.0;0;0;7.55;False;;Southampton;T3-1912-S-P0259;Janice Dawson
+650;0;3;Male;nan;0;0;7.8958 USD;True;;Southampton;T3-1912-S-P0260;Christopher Hansen
+651;1;2;female;18.0;0;1;23.0;False;;Southampton;T2-1912-S-P0119;Kelly Wolfe
+652;0;3;Male;21.0;0;0;8.4333;True;;Southampton;T3-1912-S-P0261;Jose Simon
+653;1;3;female;;0;0;7.8292;False;;Queenstown;T3-1912-Q-P0054;Haley Herman
+654;0;3;female;18.0;0;0;6.75;False;;Queenstown;T3-1912-Q-P0055;Deborah Williams
+655;0;2;Male;24.0;2;0;73.5;True;;Southampton;T2-1912-S-P0120;Carlos Hansen
+656;0;3;Male;nan;0;0;7.8958;True;;Southampton;T3-1912-S-P0262;Robert Morrison
+657;0;3;female;32.0;1;1;15.5 USD;False;;Queenstown;T3-1912-Q-P0056;Jessica Hill
+658;0;2;Male;23.0;0;0;13.0;True;;Southampton;T2-1912-S-P0121;John Morris
+659;0;1;Male;58.0;0;2;113.275;True;D;Cherbourg;T1-1912-C-P0068;Ryan Barr
+660;1;1;Male;50.0;2;0;133.65;True;;Southampton;T1-1912-S-P0089;Melvin Daniels
+661;0;3;Male;40.0;0;0;7.225;True;;Cherbourg;T3-1912-C-P0048;Brian Dean
+662;0;1;Male;47.0;0;0;25.5875;True;E;Southampton;T1-1912-S-P0090;John Flores
+663;0;3;Male;36.0;0;0;7.4958;True;;Southampton;T3-1912-S-P0263;David Sparks
+664;1;3;Male;20.0;1;0;7.925;True;;Southampton;T3-1912-S-P0264;Kenneth Simmons
+665;0;2;Male;32.0;2;0;73.5;True;;Southampton;T2-1912-S-P0122;Henry Petersen
+666;0;2;Male;25.0;0;0;13.0;True;;Southampton;T2-1912-S-P0123;Clifford Rasmussen
+667;0;3;Male;nan;0;0;7.775;True;;Southampton;T3-1912-S-P0265;Aaron Clements
+668;0;3;Male;43.0;0;0;8.05;True;;Southampton;T3-1912-S-P0266;Scott Williams
+669;1;1;female;nan;1;0;52.0;False;C;Southampton;T1-1912-S-P0091;Brenda Lopez
+670;1;2;female;40.0;1;1;39.0;False;;Southampton;T2-1912-S-P0124;Belinda Smith MD
+671;0;1;Male;31.0;1;0;52.0;True;B;Southampton;T1-1912-S-P0092;David Meyer
+672;0;2;Male;70.0;0;0;10.5;True;;Southampton;T2-1912-S-P0125;Seth Ross
+673;1;2;Male;31.0;0;0;13.0;True;;Southampton;T2-1912-S-P0126;Matthew Jacobs
+674;0;2;Male;;0;0;;True;;Southampton;T2-1912-S-P0127;Jacob Salinas
+675;0;3;Male;18.0;0;0;7.775;True;;Southampton;T3-1912-S-P0267;Aaron Carter
+676;0;3;Male;24.5;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0268;Gary Sims
+677;1;3;female;18.0;0;0;9.8417;False;;Southampton;T3-1912-S-P0269;Ashley Munoz
+678;0;3;female;43.0;1;6;46.9;False;;Southampton;T3-1912-S-P0270;Melanie Cook
+679;1;1;Male;36.0;0;1;512.3292;True;B;Cherbourg;T1-1912-C-P0069;Daniel Miller
+680;0;3;female;;0;0;8.1375 USD;False;;Queenstown;T3-1912-Q-P0057;Nicole Smith
+681;1;1;Male;27.0;0;0;76.7292;True;D;Cherbourg;T1-1912-C-P0070;Harold Ward
+682;0;3;Male;20.0;0;0;9.225;True;;Southampton;T3-1912-S-P0271;David Boone
+683;0;3;Male;14.0;5;2;46.9;False;;Southampton;T3-1912-S-P0272;Christopher Edwards
+684;0;2;Male;60.0;1;1;39.0 USD;True;;Southampton;T2-1912-S-P0128;Michael Davis
+685;0;2;Male;25.0;1;2;;True;;Cherbourg;T2-1912-C-P0013;Gary Gardner
+686;0;3;Male;14.0;4;1;39.6875;False;;Southampton;T3-1912-S-P0273;Johnny Gallegos
+687;0;3;Male;19.0;0;0;10.1708;True;;Southampton;T3-1912-S-P0274;Kevin Jacobs
+688;0;3;Male;18.0;0;0;7.7958;True;;Southampton;T3-1912-S-P0275;Sean Beck
+689;1;1;female;15.0;0;1;;False;B;Southampton;T1-1912-S-P0093;Jessica Cochran
+690;1;1;Male;31.0;1;0;57.0;True;B;Southampton;T1-1912-S-P0094;Martin Cunningham
+691;1;3;female;4.0;0;1;;False;;Cherbourg;T3-1912-C-P0049;Mrs. Brandi Hicks
+692;1;3;Male;;0;0;56.4958;True;;Southampton;T3-1912-S-P0276;Bobby Riley
+693;0;3;Male;25.0;0;0;7.225;True;;Cherbourg;T3-1912-C-P0050;Michael Hester
+694;0;1;Male;60.0;0;0;26.55 USD;True;;Southampton;T1-1912-S-P0095;Michael Brady
+695;0;2;Male;52.0;0;0;13.5;True;;Southampton;T2-1912-S-P0129;Brandon Schroeder
+696;0;3;Male;44.0;0;0;8.05;True;;Southampton;T3-1912-S-P0277;Eric Taylor
+697;1;3;female;;0;0;7.7333;False;;Queenstown;T3-1912-Q-P0058;Melanie Sanford
+698;0;1;Male;49.0;1;1;110.8833;True;C;Cherbourg;T1-1912-C-P0071;Casey Bowen
+699;0;3;Male;42.0;0;0;7.65;True;F;Southampton;T3-1912-S-P0278;Brian Romero
+700;1;1;female;18.0;1;0;227.525;False;C;Cherbourg;T1-1912-C-P0072;Cindy Nicholson
+701;1;1;Male;35.0;0;0;26.2875 USD;True;E;Southampton;T1-1912-S-P0096;Robert Ramos
+702;0;3;female;18.0;0;1;14.4542 USD;False;;Cherbourg;T3-1912-C-P0051;Kelly Jefferson
+703;0;3;Male;25.0;0;0;7.7417;True;;Queenstown;T3-1912-Q-P0059;John Thomas
+704;0;3;Male;26.0;1;0;7.8542;True;;Southampton;T3-1912-S-P0279;Omar Taylor
+705;0;2;Male;39.0;0;0;;True;;Southampton;T2-1912-S-P0130;Robert Stout
+706;1;2;female;45.0;0;0;13.5 USD;False;;Southampton;T2-1912-S-P0131;Lisa Garcia
+707;1;1;Male;42.0;0;0;26.2875 USD;True;E;Southampton;T1-1912-S-P0097;Jack Cox
+708;1;1;female;22.0;0;0;151.55;False;;Southampton;T1-1912-S-P0098;Desiree Kidd
+709;1;3;Male;;1;1;15.2458 USD;True;;Cherbourg;T3-1912-C-P0052;Gabriel Harper
+710;1;1;female;24.0;0;0;49.5042;False;C;Cherbourg;T1-1912-C-P0073;Sherry Alvarado
+711;0;1;Male;;0;0;26.55;True;C;Southampton;T1-1912-S-P0099;Aaron Allen
+712;1;1;Male;48.0;1;0;52.0;True;C;Southampton;T1-1912-S-P0100;William Gardner
+713;0;3;Male;29.0;0;0;9.4833 USD;True;;Southampton;T3-1912-S-P0280;Anthony Anderson
+714;0;2;Male;52.0;0;0;13.0;True;;Southampton;T2-1912-S-P0132;George Pearson
+715;0;3;Male;19.0;0;0;7.65 USD;True;F;Southampton;T3-1912-S-P0281;Bobby Ferguson
+716;1;1;female;38.0;0;0;227.525;False;C;Cherbourg;T1-1912-C-P0074;Caitlyn Nguyen
+717;1;2;female;27.0;0;0;10.5;False;E;Southampton;T2-1912-S-P0133;Morgan Eaton
+718;0;3;Male;nan;0;0;15.5;True;;Queenstown;T3-1912-Q-P0060;Darren Kirk
+719;0;3;Male;33.0;0;0;7.775;True;;Southampton;T3-1912-S-P0282;Dustin Russell
+720;1;2;female;6.0;0;1;33.0;False;;Southampton;T2-1912-S-P0134;Pamela Kelly
+721;0;3;Male;17.0;1;0;7.0542;True;;Southampton;T3-1912-S-P0283;Kurt Daniels
+722;0;2;Male;34.0;0;0;13.0;True;;Southampton;T2-1912-S-P0135;Jaime Moore
+723;0;2;Male;50.0;0;0;13.0;True;;Southampton;T2-1912-S-P0136;Sean York
+724;1;1;Male;27.0;1;0;53.1;True;E;Southampton;T1-1912-S-P0101;David Smith
+725;0;3;Male;20.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0284;Randy Shah
+726;1;2;female;30.0;3;0;21.0;False;;Southampton;T2-1912-S-P0137;Andrea Chaney
+727;1;3;female;;0;0;7.7375;False;;Queenstown;T3-1912-Q-P0061;Catherine Smith
+728;0;2;Male;25.0;1;0;26.0;True;;Southampton;T2-1912-S-P0138;Calvin Perry
+729;0;3;female;25.0;1;0;7.925;False;;Southampton;T3-1912-S-P0285;Shelby Galloway
+730;1;1;female;29.0;0;0;211.3375 USD;False;B;Southampton;T1-1912-S-P0102;Natalie Brown
+731;0;3;Male;11.0;0;0;18.7875;False;;Cherbourg;T3-1912-C-P0053;Justin Rogers
+732;0;2;Male;;0;0;0.0;True;;Southampton;T2-1912-S-P0139;Ray Kirby
+733;0;2;Male;23.0;0;0;13.0 USD;True;;Southampton;T2-1912-S-P0140;David White
+734;0;2;Male;23.0;0;0;13.0;True;;Southampton;T2-1912-S-P0141;Jose Murray
+735;0;3;Male;28.5;0;0;16.1;True;;Southampton;T3-1912-S-P0286;George Pearson
+736;0;3;female;48.0;1;3;34.375;False;;Southampton;T3-1912-S-P0287;Alison Boyle
+737;1;1;Male;35.0;0;0;512.3292 USD;True;B;Cherbourg;T1-1912-C-P0075;James Ramirez
+738;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0288;Michael Kemp
+739;0;3;Male;;0;0;7.8958;True;;Southampton;T3-1912-S-P0289;Christian Wade
+740;1;1;Male;;0;0;;True;D;Southampton;T1-1912-S-P0103;Brian Alexander
+741;0;1;Male;36.0;1;0;78.85;True;C;Southampton;T1-1912-S-P0104;John Long
+742;1;1;female;21.0;2;2;262.375;False;B;Cherbourg;T1-1912-C-P0076;Samantha Smith
+743;0;3;Male;24.0;1;0;16.1;True;;Southampton;T3-1912-S-P0290;Luis Taylor
+744;1;3;Male;31.0;0;0;7.925;True;;Southampton;T3-1912-S-P0291;James Gutierrez
+745;0;1;Male;70.0;1;1;71.0;True;B;Southampton;T1-1912-S-P0105;Joseph Stone
+746;0;3;Male;16.0;1;1;20.25 USD;True;;Southampton;T3-1912-S-P0292;Ronnie Meadows
+747;1;2;female;30.0;0;0;13.0;False;;Southampton;T2-1912-S-P0142;Renee Warren
+748;0;1;Male;19.0;1;0;53.1;True;D;Southampton;T1-1912-S-P0106;Andrew Sullivan
+749;0;3;Male;31.0;0;0;7.75;True;;Queenstown;T3-1912-Q-P0062;Darryl Brown
+750;1;2;female;4.0;1;1;23.0;False;;Southampton;T2-1912-S-P0143;Ashley Spencer
+751;1;3;Male;6.0;0;1;12.475;False;E;Southampton;T3-1912-S-P0293;Daniel Waters
+752;0;3;Male;33.0;0;0;9.5;True;;Southampton;T3-1912-S-P0294;David Hernandez
+753;0;3;Male;23.0;0;0;7.8958 USD;True;;Southampton;T3-1912-S-P0295;Michael Thompson
+754;1;2;female;48.0;1;2;65.0;False;;Southampton;T2-1912-S-P0144;Julie Perez
+755;1;2;Male;0.67;1;1;14.5 USD;False;;Southampton;T2-1912-S-P0145;Justin Sosa
+756;0;3;Male;28.0;0;0;7.7958;True;;Southampton;T3-1912-S-P0296;Stephen Day MD
+757;0;2;Male;18.0;0;0;11.5;True;;Southampton;T2-1912-S-P0146;Brandon Irwin
+758;0;3;Male;34.0;0;0;8.05;True;;Southampton;T3-1912-S-P0297;Michael Anderson
+759;1;1;female;33.0;0;0;86.5 USD;False;B;Southampton;T1-1912-S-P0107;Felicia Sheppard
+760;0;3;Male;nan;0;0;14.5;True;;Southampton;T3-1912-S-P0298;Alex Campos
+761;0;3;Male;41.0;0;0;7.125;True;;Southampton;T3-1912-S-P0299;Richard Johnson
+762;1;3;Male;20.0;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0054;Mark Olson
+763;1;1;female;36.0;1;2;120.0 USD;False;B;Southampton;T1-1912-S-P0108;Kristin Edwards
+764;0;3;Male;16.0;0;0;7.775;True;;Southampton;T3-1912-S-P0300;Matthew Lee
+765;1;1;female;51.0;1;0;77.9583;False;D;Southampton;T1-1912-S-P0109;Hannah Young
+766;0;1;Male;;0;0;39.6;True;;Cherbourg;T1-1912-C-P0077;Joshua Hampton
+767;0;3;female;30.5;0;0;7.75;False;;Queenstown;T3-1912-Q-P0063;Becky Williams
+768;0;3;Male;;1;0;24.15;True;;Queenstown;T3-1912-Q-P0064;Steven Hudson DDS
+769;0;3;Male;32.0;0;0;8.3625;True;;Southampton;T3-1912-S-P0301;Timothy Stafford
+770;0;3;Male;24.0;0;0;9.5;True;;Southampton;T3-1912-S-P0302;Charles Walker
+771;0;3;Male;48.0;0;0;7.8542;True;;Southampton;T3-1912-S-P0303;Keith Gilbert
+772;0;2;female;57.0;0;0;10.5;False;E;Southampton;T2-1912-S-P0147;Bonnie Kelly
+773;0;3;Male;;0;0;7.225;True;;Cherbourg;T3-1912-C-P0055;Philip Morgan
+774;1;2;female;54.0;1;3;23.0;False;;Southampton;T2-1912-S-P0148;Jacqueline Henry
+775;0;3;Male;18.0;0;0;7.75;True;;Southampton;T3-1912-S-P0304;Dylan Gomez
+776;0;3;Male;nan;0;0;7.75;True;F;Queenstown;T3-1912-Q-P0065;David Schultz
+777;1;3;female;5.0;0;0;;False;;Southampton;T3-1912-S-P0305;Kimberly Hunter
+778;0;3;Male;;0;0;7.7375;True;;Queenstown;T3-1912-Q-P0066;Kevin Fitzpatrick
+779;1;1;female;43.0;0;1;211.3375;False;B;Southampton;T1-1912-S-P0110;Bridget Baker
+780;1;3;female;13.0;0;0;7.2292;False;;Cherbourg;T3-1912-C-P0056;Emily Gardner
+781;1;1;female;17.0;1;0;57.0;False;B;Southampton;T1-1912-S-P0111;Emily Davis
+782;0;1;Male;29.0;0;0;30.0;True;D;Southampton;T1-1912-S-P0112;Joshua Jones
+783;0;3;Male;;1;2;23.45;True;;Southampton;T3-1912-S-P0306;Jordan Thompson
+784;0;3;Male;25.0;0;0;7.05;True;;Southampton;T3-1912-S-P0307;Alexander Martinez
+785;0;3;Male;25.0;0;0;7.25 USD;True;;Southampton;T3-1912-S-P0308;Jeffrey Gibson
+786;1;3;female;18.0;0;0;7.4958;False;;Southampton;T3-1912-S-P0309;Michelle Shelton
+787;0;3;Male;8.0;4;1;29.125 USD;False;;Queenstown;T3-1912-Q-P0067;Robert Avery
+788;1;3;Male;1.0;1;2;20.575;False;;Southampton;T3-1912-S-P0310;Austin Bowen
+789;0;1;Male;46.0;0;0;79.2;True;B;Cherbourg;T1-1912-C-P0078;Anthony Hall
+790;0;3;Male;nan;0;0;7.75;True;;Queenstown;T3-1912-Q-P0068;Robert Martin
+791;0;2;Male;16.0;0;0;26.0;True;;Southampton;T2-1912-S-P0149;Daryl Marks
+792;0;3;female;;8;2;69.55;False;;Southampton;T3-1912-S-P0311;Brittany Scott
+793;0;1;Male;;0;0;30.6958 USD;True;;Cherbourg;T1-1912-C-P0079;Alejandro Lopez
+794;0;3;Male;25.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0312;Alejandro Sanders
+795;0;2;Male;39.0;0;0;13.0;True;;Southampton;T2-1912-S-P0150;David Norton
+796;1;1;female;49.0;0;0;25.9292;False;D;Southampton;T1-1912-S-P0113;Theresa Foster
+797;1;3;female;31.0;0;0;8.6833;False;;Southampton;T3-1912-S-P0313;Teresa Dyer
+798;0;3;Male;30.0;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0057;Zachary Zimmerman
+799;0;3;female;30.0;1;1;24.15 USD;False;;Southampton;T3-1912-S-P0314;Dr. Susan Brown MD
+800;0;2;Male;34.0;0;0;13.0;True;;Southampton;T2-1912-S-P0151;Brian Brown
+801;1;2;female;31.0;1;1;26.25;False;;Southampton;T2-1912-S-P0152;Angela Davis
+802;1;1;Male;11.0;1;2;120.0 USD;False;B;Southampton;T1-1912-S-P0114;Kyle Myers
+803;1;3;Male;0.42;0;1;;False;;Cherbourg;T3-1912-C-P0058;Brian Snyder
+804;1;3;Male;27.0;0;0;6.975 USD;True;;Southampton;T3-1912-S-P0315;Karl Zimmerman
+805;0;3;Male;31.0;0;0;7.775 USD;True;;Southampton;T3-1912-S-P0316;Andrew Gross
+806;0;1;Male;39.0;0;0;0.0 USD;True;A;Southampton;T1-1912-S-P0115;Daryl Luna
+807;0;3;female;18.0;0;0;7.775;False;;Southampton;T3-1912-S-P0317;Lisa Mitchell
+808;0;2;Male;39.0;0;0;13.0;True;;Southampton;T2-1912-S-P0153;Christian Kramer
+809;1;1;female;33.0;1;0;53.1;False;E;Southampton;T1-1912-S-P0116;Jennifer Johnson
+810;0;3;Male;26.0;0;0;7.8875;True;;Southampton;T3-1912-S-P0318;Corey Bates
+811;0;3;Male;39.0;0;0;24.15;True;;Southampton;T3-1912-S-P0319;Gregory Terrell
+812;0;2;Male;35.0;0;0;10.5;True;;Southampton;T2-1912-S-P0154;John Webb
+813;0;3;female;6.0;4;2;31.275;False;;Southampton;T3-1912-S-P0320;Tracy Clark
+814;0;3;Male;30.5;0;0;8.05 USD;True;;Southampton;T3-1912-S-P0321;Harold Wilson
+815;0;1;Male;;0;0;0.0;True;B;Southampton;T1-1912-S-P0117;Gary Long
+816;0;3;female;23.0;0;0;7.925;False;;Southampton;T3-1912-S-P0322;Ann Johnson
+817;0;2;Male;31.0;1;1;37.0042;True;;Cherbourg;T2-1912-C-P0014;James Armstrong
+818;0;3;Male;43.0;0;0;6.45;True;;Southampton;T3-1912-S-P0323;Steven Brown
+819;0;3;Male;10.0;3;2;27.9 USD;False;;Southampton;T3-1912-S-P0324;Jason Gray
+820;1;1;female;52.0;1;1;93.5 USD;False;B;Southampton;T1-1912-S-P0118;Donna Davis
+821;1;3;Male;27.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0325;Scott Hoover
+822;0;1;Male;38.0;0;0;0.0;True;;Southampton;T1-1912-S-P0119;Daniel Stanley PhD
+823;1;3;female;27.0;0;1;12.475 USD;False;E;Southampton;T3-1912-S-P0326;Jessica Kim
+824;0;3;Male;2.0;4;1;39.6875;False;;Southampton;T3-1912-S-P0327;Michael Petersen
+825;0;3;Male;;0;0;6.95 USD;True;;Queenstown;T3-1912-Q-P0069;Anthony Phillips
+826;0;3;Male;;0;0;56.4958;True;;Southampton;T3-1912-S-P0328;Juan Guerrero
+827;1;2;Male;1.0;0;2;37.0042;False;;Cherbourg;T2-1912-C-P0015;Matthew Miller
+828;1;3;Male;;0;0;7.75;True;;Queenstown;T3-1912-Q-P0070;Joshua Cherry
+829;1;1;female;62.0;0;0;80.0 USD;False;B;;T1-1912-U-P0002;Penny Miller
+830;1;3;female;15.0;1;0;14.4542 USD;False;;Cherbourg;T3-1912-C-P0059;Jessica Montgomery
+831;1;2;Male;0.83;1;1;18.75;False;;Southampton;T2-1912-S-P0155;Randy Castillo
+832;0;3;Male;nan;0;0;7.2292 USD;True;;Cherbourg;T3-1912-C-P0060;Brian Figueroa
+833;0;3;Male;23.0;0;0;7.8542;True;;Southampton;T3-1912-S-P0329;Timothy Gibbs
+834;0;3;Male;18.0;0;0;8.3 USD;True;;Southampton;T3-1912-S-P0330;Mr. James Price
+835;1;1;female;39.0;1;1;83.1583;False;E;Cherbourg;T1-1912-C-P0080;Ms. Tammy Hernandez
+836;0;3;Male;21.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0331;Joshua Gibson
+837;0;3;Male;;0;0;8.05;True;;Southampton;T3-1912-S-P0332;Anthony Santiago
+838;1;3;Male;32.0;0;0;56.4958;True;;Southampton;T3-1912-S-P0333;Phillip Evans
+839;1;1;Male;;0;0;29.7;True;C;Cherbourg;T1-1912-C-P0081;Daniel Thompson
+840;0;3;Male;20.0;0;0;7.925;True;;Southampton;T3-1912-S-P0334;Alvin Harvey
+841;0;2;Male;16.0;0;0;10.5;True;;Southampton;T2-1912-S-P0156;Bryce Ellison
+842;1;1;female;30.0;0;0;31.0;False;;Cherbourg;T1-1912-C-P0082;Cynthia Proctor
+843;0;3;Male;34.5;0;0;6.4375 USD;True;;Cherbourg;T3-1912-C-P0061;Dr. Robert Castillo Jr.
+844;0;3;Male;17.0;0;0;8.6625;True;;Southampton;T3-1912-S-P0335;Donald Berry
+845;0;3;Male;42.0;0;0;7.55;True;;Southampton;T3-1912-S-P0336;Joshua Carlson
+846;0;3;Male;nan;8;2;69.55 USD;True;;Southampton;T3-1912-S-P0337;Benjamin Lewis
+847;0;3;Male;35.0;0;0;7.8958;True;;Cherbourg;T3-1912-C-P0062;Chad Peterson
+848;0;2;Male;28.0;0;1;33.0;True;;Southampton;T2-1912-S-P0157;Daniel Carey
+849;1;1;female;;1;0;89.1042;False;C;Cherbourg;T1-1912-C-P0083;Carrie Esparza MD
+850;0;3;Male;4.0;4;2;31.275;False;;Southampton;T3-1912-S-P0338;Aaron Lopez
+851;0;3;Male;74.0;0;0;7.775;True;;Southampton;T3-1912-S-P0339;Mark Mayer
+852;0;3;female;9.0;1;1;15.2458 USD;False;;Cherbourg;T3-1912-C-P0063;Emily Chase
+853;1;1;female;16.0;0;1;39.4;False;D;Southampton;T1-1912-S-P0120;Emily Preston
+854;0;2;female;44.0;1;0;26.0;False;;Southampton;T2-1912-S-P0158;Elizabeth Hernandez
+855;1;3;female;18.0;0;1;9.35 USD;False;;Southampton;T3-1912-S-P0340;Megan Barrett
+856;1;1;female;45.0;1;1;164.8667;False;;Southampton;T1-1912-S-P0121;Amanda Mcdonald
+857;1;1;Male;51.0;0;0;26.55;True;E;Southampton;T1-1912-S-P0122;Aaron Smith
+858;1;3;female;24.0;0;3;19.2583 USD;False;;Cherbourg;T3-1912-C-P0064;Amy Allen
+859;0;3;Male;nan;0;0;7.2292;True;;Cherbourg;T3-1912-C-P0065;Paul Guzman
+860;0;3;Male;41.0;2;0;14.1083;True;;Southampton;T3-1912-S-P0341;Michael Ewing
+861;0;2;Male;21.0;1;0;11.5 USD;True;;Southampton;T2-1912-S-P0159;Darin Trujillo
+862;1;1;female;48.0;0;0;25.9292;False;D;Southampton;T1-1912-S-P0123;Lauren Allen
+863;0;3;female;;8;2;69.55;False;;Southampton;T3-1912-S-P0342;Alyssa Mitchell
+864;0;2;Male;24.0;0;0;13.0;True;;Southampton;T2-1912-S-P0160;Douglas Pena
+865;1;2;female;42.0;0;0;13.0;False;;Southampton;T2-1912-S-P0161;Kimberly Rocha
+866;1;2;female;27.0;1;0;13.8583;False;;Cherbourg;T2-1912-C-P0016;Kelly Lopez
+867;0;1;Male;31.0;0;0;50.4958 USD;True;A;Southampton;T1-1912-S-P0124;Francis Taylor
+868;0;3;Male;;0;0;9.5;True;;Southampton;T3-1912-S-P0343;Kurt Lowe
+869;1;3;Male;4.0;1;1;11.1333;False;;Southampton;T3-1912-S-P0344;Adam Hayes
+870;0;3;Male;26.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0345;Franklin Randolph
+871;1;1;female;47.0;1;1;52.5542 USD;False;D;Southampton;T1-1912-S-P0125;Michelle Martin
+872;0;1;Male;33.0;0;0;5.0;True;B;Southampton;T1-1912-S-P0126;Richard Rodriguez
+873;0;3;Male;47.0;0;0;;True;;Southampton;T3-1912-S-P0346;Todd Evans
+874;1;2;female;28.0;1;0;24.0;False;;Cherbourg;T2-1912-C-P0017;Jocelyn Vega
+875;1;3;female;15.0;0;0;7.225;False;;Cherbourg;T3-1912-C-P0066;Pamela Lewis
+876;0;3;Male;20.0;0;0;9.8458;True;;Southampton;T3-1912-S-P0347;Thomas Cannon
+877;0;3;Male;19.0;0;0;7.8958;True;;Southampton;T3-1912-S-P0348;Brian Hill
+878;0;3;Male;nan;0;0;7.8958;True;;Southampton;T3-1912-S-P0349;Brandon Freeman
+879;1;1;female;56.0;0;1;83.1583;False;C;Cherbourg;T1-1912-C-P0084;Robin Johnson
+880;1;2;female;25.0;0;1;26.0;False;;Southampton;T2-1912-S-P0162;Caitlyn Thompson
+881;0;3;Male;33.0;0;0;;True;;Southampton;T3-1912-S-P0350;Scott Mathis
+882;0;3;female;22.0;0;0;10.5167;False;;Southampton;T3-1912-S-P0351;Samantha Moore
+883;0;2;Male;28.0;0;0;10.5;True;;Southampton;T2-1912-S-P0163;Gary Casey
+884;0;3;Male;25.0;0;0;7.05;True;;Southampton;T3-1912-S-P0352;Michael Carroll
+885;0;3;female;39.0;0;5;29.125;False;;Queenstown;T3-1912-Q-P0071;Amy Gonzales
+886;0;2;Male;27.0;0;0;13.0;True;;Southampton;T2-1912-S-P0164;Michael Johnson
+887;1;1;female;19.0;0;0;30.0;False;B;Southampton;T1-1912-S-P0127;Lisa Buck
+888;0;3;female;nan;1;2;23.45;False;;Southampton;T3-1912-S-P0353;Alexandria Lawrence
+889;1;1;Male;26.0;0;0;;True;C;Cherbourg;T1-1912-C-P0085;Christopher Reed
+890;0;3;Male;32.0;0;0;7.75;True;;Queenstown;T3-1912-Q-P0072;James Horton

@@ -93,8 +93,45 @@ DataFrames, selection and filtering, transformations, data types, and exploratio
 
 ---
 
+## 📆 Week 3
+
+### Data Preparation
+
+Data cleaning with the messy Titanic dataset: data types, missing values, categorical encoding, feature engineering, scaling, validation, and export. Includes practical examples of cleaning dates in different formats.
+
+| 🧩 Student | 🔒 Solution (coming soon) |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-3/mia-pr-week-3-student.ipynb) | ![GitHub Solution — unavailable](https://img.shields.io/badge/GitHub-Solution-9CA3AF?style=for-the-badge&logo=github&logoColor=D1D5DB&labelColor=6B7280) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-3/mia-pr-week-3-student.ipynb) | ![Colab Solution — unavailable](https://img.shields.io/badge/Colab-Solution-9CA3AF?style=for-the-badge&logo=googlecolab&logoColor=D1D5DB&labelColor=6B7280) |
+
+[![Download Messy Titanic CSV](https://img.shields.io/badge/Download-Messy_Titanic_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_titanic.csv)
+
+For Colab, download and upload `messy_titanic.csv` using the Files panel. **Milestones:** Mini-project 1 and Quiz 1, as specified in the [course schedule](rsc/Schedule.md).
+
+---
+
+## 🧩 Mini-project 1
+
+### Service Ticket Data Pipeline
+
+Prepare a synthetic service-ticket dataset using NumPy and Pandas: validate records, handle missing values, create features, and export the results with an audit trail.
+
+| 📋 Brief | 🧩 Student | 🌐 Colab |
+| :---: | :---: | :---: |
+| [![Project Brief](https://img.shields.io/badge/Project_1-Brief-0078D4?style=for-the-badge&logoColor=white)](prj/Project-1/BRIEF.md) | [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/prj/Project-1/project_1_student.ipynb) | [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/prj/Project-1/project_1_student.ipynb) |
+
+[![Download Tickets CSV](https://img.shields.io/badge/Download-Service_Tickets_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/prj/Project-1/service_tickets.csv)
+
+**Individual assignment | 1.0/20 (5%) | 5-minute oral defence, without slides.**
+
+Submit the code and required deliverables in your own GitHub repository and invite **[tgvp](https://github.com/tgvp)** as a collaborator. See the brief for all submission and defence requirements; the deadline and speaking order will be announced by the lecturer.
+
+For Colab, upload `service_tickets.csv` before running the notebook.
+
+---
+
 ### 📂 Datasets
 
-Course datasets are available in the [`raw`](raw/) directory.
+Course datasets are available in the [`raw`](raw/) directory. Mini-project 1 includes its own synthetic dataset in [`prj/Project-1`](prj/Project-1/).
 
 [![Download Titanic CSV](https://img.shields.io/badge/Download-Titanic_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/titanic.csv)
