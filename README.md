@@ -110,7 +110,7 @@ For Colab, download and upload `messy_titanic.csv` using the Files panel. **Mile
 
 ---
 
-## 🧩 Mini-project 1
+## 🛠️ Mini-project 1
 
 ### Service Ticket Data Pipeline
 
