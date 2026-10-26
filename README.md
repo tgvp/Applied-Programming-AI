@@ -84,10 +84,10 @@ The complete course schedule, including the weekly topics and planned activities
 
 DataFrames, selection and filtering, transformations, data types, and exploration of datasets.
 
-| 🧩 Student | 🔒 Solution (coming soon) |
+| 🧩 Student | ✅ Solution |
 | :---: | :---: |
-| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | ![GitHub Solution — unavailable](https://img.shields.io/badge/GitHub-Solution-9CA3AF?style=for-the-badge&logo=github&logoColor=D1D5DB&labelColor=6B7280) |
-| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | ![Colab Solution — unavailable](https://img.shields.io/badge/Colab-Solution-9CA3AF?style=for-the-badge&logo=googlecolab&logoColor=D1D5DB&labelColor=6B7280) |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | [![GitHub Solution](https://img.shields.io/badge/GitHub-Solution-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-solution.ipynb) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-student.ipynb) | [![Colab Solution](https://img.shields.io/badge/Colab-Solution-238636?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-2/mia-pr-week-2-solution.ipynb) |
 
 [![Download Titanic CSV](https://img.shields.io/badge/Download-Titanic_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/titanic.csv)
 
