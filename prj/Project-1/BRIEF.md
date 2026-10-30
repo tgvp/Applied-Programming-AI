@@ -2,7 +2,7 @@
 
 **Applied Programming for AI | Individual assignment | Contribution: 1.0/20 (5%)**
 
-This is the Week 3 milestone in the [course schedule](../../rsc/Schedule.md). Use NumPy and Pandas; scikit-learn pipelines and model training belong to later weeks. Submit through your own GitHub repository as described at the end of this brief. The submission deadline, collaboration and AI-assistance conditions will be announced by the lecturer. Estimated independent work: 3–4 hours.
+This is the Week 3 milestone in the [course schedule](../../rsc/Schedule.md). Submit through your own GitHub repository as described at the end of this brief. The submission deadline, collaboration and AI-assistance conditions will be announced by the lecturer.
 
 ### Getting started
 
