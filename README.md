@@ -95,7 +95,7 @@ DataFrames, selection and filtering, transformations, data types, and exploratio
 
 ## 📆 Week 3
 
-### Data Preparation
+### Data Wrangling
 
 Data cleaning with the messy Titanic dataset: data types, missing values, categorical encoding, feature engineering, scaling, validation, and export. Includes practical examples of cleaning dates in different formats.
 
