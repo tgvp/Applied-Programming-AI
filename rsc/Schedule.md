@@ -11,9 +11,9 @@ The sequence starts with Python and numerical computation, moves through data pr
 | 1 | Python environment, NumPy, and vectorised computation | Python and NumPy foundations |
 | 2 | Pandas: DataFrames, selection, transformation, and data types | Explore a real dataset |
 | 3 | Data preparation: missing values, categorical data, scaling, and features | Mini-project 1: Data Pipeline · Quiz 1 |
-| 4 | Scikit-learn pipelines: `Pipeline`, `ColumnTransformer`, and estimators | Build a reproducible pipeline |
-| 5 | ML experimentation: data splits, cross-validation, metrics, leakage, and reproducibility | Run a complete experiment |
-| 6 | Model selection: tuning, comparison, and experiment organisation | Mini-project 2: ML Experiment · Quiz 2 |
+| 4 | Exploratory data analysis: distributions, group comparisons, and relationships | Use visual evidence to interpret Titanic passenger distributions and survival rates |
+| 5 | Scikit-learn pipelines: `Pipeline`, `ColumnTransformer`, estimators, and train/test splits | Fit a reproducible preprocessing and prediction pipeline on training data and evaluate on held-out data |
+| 6 | ML experimentation and model selection: cross-validation, metrics, leakage, tuning, and comparison | Mini-project 2: ML Experiment · Quiz 2 |
 | 7 | PyTorch I: tensors, autograd, and `nn.Module` | Build a basic model |
 | 8 | PyTorch II: `Dataset`, `DataLoader`, training, and validation loops | Complete a training loop · Theoretical Test 1 |
 | 9 | PyTorch III: regularisation, checkpoints, and monitoring | Mini-project 3: PyTorch Model · Quiz 3 |
