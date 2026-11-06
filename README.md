@@ -110,6 +110,36 @@ For Colab, download and upload `messy_titanic.csv` using the Files panel. **Mile
 
 ---
 
+## 📆 Week 4
+
+### Exploratory Data Analysis
+
+Explore the cleaned Titanic data from Week 3 using descriptive statistics, frequency tables, histograms, boxplots, and a scatter plot.
+
+| 🧩 Student | 🔒 Solution (coming soon) |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-4/mia-pr-week-4-student.ipynb) | ![GitHub Solution — unavailable](https://img.shields.io/badge/GitHub-Solution-9CA3AF?style=for-the-badge&logo=github&logoColor=D1D5DB&labelColor=6B7280) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-4/mia-pr-week-4-student.ipynb) | ![Colab Solution — unavailable](https://img.shields.io/badge/Colab-Solution-9CA3AF?style=for-the-badge&logo=googlecolab&logoColor=D1D5DB&labelColor=6B7280) |
+
+[![Download Clean Titanic CSV](https://img.shields.io/badge/Download-Clean_Titanic_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/titanic_clean.csv)
+
+For Colab, download and upload `titanic_clean.csv` using the Files panel.
+
+---
+
+## 📆 Week 5
+
+### Preprocessing Pipelines
+
+Prepare the UCI Adult dataset for modeling with scikit-learn pipelines for encoding categorical features and scaling numerical features.
+
+| 🧩 Student | 🔒 Solution (coming soon) |
+| :---: | :---: |
+| [![GitHub Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-5/mia-pr-week-5-student.ipynb) | ![GitHub Solution — unavailable](https://img.shields.io/badge/GitHub-Solution-9CA3AF?style=for-the-badge&logo=github&logoColor=D1D5DB&labelColor=6B7280) |
+| [![Colab Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-5/mia-pr-week-5-student.ipynb) | ![Colab Solution — unavailable](https://img.shields.io/badge/Colab-Solution-9CA3AF?style=for-the-badge&logo=googlecolab&logoColor=D1D5DB&labelColor=6B7280) |
+
+---
+
 ## 🛠️ Mini-project 1
 
 ### Service Ticket Data Pipeline
@@ -127,6 +157,7 @@ Prepare a synthetic service-ticket dataset using NumPy and Pandas: validate reco
 Submit the code and required deliverables in your own GitHub repository and invite **[tgvp](https://github.com/tgvp)** as a collaborator. See the brief for all submission and defence requirements; the deadline and speaking order will be announced by the lecturer.
 
 For Colab, upload `service_tickets.csv` before running the notebook.
+
 
 ---
 
