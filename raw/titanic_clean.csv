@@ -1,0 +1,892 @@
+survived,pclass,sex,age,sibsp,parch,fare,adult_male,deck,embark_town,passengerId,name,age_imputed,fare_imputed,is_child,family_size,class,embarked,fare_bin,age_fare_ratio,age_group,surname,is_alone
+False,3,male,22.0,1,0,7.25,True,unknown,southampton,T3-1912-S-P0001,Dustin Flores,False,False,False,2,Third,S,Low,3.0344827586206895,young_adult,Flores,False
+True,1,female,38.0,1,0,71.2833,False,C,cherbourg,T1-1912-C-P0001,Mary Tyler,False,False,False,2,First,C,Very High,0.5330841866187452,adult,Tyler,False
+True,3,female,26.0,0,0,7.925,False,unknown,southampton,T3-1912-S-P0002,Anna Mendoza,False,False,False,1,Third,S,Low,3.280757097791798,young_adult,Mendoza,True
+True,1,female,35.0,1,0,53.1,False,C,southampton,T1-1912-S-P0001,Debra Pearson,False,False,False,2,First,S,Very High,0.6591337099811676,adult,Pearson,False
+False,3,male,35.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0003,Anthony Taylor,False,False,False,1,Third,S,Medium,4.3478260869565215,adult,Taylor,True
+False,3,male,28.0,0,0,8.4583,True,unknown,queenstown,T3-1912-Q-P0001,Eric Mayo,True,False,False,1,Third,Q,Medium,3.3103578733315207,young_adult,Mayo,True
+False,1,male,54.0,0,0,51.8625,True,E,southampton,T1-1912-S-P0002,Brian James,False,False,False,1,First,S,Very High,1.0412147505422995,adult,James,True
+False,3,male,2.0,3,1,21.075,False,unknown,southampton,T3-1912-S-P0004,Tyler Smith,False,False,True,5,Third,S,High,0.09489916963226572,child,Smith,False
+True,3,female,27.0,0,2,11.1333,False,unknown,southampton,T3-1912-S-P0005,Robin Dodson,False,False,False,3,Third,S,Medium,2.425156961547789,young_adult,Dodson,False
+True,2,female,14.0,1,0,30.0708,False,unknown,cherbourg,T2-1912-C-P0001,Sandra Ward,False,False,False,2,Second,C,Very High,0.465567926360456,teen,Ward,False
+True,3,female,4.0,1,1,16.7,False,G,southampton,T3-1912-S-P0006,Kimberly Stevenson DDS,False,False,True,3,Third,S,High,0.23952095808383234,child,DDS,False
+True,1,female,58.0,0,0,26.55,False,C,southampton,T1-1912-S-P0003,Michelle Wood,False,False,False,1,First,S,High,2.184557438794727,adult,Wood,True
+False,3,male,20.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0007,Russell Carey,False,False,False,1,Third,S,Medium,2.484472049689441,young_adult,Carey,True
+False,3,male,39.0,1,5,31.275,True,unknown,southampton,T3-1912-S-P0008,Ryan Parker,False,False,False,7,Third,S,Very High,1.2470023980815348,adult,Parker,False
+False,3,female,14.0,0,0,7.8542,False,unknown,southampton,T3-1912-S-P0009,Whitney Wong,False,False,False,1,Third,S,Low,1.7824858037737772,teen,Wong,True
+True,2,female,55.0,0,0,16.0,False,unknown,southampton,T2-1912-S-P0001,Monica Park,False,False,False,1,Second,S,High,3.4375,adult,Park,True
+False,3,male,2.0,4,1,29.125,False,unknown,queenstown,T3-1912-Q-P0002,Mr. Ian Wolfe,False,False,True,6,Third,Q,High,0.06866952789699571,child,Wolfe,False
+True,2,male,28.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0002,David Lester,True,False,False,1,Second,S,Medium,2.1538461538461537,young_adult,Lester,True
+False,3,female,31.0,1,0,18.0,False,unknown,southampton,T3-1912-S-P0010,Kimberly Lin,False,False,False,2,Third,S,High,1.7222222222222223,young_adult,Lin,False
+True,3,female,28.0,0,0,7.225,False,unknown,cherbourg,T3-1912-C-P0001,Wendy Taylor,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Taylor,True
+False,2,male,35.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0003,Andrew Wright,False,True,False,1,Second,S,Medium,2.4214415187281206,adult,Wright,True
+True,2,male,34.0,0,0,13.0,True,D,southampton,T2-1912-S-P0004,Bruce Young,False,False,False,1,Second,S,Medium,2.6153846153846154,young_adult,Young,True
+True,3,female,15.0,0,0,8.0292,False,unknown,queenstown,T3-1912-Q-P0003,Maria Stephens,False,False,False,1,Third,Q,Medium,1.8681811388432223,teen,Stephens,True
+True,1,male,28.0,0,0,35.5,True,A,southampton,T1-1912-S-P0004,Robert Harrell,False,False,False,1,First,S,Very High,0.7887323943661971,young_adult,Harrell,True
+False,3,female,8.0,3,1,21.075,False,unknown,southampton,T3-1912-S-P0011,Wanda Coffey,False,False,True,5,Third,S,High,0.37959667852906287,child,Coffey,False
+True,3,female,38.0,1,5,31.3875,False,unknown,southampton,T3-1912-S-P0012,Amy Cole,False,False,False,7,Third,S,Very High,1.210673038630028,adult,Cole,False
+False,3,male,28.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0002,Mark Black,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Black,True
+False,1,male,19.0,3,2,263.0,True,C,southampton,T1-1912-S-P0005,Nathan Cisneros,False,False,False,6,First,S,Very High,0.07224334600760456,young_adult,Cisneros,False
+True,3,female,28.0,0,0,7.8792,False,unknown,queenstown,T3-1912-Q-P0004,Cynthia Flores,True,False,False,1,Third,Q,Low,3.5536602700781805,young_adult,Flores,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0013,Philip Drake,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Drake,True
+False,1,male,40.0,0,0,27.7208,True,unknown,cherbourg,T1-1912-C-P0002,Francisco Joseph,False,False,False,1,First,C,High,1.4429597991399958,adult,Joseph,True
+True,1,female,28.0,1,0,146.5208,False,B,cherbourg,T1-1912-C-P0003,Mckenzie Cisneros,True,False,False,2,First,C,Very High,0.19109914769780126,young_adult,Cisneros,False
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0005,Taylor Smith,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Smith,True
+False,2,male,66.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0005,Jonathan Hart,False,False,False,1,Second,S,Medium,6.285714285714286,senior,Hart,True
+False,1,male,28.0,1,0,14.4542,True,unknown,cherbourg,T1-1912-C-P0004,Robert Mendez,False,True,False,2,First,C,Medium,1.9371532149824964,young_adult,Mendez,False
+False,1,male,42.0,1,0,52.0,True,unknown,southampton,T1-1912-S-P0006,Alan Mills,False,False,False,2,First,S,Very High,0.8076923076923077,adult,Mills,False
+True,3,male,28.0,0,0,14.4542,True,unknown,cherbourg,T3-1912-C-P0003,Christian Henderson,True,True,False,1,Third,C,Medium,1.9371532149824964,young_adult,Henderson,True
+False,3,male,21.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0014,Paul Shaw,False,False,False,1,Third,S,Medium,2.6086956521739126,young_adult,Shaw,True
+False,3,female,18.0,2,0,18.0,False,unknown,southampton,T3-1912-S-P0015,Tracy Harper,False,False,False,3,Third,S,High,1.0,young_adult,Harper,False
+True,3,female,14.0,1,0,11.2417,False,unknown,cherbourg,T3-1912-C-P0004,Karen Lopez,False,False,False,2,Third,C,Medium,1.2453632457724366,teen,Lopez,False
+False,3,female,40.0,1,0,9.475,False,unknown,southampton,T3-1912-S-P0016,Kimberly Johnson,False,False,False,2,Third,S,Medium,4.221635883905013,adult,Johnson,False
+False,2,female,27.0,1,0,14.4542,False,unknown,southampton,T2-1912-S-P0006,Natalie Nichols,False,True,False,2,Second,S,Medium,1.8679691715902644,young_adult,Nichols,False
+False,3,male,28.0,0,0,7.8958,True,unknown,cherbourg,T3-1912-C-P0005,Francisco Gilmore,True,False,False,1,Third,C,Low,3.5461891131994223,young_adult,Gilmore,True
+True,2,female,3.0,1,2,41.5792,False,unknown,cherbourg,T2-1912-C-P0002,Kathryn Smith,False,False,True,4,Second,C,Very High,0.07215146034555739,child,Smith,False
+True,3,female,19.0,0,0,7.8792,False,unknown,queenstown,T3-1912-Q-P0006,Tamara Castaneda,False,False,False,1,Third,Q,Low,2.4114123261244798,young_adult,Castaneda,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0017,Brandon Holt,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Holt,True
+False,3,male,28.0,1,0,15.5,True,unknown,queenstown,T3-1912-Q-P0007,Frank Richardson,True,False,False,2,Third,Q,High,1.8064516129032258,young_adult,Richardson,False
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0008,Kathryn Perry,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Perry,True
+False,3,male,28.0,2,0,21.6792,True,unknown,cherbourg,T3-1912-C-P0006,Charles Anderson,True,False,False,3,Third,C,High,1.2915605741909295,young_adult,Anderson,False
+False,3,female,18.0,1,0,17.8,False,unknown,southampton,T3-1912-S-P0018,Amy Jenkins,False,False,False,2,Third,S,High,1.0112359550561798,young_adult,Jenkins,False
+False,3,male,7.0,4,1,39.6875,False,unknown,southampton,T3-1912-S-P0019,Lawrence Sherman,False,False,True,6,Third,S,Very High,0.1763779527559055,child,Sherman,False
+False,3,male,21.0,0,0,7.8,True,unknown,southampton,T3-1912-S-P0020,Tony Mathews,False,False,False,1,Third,S,Low,2.6923076923076925,young_adult,Mathews,True
+True,1,female,49.0,1,0,76.7292,False,D,cherbourg,T1-1912-C-P0005,Brittany Parrish,False,False,False,2,First,C,Very High,0.638609551513635,adult,Parrish,False
+True,2,female,29.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0007,Kimberly Ellis,False,False,False,2,Second,S,High,1.1153846153846154,young_adult,Ellis,False
+False,1,male,65.0,0,1,61.9792,True,B,cherbourg,T1-1912-C-P0006,Harry Williams,False,False,False,2,First,C,Very High,1.0487389317706586,senior,Williams,False
+True,1,male,28.0,0,0,35.5,True,C,southampton,T1-1912-S-P0007,Dale Pope,True,False,False,1,First,S,Very High,0.7887323943661971,young_adult,Pope,True
+True,2,female,21.0,0,0,10.5,False,unknown,southampton,T2-1912-S-P0008,Regina Ryan,False,False,False,1,Second,S,Medium,2.0,young_adult,Ryan,True
+False,3,male,28.5,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0007,Shannon Perez,False,False,False,1,Third,C,Low,3.942344934432579,young_adult,Perez,True
+True,2,female,5.0,1,2,27.75,False,unknown,southampton,T2-1912-S-P0009,Ann Ramos,False,False,True,4,Second,S,High,0.18018018018018017,child,Ramos,False
+False,3,male,11.0,5,2,14.4542,False,unknown,southampton,T3-1912-S-P0021,Timothy Mercado,False,True,True,8,Third,S,Medium,0.7610244773145521,child,Mercado,False
+False,3,male,22.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0008,Aaron Gonzalez,False,False,False,1,Third,C,Low,3.0432136335970785,young_adult,Gonzalez,True
+True,1,female,38.0,0,0,80.0,False,B,unknown,T1-1912-U-P0001,Kelly Smith,False,False,False,1,First,unknown,Very High,0.475,adult,Smith,True
+False,1,male,45.0,1,0,83.475,True,C,southampton,T1-1912-S-P0008,Jerry Little,False,False,False,2,First,S,Very High,0.5390835579514826,adult,Little,False
+False,3,male,4.0,3,2,27.9,False,unknown,southampton,T3-1912-S-P0022,Jeremy Olson,False,False,True,6,Third,S,High,0.14336917562724016,child,Olson,False
+False,1,male,28.0,0,0,27.7208,True,unknown,cherbourg,T1-1912-C-P0007,Anthony Gonzalez,True,False,False,1,First,C,High,1.0100718593979972,young_adult,Gonzalez,True
+True,3,male,28.0,1,1,15.2458,True,unknown,cherbourg,T3-1912-C-P0009,Christopher Decker,True,False,False,3,Third,C,High,1.8365713835941704,young_adult,Decker,False
+True,2,female,29.0,0,0,10.5,False,F,southampton,T2-1912-S-P0010,Sherry Hill,False,False,False,1,Second,S,Medium,2.761904761904762,young_adult,Hill,True
+False,3,male,19.0,0,0,8.1583,True,unknown,southampton,T3-1912-S-P0023,David Ware,False,False,False,1,Third,S,Medium,2.3289165634997486,young_adult,Ware,True
+True,3,female,17.0,4,2,7.925,False,unknown,southampton,T3-1912-S-P0024,Jessica Copeland,False,False,False,7,Third,S,Low,2.145110410094637,teen,Copeland,False
+False,3,male,26.0,2,0,8.6625,True,unknown,southampton,T3-1912-S-P0025,Aaron Smith,False,False,False,3,Third,S,Medium,3.0014430014430014,young_adult,Smith,False
+False,2,male,32.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0011,Gregory Hernandez,False,False,False,1,Second,S,Medium,3.0476190476190474,young_adult,Hernandez,True
+False,3,female,16.0,5,2,46.9,False,unknown,southampton,T3-1912-S-P0026,Christina Warner,False,False,False,8,Third,S,Very High,0.3411513859275053,teen,Warner,False
+False,2,male,21.0,0,0,73.5,True,unknown,southampton,T2-1912-S-P0012,Jason Baker,False,False,False,1,Second,S,Very High,0.2857142857142857,young_adult,Baker,True
+False,3,male,26.0,1,0,14.4542,True,unknown,cherbourg,T3-1912-C-P0010,Anthony Parker,False,False,False,2,Third,C,Medium,1.7987851281980325,young_adult,Parker,False
+True,3,male,32.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0027,John Shannon,False,False,False,1,Third,S,Very High,0.5664137865115637,young_adult,Shannon,True
+False,3,male,25.0,0,0,7.65,True,F,southampton,T3-1912-S-P0028,Clayton Nash,False,False,False,1,Third,S,Low,3.2679738562091503,young_adult,Nash,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0029,Chris Brown,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Brown,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0030,Stephen Ramsey,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Ramsey,True
+True,2,male,0.83,0,2,29.0,False,unknown,southampton,T2-1912-S-P0013,Daniel Montoya,False,False,True,3,Second,S,High,0.028620689655172414,child,Montoya,False
+True,3,female,30.0,0,0,12.475,False,unknown,southampton,T3-1912-S-P0031,Mary Saunders,False,False,False,1,Third,S,Medium,2.404809619238477,young_adult,Saunders,True
+False,3,male,22.0,0,0,9.0,True,unknown,southampton,T3-1912-S-P0032,Tom Boyle,False,False,False,1,Third,S,Medium,2.4444444444444446,young_adult,Boyle,True
+True,3,male,29.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0033,Roger Valdez,False,False,False,1,Third,S,Medium,3.0526315789473686,young_adult,Valdez,True
+True,3,female,28.0,0,0,7.7875,False,unknown,queenstown,T3-1912-Q-P0009,Kaitlyn Guzman,True,False,False,1,Third,Q,Low,3.5955056179775284,young_adult,Guzman,True
+False,1,male,28.0,0,0,47.1,True,unknown,southampton,T1-1912-S-P0009,Brett Ruiz,False,False,False,1,First,S,Very High,0.5944798301486199,young_adult,Ruiz,True
+True,2,female,17.0,0,0,10.5,False,unknown,southampton,T2-1912-S-P0014,Jennifer Rodriguez,False,False,False,1,Second,S,Medium,1.619047619047619,teen,Rodriguez,True
+True,3,female,33.0,3,0,15.85,False,unknown,southampton,T3-1912-S-P0034,Teresa Smith,False,False,False,4,Third,S,High,2.082018927444795,young_adult,Smith,False
+False,3,male,16.0,1,3,34.375,True,unknown,southampton,T3-1912-S-P0035,Andrew Griffith,False,False,False,5,Third,S,Very High,0.46545454545454545,teen,Griffith,False
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0036,Nathaniel Avila,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Avila,True
+True,1,female,23.0,3,2,263.0,False,C,southampton,T1-1912-S-P0010,Elizabeth Preston,False,False,False,6,First,S,Very High,0.08745247148288973,young_adult,Preston,False
+False,3,male,24.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0037,John Wilson,False,False,False,1,Third,S,Medium,2.981366459627329,young_adult,Wilson,True
+False,3,male,29.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0038,Brian Wright,False,False,False,1,Third,S,Medium,3.602484472049689,young_adult,Wright,True
+False,3,male,20.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0039,Jesse Taylor,False,False,False,1,Third,S,Low,2.546408291105396,young_adult,Taylor,True
+False,1,male,46.0,1,0,61.175,True,E,southampton,T1-1912-S-P0011,Douglas Sanders DDS,False,False,False,2,First,S,Very High,0.7519411524315489,adult,DDS,False
+False,3,male,26.0,1,2,20.575,True,unknown,southampton,T3-1912-S-P0040,Donald Johnson,False,False,False,4,Third,S,High,1.2636695018226003,young_adult,Johnson,False
+False,3,male,59.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0041,Cesar Walters,False,False,False,1,Third,S,Low,8.137931034482758,adult,Walters,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0042,William Kennedy,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Kennedy,True
+False,1,male,71.0,0,0,34.6542,True,A,cherbourg,T1-1912-C-P0008,Cole Hurley,False,False,False,1,First,C,Very High,2.048813708006533,senior,Hurley,True
+True,1,male,23.0,0,1,63.3583,True,D,cherbourg,T1-1912-C-P0009,Ryan Robbins,False,False,False,2,First,C,Very High,0.3630147904852245,young_adult,Robbins,False
+True,2,female,34.0,0,1,23.0,False,unknown,southampton,T2-1912-S-P0015,Whitney Adams,False,False,False,2,Second,S,High,1.4782608695652173,young_adult,Adams,False
+False,2,male,34.0,1,0,26.0,True,unknown,southampton,T2-1912-S-P0016,Jeffrey Martinez,False,False,False,2,Second,S,High,1.3076923076923077,young_adult,Martinez,False
+False,3,female,28.0,0,0,7.8958,False,unknown,southampton,T3-1912-S-P0043,Nicole Tate,False,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Tate,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0044,William Roberts,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Roberts,True
+False,1,male,21.0,0,1,77.2875,True,D,southampton,T1-1912-S-P0012,John Parks,False,False,False,2,First,S,Very High,0.27171276079573026,young_adult,Parks,False
+False,3,male,33.0,0,0,8.6542,True,unknown,southampton,T3-1912-S-P0045,Michael Shea,False,False,False,1,Third,S,Medium,3.8131774167456265,young_adult,Shea,True
+False,3,male,37.0,2,0,7.925,True,unknown,southampton,T3-1912-S-P0046,William Griffin,False,False,False,3,Third,S,Low,4.668769716088328,adult,Griffin,False
+False,3,male,28.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0047,Dr. Kevin Turner,False,True,False,1,Third,S,Medium,1.9371532149824964,young_adult,Turner,True
+True,3,female,21.0,0,0,7.65,False,unknown,southampton,T3-1912-S-P0048,Vanessa Ford,False,False,False,1,Third,S,Low,2.7450980392156863,young_adult,Ford,True
+True,3,male,28.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0049,Robert Murphy,True,False,False,1,Third,S,Low,3.6012861736334405,young_adult,Murphy,True
+False,3,male,38.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0050,Matthew Hopkins,False,False,False,1,Third,S,Low,4.8126852250563585,adult,Hopkins,True
+True,3,female,28.0,1,0,14.4542,False,unknown,queenstown,T3-1912-Q-P0010,Nichole Nguyen,True,True,False,2,Third,Q,Medium,1.9371532149824964,young_adult,Nguyen,False
+False,1,male,47.0,0,0,52.0,True,C,southampton,T1-1912-S-P0013,William Reyes,False,False,False,1,First,S,Very High,0.9038461538461539,adult,Reyes,True
+False,3,female,14.5,1,0,14.4542,False,unknown,cherbourg,T3-1912-C-P0011,Yvonne Marshall,False,False,False,2,Third,C,Medium,1.0031686291873643,teen,Marshall,False
+False,3,male,22.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0051,Oscar Wong,False,False,False,1,Third,S,Medium,2.732919254658385,young_adult,Wong,True
+False,3,female,20.0,1,0,9.825,False,unknown,southampton,T3-1912-S-P0052,Sabrina Sosa,False,False,False,2,Third,S,Medium,2.035623409669211,young_adult,Sosa,False
+False,3,female,17.0,0,0,14.4583,False,unknown,cherbourg,T3-1912-C-P0012,Valerie Wright,False,False,False,1,Third,C,High,1.1757952179716842,teen,Wright,True
+False,3,male,21.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0053,Benjamin Marks,False,False,False,1,Third,S,Low,2.6498422712933754,young_adult,Marks,True
+False,3,male,70.5,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0011,George Vincent,False,False,False,1,Third,Q,Low,9.096774193548388,senior,Vincent,True
+False,2,male,29.0,1,0,21.0,True,unknown,southampton,T2-1912-S-P0017,Scott Chase,False,False,False,2,Second,S,High,1.380952380952381,young_adult,Chase,False
+False,1,male,24.0,0,1,247.5208,True,B,cherbourg,T1-1912-C-P0010,Kenneth Farrell,False,False,False,2,First,C,Very High,0.09696154828200296,young_adult,Farrell,False
+False,3,female,2.0,4,2,14.4542,False,unknown,southampton,T3-1912-S-P0054,Jaclyn Williams,False,True,True,7,Third,S,Medium,0.13836808678446402,child,Williams,False
+False,2,male,21.0,2,0,73.5,True,unknown,southampton,T2-1912-S-P0018,Gregory Edwards,False,False,False,3,Second,S,Very High,0.2857142857142857,young_adult,Edwards,False
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0055,James Ellis,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Ellis,True
+False,2,male,32.5,1,0,30.0708,True,unknown,cherbourg,T2-1912-C-P0003,Matthew Jones,False,False,False,2,Second,C,Very High,1.0807826861939158,young_adult,Jones,False
+True,2,female,32.5,0,0,13.0,False,E,southampton,T2-1912-S-P0019,Christie Morgan,False,False,False,1,Second,S,Medium,2.5,young_adult,Morgan,True
+False,1,male,54.0,0,1,77.2875,True,D,southampton,T1-1912-S-P0014,Robert Soto,False,False,False,2,First,S,Very High,0.6986899563318778,adult,Soto,False
+True,3,male,12.0,1,0,11.2417,False,unknown,cherbourg,T3-1912-C-P0013,Jason Johnson,False,False,False,2,Third,C,Medium,1.0674542106620886,teen,Johnson,False
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0012,Brett Henry,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Henry,True
+True,3,male,24.0,0,0,7.1417,True,unknown,southampton,T3-1912-S-P0056,Thomas Coleman,False,False,False,1,Third,S,Low,3.3605444081941274,young_adult,Coleman,True
+True,3,female,28.0,1,1,22.3583,False,F,cherbourg,T3-1912-C-P0014,Diana Ritter,True,False,False,3,Third,C,High,1.2523313489844934,young_adult,Ritter,False
+False,3,male,45.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0057,Gregory Thomas,False,True,False,1,Third,S,Medium,3.1132819526504405,adult,Thomas,True
+False,3,male,33.0,0,0,7.8958,True,unknown,cherbourg,T3-1912-C-P0015,Chad Ross,False,False,False,1,Third,C,Low,4.17943716912789,young_adult,Ross,True
+False,3,male,20.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0058,Richard Wilson,False,False,False,1,Third,S,Low,2.8368794326241136,young_adult,Wilson,True
+False,3,female,47.0,1,0,14.5,False,unknown,southampton,T3-1912-S-P0059,Sonia Wood,False,False,False,2,Third,S,High,3.2413793103448274,adult,Wood,False
+True,2,female,29.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0020,Angela Santos,False,False,False,2,Second,S,High,1.1153846153846154,young_adult,Santos,False
+False,2,male,25.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0021,Keith Thomas,False,False,False,1,Second,S,Medium,1.9230769230769231,young_adult,Thomas,True
+False,2,male,23.0,0,0,15.0458,True,unknown,cherbourg,T2-1912-C-P0004,Mr. Bryan Pittman,False,False,False,1,Second,C,High,1.5286658070690824,young_adult,Pittman,True
+True,1,female,19.0,0,2,26.2833,False,D,southampton,T1-1912-S-P0015,Margaret Brown,False,False,False,3,First,S,High,0.7228924830595853,young_adult,Brown,False
+False,1,male,37.0,1,0,53.1,True,C,southampton,T1-1912-S-P0016,Michael Hart,False,False,False,2,First,S,Very High,0.6967984934086628,adult,Hart,False
+False,3,male,16.0,0,0,9.2167,True,unknown,southampton,T3-1912-S-P0060,Cody Phillips,False,False,False,1,Third,S,Medium,1.7359792550479023,teen,Phillips,True
+False,1,male,24.0,0,0,79.2,True,B,cherbourg,T1-1912-C-P0011,George Bell,False,False,False,1,First,C,Very High,0.30303030303030304,young_adult,Bell,True
+False,3,female,28.0,0,2,15.2458,False,unknown,cherbourg,T3-1912-C-P0016,Kelsey Torres,True,False,False,3,Third,C,High,1.8365713835941704,young_adult,Torres,False
+True,3,female,22.0,0,0,7.75,False,unknown,southampton,T3-1912-S-P0061,Lisa Stephens,False,False,False,1,Third,S,Low,2.838709677419355,young_adult,Stephens,True
+True,3,female,24.0,1,0,15.85,False,unknown,southampton,T3-1912-S-P0062,Jessica Lewis,False,False,False,2,Third,S,High,1.5141955835962146,young_adult,Lewis,False
+False,3,male,19.0,0,0,6.75,True,unknown,queenstown,T3-1912-Q-P0013,Jorge Boyer,False,False,False,1,Third,Q,Low,2.814814814814815,young_adult,Boyer,True
+False,2,male,18.0,0,0,11.5,True,unknown,southampton,T2-1912-S-P0022,Reginald Garcia,False,False,False,1,Second,S,Medium,1.565217391304348,young_adult,Garcia,True
+False,2,male,19.0,1,1,36.75,True,unknown,southampton,T2-1912-S-P0023,Marcus Gill,False,False,False,3,Second,S,Very High,0.5170068027210885,young_adult,Gill,False
+True,3,male,27.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0063,Adam Huff,False,False,False,1,Third,S,Low,3.4634033710459478,young_adult,Huff,True
+False,3,female,9.0,2,2,34.375,False,unknown,southampton,T3-1912-S-P0064,Tracy Rodriguez,False,False,True,5,Third,S,Very High,0.26181818181818184,child,Rodriguez,False
+False,2,male,36.5,0,2,26.0,True,F,southampton,T2-1912-S-P0024,Nathan Bowman,False,False,False,3,Second,S,High,1.4038461538461537,adult,Bowman,False
+False,2,male,42.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0025,Daniel Ross,False,False,False,1,Second,S,Medium,3.230769230769231,adult,Ross,True
+False,2,male,51.0,0,0,12.525,True,unknown,southampton,T2-1912-S-P0026,Michael Young,False,False,False,1,Second,S,Medium,4.07185628742515,adult,Young,True
+True,1,female,22.0,1,0,14.4542,False,C,southampton,T1-1912-S-P0017,Kristin Patterson,False,True,False,2,First,S,Medium,1.5220489546291043,young_adult,Patterson,False
+False,3,male,55.5,0,0,8.05,True,unknown,southampton,T3-1912-S-P0065,Gregory Duncan,False,False,False,1,Third,S,Medium,6.894409937888198,adult,Duncan,True
+False,3,male,40.5,0,2,14.5,True,unknown,southampton,T3-1912-S-P0066,Michael Smith,False,False,False,3,Third,S,High,2.793103448275862,adult,Smith,False
+False,3,male,28.0,0,0,7.3125,True,unknown,southampton,T3-1912-S-P0067,William Wilson MD,True,False,False,1,Third,S,Low,3.8290598290598292,young_adult,MD,True
+False,1,male,51.0,0,1,61.3792,True,unknown,cherbourg,T1-1912-C-P0012,Erik Richards,False,False,False,2,First,C,Very High,0.8309003701579689,adult,Richards,False
+True,3,female,16.0,0,0,7.7333,False,unknown,queenstown,T3-1912-Q-P0014,Amanda Woods,False,False,False,1,Third,Q,Low,2.068974435234635,teen,Woods,True
+False,3,male,30.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0068,James Cook,False,False,False,1,Third,S,Medium,3.726708074534161,young_adult,Cook,True
+False,3,male,28.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0069,Jimmy Patterson,True,False,False,1,Third,S,Medium,3.2323232323232323,young_adult,Patterson,True
+False,3,male,28.0,8,2,69.55,True,unknown,southampton,T3-1912-S-P0070,Christopher Garcia,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Garcia,False
+False,3,male,44.0,0,1,16.1,True,unknown,southampton,T3-1912-S-P0071,Joshua Neal,False,False,False,2,Third,S,High,2.732919254658385,adult,Neal,False
+True,2,female,40.0,0,0,15.75,False,unknown,southampton,T2-1912-S-P0027,Stacey Rocha,False,False,False,1,Second,S,High,2.5396825396825395,adult,Rocha,True
+False,3,male,26.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0072,Preston Kennedy,False,False,False,1,Third,S,Low,3.3440514469453375,young_adult,Kennedy,True
+False,3,male,17.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0073,Christopher Barajas Jr.,False,False,False,1,Third,S,Medium,1.9624819624819625,teen,Jr.,True
+False,3,male,1.0,4,1,39.6875,False,unknown,southampton,T3-1912-S-P0074,Michael Reid,False,False,True,6,Third,S,Very High,0.025196850393700787,child,Reid,False
+True,3,male,9.0,0,2,20.525,False,unknown,southampton,T3-1912-S-P0075,Travis Yang,False,False,True,3,Third,S,High,0.438489646772229,child,Yang,False
+True,1,female,28.0,0,1,55.0,False,E,southampton,T1-1912-S-P0018,Jasmine Spears,True,False,False,2,First,S,Very High,0.509090909090909,young_adult,Spears,False
+False,3,female,45.0,1,4,27.9,False,unknown,southampton,T3-1912-S-P0076,Samantha Howard,False,False,False,6,Third,S,High,1.6129032258064517,adult,Howard,False
+False,1,male,28.0,0,0,25.925,True,unknown,southampton,T1-1912-S-P0019,Joseph Hayes,True,False,False,1,First,S,High,1.0800385728061717,young_adult,Hayes,True
+False,3,male,28.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0077,Dr. Jared Hayden II,False,False,False,1,Third,S,Very High,0.4956120631976182,young_adult,II,True
+False,1,male,61.0,0,0,33.5,True,B,southampton,T1-1912-S-P0020,Michael Henderson,False,False,False,1,First,S,Very High,1.8208955223880596,senior,Henderson,True
+False,3,male,4.0,4,1,14.4542,False,unknown,queenstown,T3-1912-Q-P0015,Richard Clark,False,True,True,6,Third,Q,Medium,0.27673617356892805,child,Clark,False
+True,3,female,1.0,1,1,11.1333,False,unknown,southampton,T3-1912-S-P0078,Bethany Collins,False,False,True,3,Third,S,Medium,0.08982062820547367,child,Collins,False
+False,3,male,21.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0079,Steven Burgess,False,False,False,1,Third,S,Low,2.6498422712933754,young_adult,Burgess,True
+False,1,male,56.0,0,0,30.6958,True,A,cherbourg,T1-1912-C-P0013,Jeffrey Boone,False,False,False,1,First,C,Very High,1.8243538203923664,adult,Boone,True
+False,3,male,18.0,1,1,14.4542,True,unknown,southampton,T3-1912-S-P0080,Timothy Walker,False,True,False,3,Third,S,Medium,1.2453127810601763,young_adult,Walker,False
+False,3,male,28.0,3,1,25.4667,True,unknown,southampton,T3-1912-S-P0081,Michael Coffey,True,False,False,5,Third,S,High,1.0994750006871719,young_adult,Coffey,False
+False,1,female,50.0,0,0,28.7125,False,C,cherbourg,T1-1912-C-P0014,Kimberly Mckinney,False,False,False,1,First,C,High,1.74140182847192,adult,Mckinney,True
+False,2,male,30.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0028,Brian Garcia,False,False,False,1,Second,S,Medium,2.3076923076923075,young_adult,Garcia,True
+False,3,male,36.0,0,0,0.0,True,unknown,southampton,T3-1912-S-P0082,James Marshall,False,False,False,1,Third,S,Low,,adult,Marshall,True
+False,3,female,28.0,8,2,69.55,False,unknown,southampton,T3-1912-S-P0083,Angelica Floyd,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Floyd,False
+False,2,male,28.0,0,0,15.05,True,unknown,cherbourg,T2-1912-C-P0005,Robert Kidd,True,False,False,1,Second,C,High,1.8604651162790697,young_adult,Kidd,True
+False,3,male,9.0,4,2,31.3875,False,unknown,southampton,T3-1912-S-P0084,Steven Reynolds,False,False,True,7,Third,S,Very High,0.2867383512544803,child,Reynolds,False
+True,2,male,1.0,2,1,39.0,False,F,southampton,T2-1912-S-P0029,Richard Carpenter,False,False,True,4,Second,S,Very High,0.02564102564102564,child,Carpenter,False
+True,3,female,4.0,0,2,22.025,False,unknown,southampton,T3-1912-S-P0085,Nicole Castro,False,False,True,3,Third,S,High,0.1816118047673099,child,Castro,False
+False,1,male,28.0,0,0,50.0,True,A,southampton,T1-1912-S-P0021,Taylor Yoder,True,False,False,1,First,S,Very High,0.56,young_adult,Yoder,True
+True,3,female,28.0,1,0,15.5,False,unknown,queenstown,T3-1912-Q-P0016,Daisy Adams,True,False,False,2,Third,Q,High,1.8064516129032258,young_adult,Adams,False
+True,1,male,45.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0022,Anthony Scott,False,False,False,1,First,S,High,1.694915254237288,adult,Scott,True
+False,3,male,40.0,1,1,15.5,True,unknown,queenstown,T3-1912-Q-P0017,Jonathon Vasquez,False,False,False,3,Third,Q,High,2.5806451612903225,adult,Vasquez,False
+False,3,male,36.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0086,Ryan Roberts,False,False,False,1,Third,S,Low,4.559386002684971,adult,Roberts,True
+True,2,female,32.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0030,Danielle Marshall,False,False,False,1,Second,S,Medium,2.4615384615384617,young_adult,Marshall,True
+False,2,male,19.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0031,Aaron Cantu,False,True,False,1,Second,S,Medium,1.3144968244524082,young_adult,Cantu,True
+True,3,female,19.0,1,0,7.8542,False,unknown,southampton,T3-1912-S-P0087,Lori Alvarez,False,False,False,2,Third,S,Low,2.419087876550126,young_adult,Alvarez,False
+True,2,male,3.0,1,1,26.0,False,F,southampton,T2-1912-S-P0032,John Flores,False,False,True,3,Second,S,High,0.11538461538461539,child,Flores,False
+True,1,female,44.0,0,0,27.7208,False,B,cherbourg,T1-1912-C-P0015,Alexis Aguirre,False,False,False,1,First,C,High,1.5872557790539956,adult,Aguirre,True
+True,1,female,58.0,0,0,146.5208,False,B,cherbourg,T1-1912-C-P0016,Maria York,False,False,False,1,First,C,Very High,0.395848234516874,adult,York,True
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0018,James Pratt,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Pratt,True
+False,3,male,42.0,0,1,8.4042,True,unknown,southampton,T3-1912-S-P0088,Brian Cline,False,False,False,2,Third,S,Medium,4.997501249375313,adult,Cline,False
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0019,Marisa Lewis,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Lewis,True
+False,2,female,24.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0033,Carrie Brown,False,False,False,1,Second,S,Medium,1.8461538461538463,young_adult,Brown,True
+False,3,male,28.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0089,Shane Moore,False,False,False,1,Third,S,Medium,2.9473684210526314,young_adult,Moore,True
+False,3,male,28.0,8,2,69.55,True,unknown,southampton,T3-1912-S-P0090,Harold Taylor,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Taylor,False
+False,3,male,34.0,0,0,6.4958,True,unknown,southampton,T3-1912-S-P0091,James Hernandez,False,False,False,1,Third,S,Low,5.23415129776163,young_adult,Hernandez,True
+False,3,male,45.5,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0017,Brian Thomas,False,False,False,1,Third,C,Low,6.297577854671281,adult,Thomas,True
+True,3,male,18.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0092,John Randall Jr.,False,False,False,1,Third,S,Medium,2.2360248447204967,young_adult,Jr.,True
+False,3,female,2.0,0,1,10.4625,False,G,southampton,T3-1912-S-P0093,Ashley Smith,False,False,True,2,Third,S,Medium,0.19115890083632017,child,Smith,False
+False,3,male,32.0,1,0,15.85,True,unknown,southampton,T3-1912-S-P0094,David Henry,False,False,False,2,Third,S,High,2.0189274447949526,young_adult,Henry,False
+True,3,male,26.0,0,0,18.7875,True,unknown,cherbourg,T3-1912-C-P0018,Corey Hill,False,False,False,1,Third,C,High,1.383898868928809,young_adult,Hill,True
+True,3,female,16.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0020,Karen Jackson,False,False,False,1,Third,Q,Low,2.064516129032258,teen,Jackson,True
+True,1,male,40.0,0,0,31.0,True,A,cherbourg,T1-1912-C-P0017,Robert May DDS,False,False,False,1,First,C,Very High,1.2903225806451613,adult,DDS,True
+False,3,male,24.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0095,Wayne Brown III,False,False,False,1,Third,S,Low,3.404255319148936,young_adult,III,True
+True,2,female,35.0,0,0,21.0,False,unknown,southampton,T2-1912-S-P0034,Sandy Lozano,False,False,False,1,Second,S,High,1.6666666666666667,adult,Lozano,True
+False,3,male,22.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0096,Ivan Tran,False,False,False,1,Third,S,Low,3.0344827586206895,young_adult,Tran,True
+False,2,male,30.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0035,Matthew Hutchinson,False,False,False,1,Second,S,Medium,2.3076923076923075,young_adult,Hutchinson,True
+False,3,male,28.0,1,0,7.75,True,unknown,queenstown,T3-1912-Q-P0021,Jeffrey Mclaughlin,True,False,False,2,Third,Q,Low,3.6129032258064515,young_adult,Mclaughlin,False
+True,1,female,31.0,1,0,113.275,False,D,cherbourg,T1-1912-C-P0018,Donna Nguyen,False,False,False,2,First,C,Very High,0.2736702714632531,young_adult,Nguyen,False
+True,3,female,27.0,0,0,7.925,False,unknown,southampton,T3-1912-S-P0097,Emily Lynch,False,False,False,1,Third,S,Low,3.406940063091483,young_adult,Lynch,True
+False,2,male,42.0,1,0,27.0,True,unknown,southampton,T2-1912-S-P0036,Justin Powers,False,False,False,2,Second,S,High,1.5555555555555556,adult,Powers,False
+True,1,female,32.0,0,0,14.4542,False,D,cherbourg,T1-1912-C-P0019,Taylor Brooks,False,True,False,1,First,C,Medium,2.2138893885514244,young_adult,Brooks,True
+False,2,male,30.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0037,Terry Valdez,False,False,False,1,Second,S,Medium,2.857142857142857,young_adult,Valdez,True
+True,3,male,16.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0098,Cory Cunningham,False,False,False,1,Third,S,Medium,1.9875776397515525,teen,Cunningham,True
+False,2,male,27.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0038,Alfred Burke,False,False,False,1,Second,S,Medium,2.076923076923077,young_adult,Burke,True
+False,3,male,51.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0099,Michael Smith,False,False,False,1,Third,S,Medium,6.335403726708074,adult,Smith,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0100,David Salazar,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Salazar,True
+True,1,male,38.0,1,0,90.0,True,C,southampton,T1-1912-S-P0023,Joseph Delacruz,False,False,False,2,First,S,Very High,0.4222222222222222,adult,Delacruz,False
+False,3,male,22.0,0,0,9.35,True,unknown,southampton,T3-1912-S-P0101,Andrew Mckinney,False,False,False,1,Third,S,Medium,2.3529411764705883,young_adult,Mckinney,True
+True,2,male,19.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0039,Luis Moss,False,False,False,1,Second,S,Medium,1.8095238095238095,young_adult,Moss,True
+False,3,male,20.5,0,0,7.25,True,unknown,southampton,T3-1912-S-P0102,Shawn Stein,False,False,False,1,Third,S,Low,2.8275862068965516,young_adult,Stein,True
+False,2,male,18.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0040,William Nguyen,False,False,False,1,Second,S,Medium,1.3846153846153846,young_adult,Nguyen,True
+False,3,female,28.0,3,1,25.4667,False,unknown,southampton,T3-1912-S-P0103,Kara Butler,True,False,False,5,Third,S,High,1.0994750006871719,young_adult,Butler,False
+True,1,female,35.0,1,0,83.475,False,C,southampton,T1-1912-S-P0024,Teresa Lane,False,False,False,2,First,S,Very High,0.41928721174004197,adult,Lane,False
+False,3,male,29.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0104,Edward Whitaker,False,False,False,1,Third,S,Low,3.729903536977492,young_adult,Whitaker,True
+False,2,male,59.0,0,0,13.5,True,unknown,southampton,T2-1912-S-P0041,Rick Farmer,False,False,False,1,Second,S,Medium,4.37037037037037,adult,Farmer,True
+True,3,female,5.0,4,2,14.4542,False,unknown,southampton,T3-1912-S-P0105,Erica Gomez,False,True,True,7,Third,S,Medium,0.3459202169611601,child,Gomez,False
+False,2,male,24.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0042,William Wiley,False,False,False,1,Second,S,Medium,2.2857142857142856,young_adult,Wiley,True
+False,3,female,28.0,0,0,7.55,False,unknown,southampton,T3-1912-S-P0106,Nicole White,True,False,False,1,Third,S,Low,3.708609271523179,young_adult,White,True
+False,2,male,44.0,1,0,26.0,True,unknown,southampton,T2-1912-S-P0043,Christopher Booth,False,False,False,2,Second,S,High,1.6923076923076923,adult,Booth,False
+True,2,female,8.0,0,2,26.25,False,unknown,southampton,T2-1912-S-P0044,Ashley Taylor,False,False,True,3,Second,S,High,0.3047619047619048,child,Taylor,False
+False,2,male,19.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0045,Dustin Hicks,False,False,False,1,Second,S,Medium,1.8095238095238095,young_adult,Hicks,True
+False,2,male,33.0,0,0,12.275,True,unknown,southampton,T2-1912-S-P0046,Matthew Garcia,False,False,False,1,Second,S,Medium,2.6883910386965377,young_adult,Garcia,True
+False,3,female,28.0,1,0,14.4542,False,unknown,cherbourg,T3-1912-C-P0019,Erin Matthews,True,False,False,2,Third,C,Medium,1.9371532149824964,young_adult,Matthews,False
+True,3,female,28.0,1,0,15.5,False,unknown,queenstown,T3-1912-Q-P0022,Brandy Bailey,True,False,False,2,Third,Q,High,1.8064516129032258,young_adult,Bailey,False
+False,2,male,29.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0047,Tyler Smith,False,False,False,1,Second,S,Medium,2.761904761904762,young_adult,Smith,True
+False,3,male,22.0,0,0,7.125,True,unknown,southampton,T3-1912-S-P0107,Matthew Graham,False,False,False,1,Third,S,Low,3.087719298245614,young_adult,Graham,True
+False,3,male,30.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0020,Richard Green,False,False,False,1,Third,C,Low,4.152249134948097,young_adult,Green,True
+False,1,male,44.0,2,0,90.0,True,C,queenstown,T1-1912-Q-P0001,Dean Ford,False,False,False,3,First,Q,Very High,0.4888888888888889,adult,Ford,False
+False,3,female,25.0,0,0,7.775,False,unknown,southampton,T3-1912-S-P0108,Melinda Taylor,False,False,False,1,Third,S,Low,3.215434083601286,young_adult,Taylor,True
+True,2,female,24.0,0,2,14.5,False,unknown,southampton,T2-1912-S-P0048,Mrs. Ashley Crawford PhD,False,False,False,3,Second,S,High,1.6551724137931034,young_adult,PhD,False
+True,1,male,37.0,1,1,52.5542,True,D,southampton,T1-1912-S-P0025,Richard Walker,False,False,False,3,First,S,Very High,0.7040350723633886,adult,Walker,False
+False,2,male,54.0,1,0,14.4542,True,unknown,southampton,T2-1912-S-P0049,Michael Baker,False,True,False,2,Second,S,Medium,3.735938343180529,adult,Baker,False
+False,3,male,28.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0109,William Schwartz,True,False,False,1,Third,S,Low,3.8620689655172415,young_adult,Schwartz,True
+False,3,female,29.0,1,1,10.4625,False,G,southampton,T3-1912-S-P0110,Mary Wright,False,False,False,3,Third,S,Medium,2.771804062126643,young_adult,Wright,False
+False,1,male,62.0,0,0,26.55,True,C,southampton,T1-1912-S-P0026,Kevin Johnson,False,False,False,1,First,S,High,2.335216572504708,senior,Johnson,True
+False,3,male,30.0,1,0,16.1,True,unknown,southampton,T3-1912-S-P0111,Jorge Lopez,False,False,False,2,Third,S,High,1.8633540372670805,young_adult,Lopez,False
+False,3,female,41.0,0,2,20.2125,False,unknown,southampton,T3-1912-S-P0112,Kimberly Miller,False,False,False,3,Third,S,High,2.0284477427334573,adult,Miller,False
+True,3,female,29.0,0,2,15.2458,False,unknown,cherbourg,T3-1912-C-P0021,Stephanie Herrera,False,False,False,3,Third,C,High,1.9021632187225335,young_adult,Herrera,False
+True,1,female,28.0,0,0,79.2,False,unknown,cherbourg,T1-1912-C-P0020,Amanda Sparks,True,False,False,1,First,C,Very High,0.35353535353535354,young_adult,Sparks,True
+True,1,female,30.0,0,0,86.5,False,B,southampton,T1-1912-S-P0027,Denise Anthony,False,False,False,1,First,S,Very High,0.3468208092485549,young_adult,Anthony,True
+True,1,female,35.0,0,0,512.3292,False,unknown,cherbourg,T1-1912-C-P0021,Sarah Barnes,False,False,False,1,First,C,Very High,0.06831545030031472,adult,Barnes,True
+True,2,female,50.0,0,1,26.0,False,unknown,southampton,T2-1912-S-P0050,Paula Morgan,False,False,False,2,Second,S,High,1.9230769230769231,adult,Morgan,False
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0023,Ricardo Bates,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Bates,True
+True,3,male,3.0,4,2,31.3875,False,unknown,southampton,T3-1912-S-P0113,Jose Robbins,False,False,True,7,Third,S,Very High,0.0955794504181601,child,Robbins,False
+False,1,male,52.0,1,1,79.65,True,E,southampton,T1-1912-S-P0028,Francisco King,False,False,False,3,First,S,Very High,0.652856246076585,adult,King,False
+False,1,male,40.0,0,0,0.0,True,B,southampton,T1-1912-S-P0029,Jason Trujillo,False,False,False,1,First,S,Low,,adult,Trujillo,True
+False,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0024,Joy Ward,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Ward,True
+False,2,male,36.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0051,Christopher Gross,False,False,False,1,Second,S,Medium,3.4285714285714284,adult,Gross,True
+False,3,male,16.0,4,1,39.6875,True,unknown,southampton,T3-1912-S-P0114,Richard Thomas,False,False,False,6,Third,S,Very High,0.4031496062992126,teen,Thomas,False
+True,3,male,25.0,1,0,7.775,True,unknown,southampton,T3-1912-S-P0115,Mr. Robert Lewis,False,False,False,2,Third,S,Low,3.215434083601286,young_adult,Lewis,False
+True,1,female,58.0,0,1,153.4625,False,C,southampton,T1-1912-S-P0030,Christina Frederick,False,False,False,2,First,S,Very High,0.37794249409464853,adult,Frederick,False
+True,1,female,35.0,0,0,14.4542,False,C,southampton,T1-1912-S-P0031,Bethany Gallegos,False,True,False,1,First,S,Medium,2.4214415187281206,adult,Gallegos,True
+False,1,male,28.0,0,0,31.0,True,unknown,southampton,T1-1912-S-P0032,Patrick Welch,True,False,False,1,First,S,Very High,0.9032258064516129,young_adult,Welch,True
+True,3,male,25.0,0,0,0.0,True,unknown,southampton,T3-1912-S-P0116,Matthew Jones,False,False,False,1,Third,S,Low,,young_adult,Jones,True
+True,2,female,41.0,0,1,19.5,False,unknown,southampton,T2-1912-S-P0052,Tanya Brown,False,False,False,2,Second,S,High,2.1025641025641026,adult,Brown,False
+False,1,male,37.0,0,1,29.7,True,C,cherbourg,T1-1912-C-P0022,Thomas Fischer,False,False,False,2,First,C,High,1.245791245791246,adult,Fischer,False
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0025,Jessica Reed,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Reed,True
+True,1,female,63.0,1,0,77.9583,False,D,southampton,T1-1912-S-P0033,Amanda Adams,False,False,False,2,First,S,Very High,0.8081243433989711,senior,Adams,False
+False,3,female,45.0,0,0,7.75,False,unknown,southampton,T3-1912-S-P0117,Heather Martin,False,False,False,1,Third,S,Low,5.806451612903226,adult,Martin,True
+False,2,male,28.0,0,0,0.0,True,unknown,southampton,T2-1912-S-P0053,Michael Zamora,True,False,False,1,Second,S,Low,,young_adult,Zamora,True
+False,3,male,7.0,4,1,29.125,False,unknown,queenstown,T3-1912-Q-P0026,Gregory Bell,False,False,True,6,Third,Q,High,0.24034334763948498,child,Bell,False
+True,3,female,35.0,1,1,20.25,False,unknown,southampton,T3-1912-S-P0118,Christy Smith,False,False,False,3,Third,S,High,1.728395061728395,adult,Smith,False
+False,3,male,65.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0027,Donald Wells,False,False,False,1,Third,Q,Low,8.387096774193548,senior,Wells,True
+False,3,male,28.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0119,Dakota Jackson,False,False,False,1,Third,S,Low,3.5649716075475544,young_adult,Jackson,True
+False,3,male,16.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0120,Jason Ali,False,False,False,1,Third,S,Medium,1.6842105263157894,teen,Ali,True
+True,3,male,19.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0121,Thomas Chavez,False,False,False,1,Third,S,Medium,2.3602484472049685,young_adult,Chavez,True
+False,1,male,28.0,0,0,26.0,True,A,southampton,T1-1912-S-P0034,James Smith,True,False,False,1,First,S,High,1.0769230769230769,young_adult,Smith,True
+False,3,male,33.0,0,0,8.6625,True,unknown,cherbourg,T3-1912-C-P0022,Nathaniel King,False,False,False,1,Third,C,Medium,3.8095238095238098,young_adult,King,True
+True,3,male,30.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0122,Brandon Moss,False,False,False,1,Third,S,Medium,3.1578947368421053,young_adult,Moss,True
+False,3,male,22.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0123,Jeffrey Garcia,False,False,False,1,Third,S,Low,2.7862914460852606,young_adult,Garcia,True
+True,2,male,42.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0054,Brian Anderson,False,False,False,1,Second,S,Medium,3.230769230769231,adult,Anderson,True
+True,3,female,22.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0028,Jessica Chapman,False,False,False,1,Third,Q,Low,2.838709677419355,young_adult,Chapman,True
+True,1,female,26.0,0,0,78.85,False,unknown,southampton,T1-1912-S-P0035,Samantha Taylor,False,False,False,1,First,S,Very High,0.3297400126823082,young_adult,Taylor,True
+True,1,female,19.0,1,0,91.0792,False,B,cherbourg,T1-1912-C-P0023,Deborah Dalton,False,False,False,2,First,C,Very High,0.20860964962362427,young_adult,Dalton,False
+False,2,male,36.0,0,0,12.875,True,D,cherbourg,T2-1912-C-P0006,John Lopez,False,False,False,1,Second,C,Medium,2.796116504854369,adult,Lopez,True
+False,3,female,24.0,0,0,8.85,False,unknown,southampton,T3-1912-S-P0124,Lisa White,False,False,False,1,Third,S,Medium,2.7118644067796613,young_adult,White,True
+False,3,male,24.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0125,James Wise,False,False,False,1,Third,S,Low,3.039590668456648,young_adult,Wise,True
+False,1,male,28.0,0,0,27.7208,True,unknown,cherbourg,T1-1912-C-P0024,Mark Lawrence,True,False,False,1,First,C,High,1.0100718593979972,young_adult,Lawrence,True
+False,3,male,23.5,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0023,Nicholas King MD,False,False,False,1,Third,C,Low,3.250705472251425,young_adult,MD,True
+False,1,female,2.0,1,2,151.55,False,C,southampton,T1-1912-S-P0036,Wanda Smith,False,False,True,4,First,S,Very High,0.013196964698119432,child,Smith,False
+True,1,male,28.0,0,0,30.5,True,C,southampton,T1-1912-S-P0037,Jason Todd,True,False,False,1,First,S,Very High,0.9180327868852459,young_adult,Todd,True
+True,1,female,50.0,0,1,247.5208,False,B,cherbourg,T1-1912-C-P0025,Stephanie Kelly,False,False,False,2,First,C,Very High,0.20200322558750616,adult,Kelly,False
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0029,Shannon Bender,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Bender,True
+True,3,male,28.0,2,0,23.25,True,unknown,queenstown,T3-1912-Q-P0030,Anthony Blair,True,False,False,3,Third,Q,High,1.2043010752688172,young_adult,Blair,False
+False,3,male,19.0,0,0,0.0,True,unknown,southampton,T3-1912-S-P0126,Christopher Jackson,False,False,False,1,Third,S,Low,,young_adult,Jackson,True
+True,2,female,28.0,0,0,12.35,False,E,queenstown,T2-1912-Q-P0001,Anna Aguilar,True,False,False,1,Second,Q,Medium,2.2672064777327936,young_adult,Aguilar,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0127,Matthew Nguyen,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Nguyen,True
+True,1,male,0.92,1,2,151.55,False,C,southampton,T1-1912-S-P0038,Randy Rogers,False,False,True,4,First,S,Very High,0.006070603761134939,child,Rogers,False
+True,1,female,28.0,0,0,110.8833,False,unknown,cherbourg,T1-1912-C-P0026,Brenda Miller,True,False,False,1,First,C,Very High,0.25251773711640974,young_adult,Miller,True
+True,1,female,17.0,1,0,108.9,False,C,cherbourg,T1-1912-C-P0027,Tiffany Mckenzie,False,False,False,2,First,C,Very High,0.15610651974288337,teen,Mckenzie,False
+False,2,male,30.0,1,0,24.0,True,unknown,cherbourg,T2-1912-C-P0007,Brian Sherman,False,False,False,2,Second,C,High,1.25,young_adult,Sherman,False
+True,1,female,30.0,0,0,14.4542,False,E,cherbourg,T1-1912-C-P0028,Cynthia Anderson,False,True,False,1,First,C,Medium,2.0755213017669605,young_adult,Anderson,True
+True,1,female,24.0,0,0,83.1583,False,C,cherbourg,T1-1912-C-P0029,Rachel Duffy,False,False,False,1,First,C,Very High,0.2886061884381956,young_adult,Duffy,True
+True,1,female,18.0,2,2,262.375,False,B,cherbourg,T1-1912-C-P0030,Beth Harrison,False,False,False,5,First,C,Very High,0.06860409718913768,young_adult,Harrison,False
+False,2,female,26.0,1,1,26.0,False,unknown,southampton,T2-1912-S-P0055,Katherine Matthews,False,False,False,3,Second,S,High,1.0,young_adult,Matthews,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0128,Danny Baldwin,False,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Baldwin,True
+False,2,male,43.0,1,1,26.25,True,unknown,southampton,T2-1912-S-P0056,Patrick Henderson,False,False,False,3,Second,S,High,1.638095238095238,adult,Henderson,False
+True,3,female,26.0,0,0,7.8542,False,unknown,southampton,T3-1912-S-P0129,Brittany Hernandez,False,False,False,1,Third,S,Low,3.310330778437015,young_adult,Hernandez,True
+True,2,female,24.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0057,Kathleen Hoffman,False,False,False,2,Second,S,High,0.9230769230769231,young_adult,Hoffman,False
+False,2,male,54.0,0,0,14.0,True,unknown,southampton,T2-1912-S-P0058,Alan Rose,False,False,False,1,Second,S,Medium,3.857142857142857,adult,Rose,True
+True,1,female,31.0,0,2,164.8667,False,C,southampton,T1-1912-S-P0039,Laura Brooks,False,False,False,3,First,S,Very High,0.18803069388785,young_adult,Brooks,False
+True,1,female,40.0,1,1,134.5,False,E,cherbourg,T1-1912-C-P0031,Tiffany Bennett,False,False,False,3,First,C,Very High,0.29739776951672864,adult,Bennett,False
+False,3,male,22.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0130,Edward Hanson,False,False,False,1,Third,S,Low,3.0344827586206895,young_adult,Hanson,True
+False,3,male,27.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0131,Leonard Johnson,False,False,False,1,Third,S,Low,3.4195395020137287,young_adult,Johnson,True
+True,2,female,30.0,0,0,12.35,False,unknown,queenstown,T2-1912-Q-P0002,Tracy Pittman,False,False,False,1,Second,Q,Medium,2.4291497975708505,young_adult,Pittman,True
+True,2,female,22.0,1,1,29.0,False,unknown,southampton,T2-1912-S-P0059,Angela Riley,False,False,False,3,Second,S,High,0.7586206896551724,young_adult,Riley,False
+False,3,male,28.0,8,2,69.55,True,unknown,southampton,T3-1912-S-P0132,Daniel Torres,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Torres,False
+True,1,female,36.0,0,0,135.6333,False,C,cherbourg,T1-1912-C-P0032,Linda Johnson,False,False,False,1,First,C,Very High,0.2654215447091533,adult,Johnson,True
+False,3,male,61.0,0,0,6.2375,True,unknown,southampton,T3-1912-S-P0133,Dylan Graham,False,False,False,1,Third,S,Low,9.779559118236474,senior,Graham,True
+True,2,female,36.0,0,0,13.0,False,D,southampton,T2-1912-S-P0060,Lisa Hunter,False,False,False,1,Second,S,Medium,2.769230769230769,adult,Hunter,True
+True,3,female,31.0,1,1,20.525,False,unknown,southampton,T3-1912-S-P0134,Dana Barajas,False,False,False,3,Third,S,High,1.510353227771011,young_adult,Barajas,False
+True,1,female,16.0,0,1,57.9792,False,B,cherbourg,T1-1912-C-P0033,Lisa Harper,False,False,False,2,First,C,Very High,0.27596103430195656,teen,Harper,False
+True,3,female,28.0,2,0,23.25,False,unknown,queenstown,T3-1912-Q-P0031,Alexa Acevedo,True,False,False,3,Third,Q,High,1.2043010752688172,young_adult,Acevedo,False
+False,1,male,45.5,0,0,28.5,True,C,southampton,T1-1912-S-P0040,Steve Duarte,False,False,False,1,First,S,High,1.5964912280701755,adult,Duarte,True
+False,1,male,38.0,0,1,153.4625,True,C,southampton,T1-1912-S-P0041,Luis Flores,False,False,False,2,First,S,Very High,0.2476174961309766,adult,Flores,False
+False,3,male,16.0,2,0,18.0,True,unknown,southampton,T3-1912-S-P0135,Casey Williams,False,False,False,3,Third,S,High,0.8888888888888888,teen,Williams,False
+True,1,female,28.0,1,0,14.4542,False,unknown,southampton,T1-1912-S-P0042,Natasha Powell,True,True,False,2,First,S,Medium,1.9371532149824964,young_adult,Powell,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0136,John Rodriguez MD,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,MD,True
+False,1,male,29.0,1,0,66.6,True,C,southampton,T1-1912-S-P0043,David Harris,False,False,False,2,First,S,Very High,0.43543543543543545,young_adult,Harris,False
+True,1,female,41.0,0,0,134.5,False,E,cherbourg,T1-1912-C-P0034,Linda Schneider,False,False,False,1,First,C,Very High,0.3048327137546468,adult,Schneider,True
+True,3,male,45.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0137,Samuel Grant,False,False,False,1,Third,S,Medium,5.590062111801242,adult,Grant,True
+False,1,male,45.0,0,0,35.5,True,unknown,southampton,T1-1912-S-P0044,Brandon Wyatt,False,False,False,1,First,S,Very High,1.267605633802817,adult,Wyatt,True
+True,2,male,2.0,1,1,26.0,False,F,southampton,T2-1912-S-P0061,Evan Rios,False,False,True,3,Second,S,High,0.07692307692307693,child,Rios,False
+True,1,female,24.0,3,2,263.0,False,C,southampton,T1-1912-S-P0045,Jessica Drake,False,False,False,6,First,S,Very High,0.09125475285171103,young_adult,Drake,False
+False,2,male,28.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0062,Andrew Leach,False,False,False,1,Second,S,Medium,2.1538461538461537,young_adult,Leach,True
+False,2,male,25.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0063,Luke Jones,False,False,False,1,Second,S,Medium,1.9230769230769231,young_adult,Jones,True
+False,2,male,36.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0064,Steven Brown,False,False,False,1,Second,S,Medium,2.769230769230769,adult,Brown,True
+True,2,female,24.0,0,0,14.4542,False,F,southampton,T2-1912-S-P0065,Jordan Johnson,False,True,False,1,Second,S,Medium,1.6604170414135684,young_adult,Johnson,True
+True,2,female,40.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0066,Mary Quinn,False,False,False,1,Second,S,Medium,3.076923076923077,adult,Quinn,True
+True,3,female,28.0,1,0,16.1,False,unknown,southampton,T3-1912-S-P0138,Maureen Holland,True,False,False,2,Third,S,High,1.7391304347826086,young_adult,Holland,False
+True,3,male,3.0,1,1,15.9,False,unknown,southampton,T3-1912-S-P0139,Sean Jacobson,False,False,True,3,Third,S,High,0.18867924528301885,child,Jacobson,False
+False,3,male,42.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0140,Mr. Joshua Estrada,False,False,False,1,Third,S,Medium,4.848484848484849,adult,Estrada,True
+False,3,male,23.0,0,0,9.225,True,unknown,southampton,T3-1912-S-P0141,Cody Klein,False,False,False,1,Third,S,Medium,2.4932249322493227,young_adult,Klein,True
+False,1,male,28.0,0,0,35.0,True,C,southampton,T1-1912-S-P0046,Jeffrey West,True,False,False,1,First,S,Very High,0.8,young_adult,West,True
+False,3,male,15.0,1,1,14.4542,False,unknown,cherbourg,T3-1912-C-P0024,Corey Weaver,False,True,False,3,Third,C,Medium,1.0377606508834802,teen,Weaver,False
+False,3,male,25.0,1,0,17.8,True,unknown,southampton,T3-1912-S-P0142,Julian Turner,False,False,False,2,Third,S,High,1.4044943820224718,young_adult,Turner,False
+False,3,male,28.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0025,Michael Thompson,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Thompson,True
+False,3,male,28.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0143,Eric Carpenter,False,False,False,1,Third,S,Medium,2.9473684210526314,young_adult,Carpenter,True
+True,1,female,22.0,0,1,55.0,False,E,southampton,T1-1912-S-P0047,Kelly Graves,False,False,False,2,First,S,Very High,0.4,young_adult,Graves,False
+False,2,female,38.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0067,Breanna King,False,False,False,1,Second,S,Medium,2.923076923076923,adult,King,True
+True,3,female,28.0,0,0,7.8792,False,unknown,queenstown,T3-1912-Q-P0032,Lisa Fields,True,False,False,1,Third,Q,Low,3.5536602700781805,young_adult,Fields,True
+True,3,female,28.0,0,0,7.8792,False,unknown,queenstown,T3-1912-Q-P0033,Rebecca Myers,True,False,False,1,Third,Q,Low,3.5536602700781805,young_adult,Myers,True
+False,3,male,40.0,1,4,27.9,True,unknown,southampton,T3-1912-S-P0144,Dalton Jones,False,False,False,6,Third,S,High,1.4336917562724014,adult,Jones,False
+False,2,male,29.0,1,0,27.7208,True,unknown,cherbourg,T2-1912-C-P0008,James Smith,False,False,False,2,Second,C,High,1.046145854376497,young_adult,Smith,False
+False,3,female,45.0,0,1,14.4542,False,unknown,cherbourg,T3-1912-C-P0026,Tina Hodges,False,False,False,2,Third,C,Medium,3.1132819526504405,adult,Hodges,False
+False,3,male,35.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0145,Eric Mitchell,False,False,False,1,Third,S,Low,4.964539007092199,adult,Mitchell,True
+False,3,male,28.0,1,0,15.5,True,unknown,queenstown,T3-1912-Q-P0034,Marcus Freeman,True,False,False,2,Third,Q,High,1.8064516129032258,young_adult,Freeman,False
+False,3,male,30.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0146,Nicholas Weaver,False,False,False,1,Third,S,Low,4.137931034482759,young_adult,Weaver,True
+True,1,female,60.0,1,0,75.25,False,D,cherbourg,T1-1912-C-P0035,Amy Whitaker,False,False,False,2,First,C,Very High,0.7973421926910299,senior,Whitaker,False
+True,3,female,28.0,0,0,7.2292,False,unknown,cherbourg,T3-1912-C-P0027,Laura Mccullough,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Mccullough,True
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0035,April Meyer,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Meyer,True
+True,1,female,24.0,0,0,69.3,False,B,cherbourg,T1-1912-C-P0036,Sarah Martin,False,False,False,1,First,C,Very High,0.34632034632034636,young_adult,Martin,True
+True,1,male,25.0,1,0,55.4417,True,E,cherbourg,T1-1912-C-P0037,Jeremy Keller,False,False,False,2,First,C,Very High,0.4509241238995197,young_adult,Keller,False
+False,3,male,18.0,1,0,6.4958,True,unknown,southampton,T3-1912-S-P0147,David Thompson,False,False,False,2,Third,S,Low,2.771021275285569,young_adult,Thompson,False
+False,3,male,19.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0148,Scott Nelson,False,False,False,1,Third,S,Medium,2.3602484472049685,young_adult,Nelson,True
+False,1,male,22.0,0,0,135.6333,True,unknown,cherbourg,T1-1912-C-P0038,Daniel Hunt,False,False,False,1,First,C,Very High,0.16220205510003813,young_adult,Hunt,True
+False,3,female,3.0,3,1,21.075,False,unknown,southampton,T3-1912-S-P0149,Linda Garcia,False,False,True,5,Third,S,High,0.1423487544483986,child,Garcia,False
+True,1,female,28.0,1,0,82.1708,False,unknown,cherbourg,T1-1912-C-P0039,Melissa Pham,True,False,False,2,First,C,Very High,0.3407536497149839,young_adult,Pham,False
+True,3,female,22.0,0,0,14.4542,False,unknown,southampton,T3-1912-S-P0150,Tammy Clark,False,True,False,1,Third,S,Medium,1.5220489546291043,young_adult,Clark,True
+False,1,male,27.0,0,2,211.5,True,C,cherbourg,T1-1912-C-P0040,Brian Dawson,False,False,False,3,First,C,Very High,0.1276595744680851,young_adult,Dawson,False
+False,3,male,20.0,0,0,4.0125,True,unknown,cherbourg,T3-1912-C-P0028,Todd Jones,False,False,False,1,Third,C,Low,4.984423676012461,young_adult,Jones,True
+False,3,male,19.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0151,Daniel Hernandez,False,False,False,1,Third,S,Low,2.4437299035369775,young_adult,Hernandez,True
+True,1,female,42.0,0,0,227.525,False,unknown,cherbourg,T1-1912-C-P0041,Courtney Thomas,False,False,False,1,First,C,Very High,0.18459509943962202,adult,Thomas,True
+True,3,female,1.0,0,2,15.7417,False,unknown,cherbourg,T3-1912-C-P0029,Susan Dickerson,False,False,True,3,Third,C,High,0.06352554044353532,child,Dickerson,False
+False,3,male,32.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0152,Isaac Munoz,False,False,False,1,Third,S,Low,4.037854889589905,young_adult,Munoz,True
+True,1,female,35.0,1,0,52.0,False,unknown,southampton,T1-1912-S-P0048,Tracy Buchanan,False,False,False,2,First,S,Very High,0.6730769230769231,adult,Buchanan,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0153,Joel Park,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Park,True
+False,2,male,18.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0068,Austin Weber,False,True,False,1,Second,S,Medium,1.2453127810601763,young_adult,Weber,True
+False,3,male,1.0,5,2,46.9,False,unknown,southampton,T3-1912-S-P0154,Alan Horton,False,False,True,8,Third,S,Very High,0.021321961620469083,child,Horton,False
+True,2,female,36.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0069,Jordan Martin,False,False,False,1,Second,S,Medium,2.769230769230769,adult,Martin,True
+False,3,male,28.0,0,0,7.7292,True,unknown,queenstown,T3-1912-Q-P0036,Craig Mckinney,True,False,False,1,Third,Q,Low,3.6226258862495473,young_adult,Mckinney,True
+True,2,female,17.0,0,0,12.0,False,unknown,cherbourg,T2-1912-C-P0009,Tabitha Adams,False,False,False,1,Second,C,Medium,1.4166666666666667,teen,Adams,True
+True,1,male,36.0,1,2,120.0,True,B,southampton,T1-1912-S-P0049,Ronald Sanchez,False,False,False,4,First,S,Very High,0.3,adult,Sanchez,False
+True,3,male,21.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0155,Derrick Miller,False,False,False,1,Third,S,Low,2.6937581774801815,young_adult,Miller,True
+False,3,male,28.0,2,0,7.925,True,unknown,southampton,T3-1912-S-P0156,Robert Combs,False,False,False,3,Third,S,Low,3.5331230283911674,young_adult,Combs,False
+True,1,female,23.0,1,0,113.275,False,D,cherbourg,T1-1912-C-P0042,Krystal Salinas,False,False,False,2,First,C,Very High,0.20304568527918782,young_adult,Salinas,False
+True,3,female,24.0,0,2,16.7,False,G,southampton,T3-1912-S-P0157,Cheryl Williams,False,False,False,3,Third,S,High,1.437125748502994,young_adult,Williams,False
+False,3,male,22.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0158,Joshua Mccormick,False,False,False,1,Third,S,Low,2.8220323764078095,young_adult,Mccormick,True
+False,3,female,31.0,0,0,7.8542,False,unknown,southampton,T3-1912-S-P0159,Amanda Ayala,False,False,False,1,Third,S,Low,3.9469328512133637,young_adult,Ayala,True
+False,2,male,46.0,0,0,26.0,True,unknown,southampton,T2-1912-S-P0070,Allen Rodriguez,False,False,False,1,Second,S,High,1.7692307692307692,adult,Rodriguez,True
+False,2,male,23.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0071,Daniel Park,False,False,False,1,Second,S,Medium,2.1904761904761907,young_adult,Park,True
+True,2,female,28.0,0,0,12.65,False,unknown,southampton,T2-1912-S-P0072,Shelly Lopez,False,False,False,1,Second,S,Medium,2.2134387351778657,young_adult,Lopez,True
+True,3,male,39.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0160,Kyle Merritt,False,False,False,1,Third,S,Low,4.921135646687698,adult,Merritt,True
+False,3,male,26.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0161,Cory Parker,False,False,False,1,Third,S,Medium,3.229813664596273,young_adult,Parker,True
+False,3,female,21.0,1,0,9.825,False,unknown,southampton,T3-1912-S-P0162,Rachel Adams,False,False,False,2,Third,S,Medium,2.1374045801526718,young_adult,Adams,False
+False,3,male,28.0,1,0,15.85,True,unknown,southampton,T3-1912-S-P0163,Christopher Brown,False,False,False,2,Third,S,High,1.7665615141955837,young_adult,Brown,False
+False,3,female,20.0,0,0,8.6625,False,unknown,southampton,T3-1912-S-P0164,Jennifer Wilkins,False,False,False,1,Third,S,Medium,2.308802308802309,young_adult,Wilkins,True
+False,2,male,34.0,1,0,14.4542,True,unknown,southampton,T2-1912-S-P0073,Ryan Stewart,False,True,False,2,Second,S,Medium,2.3522574753358887,young_adult,Stewart,False
+False,3,male,51.0,0,0,7.75,True,unknown,southampton,T3-1912-S-P0165,Justin Brown,False,False,False,1,Third,S,Low,6.580645161290323,adult,Brown,True
+True,2,male,3.0,1,1,18.75,False,unknown,southampton,T2-1912-S-P0074,Peter Flowers,False,False,True,3,Second,S,High,0.16,child,Flowers,False
+False,3,male,21.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0166,Cory Johnson,False,False,False,1,Third,S,Low,2.70096463022508,young_adult,Johnson,True
+False,3,female,28.0,3,1,25.4667,False,unknown,southampton,T3-1912-S-P0167,Kaitlin Castro,True,False,False,5,Third,S,High,1.0994750006871719,young_adult,Castro,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0168,John Lee,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Lee,True
+False,3,male,28.0,0,0,6.8583,True,unknown,queenstown,T3-1912-Q-P0037,Ethan Johnston,True,False,False,1,Third,Q,Low,4.082644387093011,young_adult,Johnston,True
+True,1,female,33.0,1,0,14.4542,False,C,queenstown,T1-1912-Q-P0002,Kathy Hayes,False,True,False,2,First,Q,Medium,2.2830734319436563,young_adult,Hayes,False
+False,2,male,28.0,0,0,0.0,True,unknown,southampton,T2-1912-S-P0075,Gregory Carlson,True,False,False,1,Second,S,Low,,young_adult,Carlson,True
+True,3,male,44.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0169,Hunter Lamb,False,True,False,1,Third,S,Medium,3.0440979092582086,adult,Lamb,True
+False,3,female,28.0,0,0,8.05,False,unknown,southampton,T3-1912-S-P0170,Rebecca Gray,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Gray,True
+True,2,female,34.0,1,1,32.5,False,unknown,southampton,T2-1912-S-P0076,Ms. Emily Haley DDS,False,False,False,3,Second,S,Very High,1.0461538461538462,young_adult,DDS,False
+True,2,female,18.0,0,2,13.0,False,unknown,southampton,T2-1912-S-P0077,Amanda Williams,False,False,False,3,Second,S,Medium,1.3846153846153846,young_adult,Williams,False
+False,2,male,30.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0078,Christopher Johnson,False,True,False,1,Second,S,Medium,2.0755213017669605,young_adult,Johnson,True
+False,3,female,10.0,0,2,24.15,False,unknown,southampton,T3-1912-S-P0171,Miss Linda Moses DDS,False,False,True,3,Third,S,High,0.4140786749482402,child,DDS,False
+False,3,male,28.0,0,0,7.8958,True,unknown,cherbourg,T3-1912-C-P0030,Timothy Wright,True,False,False,1,Third,C,Low,3.5461891131994223,young_adult,Wright,True
+False,3,male,21.0,0,0,7.7333,True,unknown,queenstown,T3-1912-Q-P0038,Bernard Mcmahon,False,False,False,1,Third,Q,Low,2.715528946245458,young_adult,Mcmahon,True
+False,3,male,29.0,0,0,7.875,True,unknown,southampton,T3-1912-S-P0172,Eric Marquez,False,False,False,1,Third,S,Low,3.6825396825396823,young_adult,Marquez,True
+False,3,female,28.0,1,1,14.4542,False,unknown,southampton,T3-1912-S-P0173,Lisa Turner,False,True,False,3,Third,S,Medium,1.9371532149824964,young_adult,Turner,False
+False,3,male,18.0,1,1,20.2125,True,unknown,southampton,T3-1912-S-P0174,Dr. Christopher Hernandez Jr.,False,False,False,3,Third,S,High,0.8905380333951763,young_adult,Jr.,False
+False,3,male,28.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0175,Mr. Luis Thompson,True,False,False,1,Third,S,Low,3.8620689655172415,young_adult,Thompson,True
+True,2,female,28.0,1,0,14.4542,False,unknown,southampton,T2-1912-S-P0079,Stephanie Turner,False,True,False,2,Second,S,Medium,1.9371532149824964,young_adult,Turner,False
+True,2,female,19.0,0,0,26.0,False,unknown,southampton,T2-1912-S-P0080,Barbara Cohen,False,False,False,1,Second,S,High,0.7307692307692307,young_adult,Cohen,True
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0039,Donald Garcia,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Garcia,True
+True,3,male,32.0,0,0,8.05,True,E,southampton,T3-1912-S-P0176,Nathan Grant,False,False,False,1,Third,S,Medium,3.975155279503105,young_adult,Grant,True
+True,1,male,28.0,0,0,26.55,True,C,southampton,T1-1912-S-P0050,Donald Sullivan,False,False,False,1,First,S,High,1.054613935969868,young_adult,Sullivan,True
+True,3,female,28.0,1,0,16.1,False,unknown,southampton,T3-1912-S-P0177,Barbara Lewis,True,False,False,2,Third,S,High,1.7391304347826086,young_adult,Lewis,False
+True,2,female,42.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0081,Sabrina Dudley,False,False,False,2,Second,S,High,1.6153846153846154,adult,Dudley,False
+False,3,male,17.0,0,0,7.125,True,unknown,southampton,T3-1912-S-P0178,Brent Campbell,False,False,False,1,Third,S,Low,2.3859649122807016,teen,Campbell,True
+False,1,male,50.0,1,0,55.9,True,E,southampton,T1-1912-S-P0051,Jose Mccormick,False,False,False,2,First,S,Very High,0.8944543828264758,adult,Mccormick,False
+True,1,female,14.0,1,2,120.0,False,B,southampton,T1-1912-S-P0052,April Beasley,False,False,False,4,First,S,Very High,0.11666666666666667,teen,Beasley,False
+False,3,female,21.0,2,2,34.375,False,unknown,southampton,T3-1912-S-P0179,Tiffany Cabrera,False,False,False,5,Third,S,Very High,0.610909090909091,young_adult,Cabrera,False
+True,2,female,24.0,2,3,18.75,False,unknown,southampton,T2-1912-S-P0082,Wendy Swanson,False,False,False,6,Second,S,High,1.28,young_adult,Swanson,False
+False,1,male,64.0,1,4,14.4542,True,C,southampton,T1-1912-S-P0053,Jacob Clark,False,True,False,6,First,S,Medium,4.427778777102849,senior,Clark,False
+False,2,male,31.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0083,Jeffrey Noble,False,False,False,1,Second,S,Medium,2.9523809523809526,young_adult,Noble,True
+True,2,female,45.0,1,1,26.25,False,unknown,southampton,T2-1912-S-P0084,Brianna Roberts,False,False,False,3,Second,S,High,1.7142857142857142,adult,Roberts,False
+False,3,male,20.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0180,Gregory Garcia,False,True,False,1,Third,S,Medium,1.3836808678446404,young_adult,Garcia,True
+False,3,male,25.0,1,0,7.775,True,unknown,southampton,T3-1912-S-P0181,Craig Bradley,False,False,False,2,Third,S,Low,3.215434083601286,young_adult,Bradley,False
+True,2,female,28.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0085,Ann Dodson DDS,False,False,False,1,Second,S,Medium,2.1538461538461537,young_adult,DDS,True
+True,3,male,28.0,0,0,8.1125,True,unknown,southampton,T3-1912-S-P0182,Michael Jones,True,False,False,1,Third,S,Medium,3.451463790446841,young_adult,Jones,True
+True,1,male,4.0,0,2,81.8583,False,A,southampton,T1-1912-S-P0054,Caleb Shepherd,False,False,True,3,First,S,Very High,0.04886492878547441,child,Shepherd,False
+True,2,female,13.0,0,1,19.5,False,unknown,southampton,T2-1912-S-P0086,Brenda Hester,False,False,False,2,Second,S,High,0.6666666666666666,teen,Hester,False
+True,1,male,34.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0055,Daniel Warner,False,False,False,1,First,S,High,1.28060263653484,young_adult,Warner,True
+True,3,female,5.0,2,1,19.2583,False,unknown,cherbourg,T3-1912-C-P0031,Emily Doyle,False,False,True,4,Third,C,High,0.25962831610266746,child,Doyle,False
+True,1,male,52.0,0,0,30.5,True,C,southampton,T1-1912-S-P0056,Devin Lee,False,False,False,1,First,S,Very High,1.7049180327868851,adult,Lee,True
+False,2,male,36.0,1,2,27.75,True,unknown,southampton,T2-1912-S-P0087,Shawn Khan,False,False,False,4,Second,S,High,1.2972972972972974,adult,Khan,False
+False,3,male,28.0,1,0,19.9667,True,unknown,southampton,T3-1912-S-P0183,Bobby Williams,True,False,False,2,Third,S,High,1.4023348875878339,young_adult,Williams,False
+False,1,male,30.0,0,0,27.75,True,C,cherbourg,T1-1912-C-P0043,Troy Gibson,False,False,False,1,First,C,High,1.0810810810810811,young_adult,Gibson,True
+True,1,male,49.0,1,0,89.1042,True,C,cherbourg,T1-1912-C-P0044,Michael Evans,False,False,False,2,First,C,Very High,0.5499179612184386,adult,Evans,False
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0184,Robert Davis,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Davis,True
+True,3,male,29.0,0,0,7.8958,True,unknown,cherbourg,T3-1912-C-P0032,John Robinson,False,False,False,1,Third,C,Low,3.672838724385116,young_adult,Robinson,True
+False,1,male,65.0,0,0,26.55,True,E,southampton,T1-1912-S-P0057,Steven Bauer,False,False,False,1,First,S,High,2.4482109227871938,senior,Bauer,True
+True,1,female,28.0,1,0,51.8625,False,D,southampton,T1-1912-S-P0058,Taylor Torres,True,False,False,2,First,S,Very High,0.5398891299108219,young_adult,Torres,False
+True,2,female,50.0,0,0,10.5,False,unknown,southampton,T2-1912-S-P0088,Alexis Turner,False,False,False,1,Second,S,Medium,4.761904761904762,adult,Turner,True
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0040,Tony Mendoza,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Mendoza,True
+True,1,male,48.0,0,0,26.55,True,E,southampton,T1-1912-S-P0059,Francisco Thompson,False,False,False,1,First,S,High,1.807909604519774,adult,Thompson,True
+False,3,male,34.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0185,Jeffrey Tran,False,False,False,1,Third,S,Medium,4.22360248447205,young_adult,Tran,True
+False,1,male,47.0,0,0,38.5,True,E,southampton,T1-1912-S-P0060,Jeffrey Mckinney,False,False,False,1,First,S,Very High,1.2207792207792207,adult,Mckinney,True
+False,2,male,48.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0089,Michael Carroll,False,False,False,1,Second,S,Medium,3.6923076923076925,adult,Carroll,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0186,Nathaniel Gibbs,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Gibbs,True
+False,3,male,38.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0187,Andrew Sullivan,False,False,False,1,Third,S,Low,5.390070921985815,adult,Sullivan,True
+False,2,male,28.0,0,0,0.0,True,unknown,southampton,T2-1912-S-P0090,John Swanson,True,False,False,1,Second,S,Low,,young_adult,Swanson,True
+False,1,male,56.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0061,Brian Johnson,False,False,False,1,First,S,High,2.109227871939736,adult,Johnson,True
+False,3,male,28.0,0,0,7.725,True,unknown,queenstown,T3-1912-Q-P0041,Ralph Gibson Jr.,True,False,False,1,Third,Q,Low,3.6245954692556634,young_adult,Jr.,True
+True,3,female,0.75,2,1,19.2583,False,unknown,cherbourg,T3-1912-C-P0033,Laura Walker,False,False,True,4,Third,C,High,0.03894424741540012,child,Walker,False
+False,3,male,28.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0188,Michael Johnson,True,False,False,1,Third,S,Low,3.8620689655172415,young_adult,Johnson,True
+False,3,male,38.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0189,Joshua Jensen,False,False,False,1,Third,S,Medium,4.386724386724387,adult,Jensen,True
+True,2,female,33.0,1,2,27.75,False,unknown,southampton,T2-1912-S-P0091,Jennifer Warren,False,False,False,4,Second,S,High,1.1891891891891893,young_adult,Warren,False
+True,2,female,23.0,0,0,13.7917,False,D,cherbourg,T2-1912-C-P0010,Kathy Harris,False,False,False,1,Second,C,Medium,1.6676696853904884,young_adult,Harris,True
+False,3,female,22.0,0,0,9.8375,False,unknown,southampton,T3-1912-S-P0190,Kathryn Proctor,False,False,False,1,Third,S,Medium,2.236340533672173,young_adult,Proctor,True
+False,1,male,28.0,0,0,52.0,True,A,southampton,T1-1912-S-P0062,Michael George PhD,True,False,False,1,First,S,Very High,0.5384615384615384,young_adult,PhD,True
+False,2,male,34.0,1,0,21.0,True,unknown,southampton,T2-1912-S-P0092,James Rivera,False,False,False,2,Second,S,High,1.619047619047619,young_adult,Rivera,False
+False,3,male,29.0,1,0,7.0458,True,unknown,southampton,T3-1912-S-P0191,Brian Wilson,False,False,False,2,Third,S,Low,4.115927219052486,young_adult,Wilson,False
+False,3,male,22.0,0,0,7.5208,True,unknown,southampton,T3-1912-S-P0192,Joshua Brady,False,False,False,1,Third,S,Low,2.925220721199872,young_adult,Brady,True
+True,3,female,2.0,0,1,12.2875,False,unknown,southampton,T3-1912-S-P0193,Ashley Anderson,False,False,True,2,Third,S,Medium,0.16276703967446593,child,Anderson,False
+False,3,male,9.0,5,2,46.9,False,unknown,southampton,T3-1912-S-P0194,Mr. Zachary Blackwell,False,False,True,8,Third,S,Very High,0.19189765458422176,child,Blackwell,False
+False,2,male,28.0,0,0,0.0,True,unknown,southampton,T2-1912-S-P0093,Joshua Donovan,True,False,False,1,Second,S,Low,,young_adult,Donovan,True
+False,3,male,50.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0195,Clayton Nguyen,False,False,False,1,Third,S,Medium,6.211180124223602,adult,Nguyen,True
+True,3,female,63.0,0,0,9.5875,False,unknown,southampton,T3-1912-S-P0196,Linda Dalton,False,False,False,1,Third,S,Medium,6.571056062581486,senior,Dalton,True
+True,1,male,25.0,1,0,91.0792,True,B,cherbourg,T1-1912-C-P0045,Johnny Ross,False,False,False,2,First,C,Very High,0.27448638108371615,young_adult,Ross,False
+False,3,female,28.0,3,1,25.4667,False,unknown,southampton,T3-1912-S-P0197,Mrs. Stephanie Harmon,True,False,False,5,Third,S,High,1.0994750006871719,young_adult,Harmon,False
+True,1,female,35.0,1,0,90.0,False,C,southampton,T1-1912-S-P0063,Deborah Dalton,False,False,False,2,First,S,Very High,0.3888888888888889,adult,Dalton,False
+False,1,male,58.0,0,0,29.7,True,B,cherbourg,T1-1912-C-P0046,Raymond Novak,False,False,False,1,First,C,High,1.9528619528619529,adult,Novak,True
+False,3,male,30.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0198,William Casey,False,False,False,1,Third,S,Medium,3.726708074534161,young_adult,Casey,True
+True,3,male,9.0,1,1,15.9,False,unknown,southampton,T3-1912-S-P0199,Charles Chavez,False,False,True,3,Third,S,High,0.5660377358490566,child,Chavez,False
+False,3,male,28.0,1,0,19.9667,True,unknown,southampton,T3-1912-S-P0200,Jose Mckay,True,False,False,2,Third,S,High,1.4023348875878339,young_adult,Mckay,False
+False,3,male,21.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0201,Trevor Franklin,False,False,False,1,Third,S,Low,2.896551724137931,young_adult,Franklin,True
+False,1,male,55.0,0,0,30.5,True,C,southampton,T1-1912-S-P0064,Scott Sanchez,False,False,False,1,First,S,Very High,1.8032786885245902,adult,Sanchez,True
+False,1,male,71.0,0,0,49.5042,True,unknown,cherbourg,T1-1912-C-P0047,Jonathan Smith,False,False,False,1,First,C,Very High,1.4342217428016208,senior,Smith,True
+False,3,male,21.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0202,Cameron Patel,False,False,False,1,Third,S,Medium,2.6086956521739126,young_adult,Patel,True
+False,3,male,28.0,0,0,14.4583,True,unknown,cherbourg,T3-1912-C-P0034,Grant Cain,True,False,False,1,Third,C,High,1.9366038884239503,young_adult,Cain,True
+True,1,female,54.0,1,0,78.2667,False,D,cherbourg,T1-1912-C-P0048,Kristen Young,False,False,False,2,First,C,Very High,0.6899485988293872,adult,Young,False
+False,3,male,28.0,0,0,15.1,True,unknown,southampton,T3-1912-S-P0203,Blake Marquez,True,False,False,1,Third,S,High,1.8543046357615895,young_adult,Marquez,True
+False,1,female,25.0,1,2,151.55,False,C,southampton,T1-1912-S-P0065,Valerie Dickerson,False,False,False,4,First,S,Very High,0.1649620587264929,young_adult,Dickerson,False
+False,3,male,24.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0204,Steven Thomas,False,False,False,1,Third,S,Low,3.078580774263065,young_adult,Thomas,True
+False,3,male,17.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0205,David Krueger,False,False,False,1,Third,S,Medium,1.9624819624819625,teen,Krueger,True
+False,3,female,21.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0042,Carrie Adams,False,False,False,1,Third,Q,Low,2.7096774193548385,young_adult,Adams,True
+False,3,female,28.0,0,0,7.6292,False,unknown,queenstown,T3-1912-Q-P0043,Claire Frederick DDS,True,False,False,1,Third,Q,Low,3.670109578986001,young_adult,DDS,True
+False,3,female,37.0,0,0,9.5875,False,unknown,southampton,T3-1912-S-P0206,Emily Thompson,False,False,False,1,Third,S,Medium,3.8591916558018253,adult,Thompson,True
+True,1,female,16.0,0,0,86.5,False,B,southampton,T1-1912-S-P0066,Cheryl Gray,False,False,False,1,First,S,Very High,0.18497109826589594,teen,Gray,True
+False,1,male,18.0,1,0,108.9,True,C,cherbourg,T1-1912-C-P0049,James Richardson,False,False,False,2,First,C,Very High,0.1652892561983471,young_adult,Richardson,False
+True,2,female,33.0,0,2,26.0,False,unknown,southampton,T2-1912-S-P0094,Brenda Schroeder,False,False,False,3,Second,S,High,1.2692307692307692,young_adult,Schroeder,False
+True,1,male,28.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0067,Ryan Lopez,True,False,False,1,First,S,High,1.054613935969868,young_adult,Lopez,True
+False,3,male,28.0,0,0,22.525,True,unknown,southampton,T3-1912-S-P0207,Timothy Smith,False,False,False,1,Third,S,High,1.2430632630410656,young_adult,Smith,True
+True,3,male,26.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0208,Michael Morales,False,False,False,1,Third,S,Very High,0.4602112015406455,young_adult,Morales,True
+True,3,male,29.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0044,Dr. Richard Mccullough,False,False,False,1,Third,Q,Low,3.7419354838709675,young_adult,Mccullough,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0209,Scott Hughes,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Hughes,True
+True,1,male,36.0,0,0,26.2875,True,E,southampton,T1-1912-S-P0068,Gabriel Mitchell,False,False,False,1,First,S,High,1.369472182596291,adult,Mitchell,True
+True,1,female,54.0,1,0,59.4,False,unknown,cherbourg,T1-1912-C-P0050,Jessica Jackson,False,False,False,2,First,C,Very High,0.9090909090909091,adult,Jackson,False
+False,3,male,24.0,0,0,7.4958,True,unknown,southampton,T3-1912-S-P0210,Kyle Russell,False,False,False,1,Third,S,Low,3.201793004082286,young_adult,Russell,True
+False,1,male,47.0,0,0,34.0208,True,D,southampton,T1-1912-S-P0069,Brandon Stewart,False,False,False,1,First,S,Very High,1.3815077834736396,adult,Stewart,True
+True,2,female,34.0,0,0,10.5,False,F,southampton,T2-1912-S-P0095,Gina Anderson,False,False,False,1,Second,S,Medium,3.238095238095238,young_adult,Anderson,True
+False,3,male,28.0,0,0,14.4542,True,unknown,queenstown,T3-1912-Q-P0045,Thomas Jackson,True,True,False,1,Third,Q,Medium,1.9371532149824964,young_adult,Jackson,True
+True,2,female,36.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0096,Cassandra Campbell,False,False,False,2,Second,S,High,1.3846153846153846,adult,Campbell,False
+False,3,male,32.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0211,Christopher Martinez,False,False,False,1,Third,S,Low,4.052787557942197,young_adult,Martinez,True
+True,1,female,30.0,0,0,93.5,False,B,southampton,T1-1912-S-P0070,Anna Collier,False,False,False,1,First,S,Very High,0.32085561497326204,young_adult,Collier,True
+False,3,male,22.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0212,Cesar Adams,False,False,False,1,Third,S,Low,2.7862914460852606,young_adult,Adams,True
+False,3,male,28.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0035,Jason Watson,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Watson,True
+True,1,female,44.0,0,1,57.9792,False,B,cherbourg,T1-1912-C-P0051,Bianca Douglas,False,False,False,2,First,C,Very High,0.7588928443303805,adult,Douglas,False
+False,3,male,28.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0036,Walter Thomas,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Thomas,True
+False,3,male,40.5,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0046,Charles Rangel,False,False,False,1,Third,Q,Low,5.225806451612903,adult,Rangel,True
+True,2,female,50.0,0,0,10.5,False,unknown,southampton,T2-1912-S-P0097,Laura Cain,False,False,False,1,Second,S,Medium,4.761904761904762,adult,Cain,True
+False,1,male,28.0,0,0,221.7792,True,C,southampton,T1-1912-S-P0071,John Cruz,True,False,False,1,First,S,Very High,0.12625169537990938,young_adult,Cruz,True
+False,3,male,39.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0213,Edward Love,False,False,False,1,Third,S,Low,4.921135646687698,adult,Love,True
+False,2,male,23.0,2,1,11.5,True,unknown,southampton,T2-1912-S-P0098,Edward Small,False,False,False,4,Second,S,Medium,2.0,young_adult,Small,False
+True,2,female,2.0,1,1,26.0,False,unknown,southampton,T2-1912-S-P0099,Annette Stanton,False,False,True,3,Second,S,High,0.07692307692307693,child,Stanton,False
+False,3,male,28.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0037,Cory Molina,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Molina,True
+False,3,male,17.0,1,1,7.2292,True,unknown,cherbourg,T3-1912-C-P0038,Mark Ayala,False,False,False,3,Third,C,Low,2.3515741714159244,teen,Ayala,False
+True,3,female,28.0,0,2,22.3583,False,unknown,cherbourg,T3-1912-C-P0039,Danielle Cross,True,False,False,3,Third,C,High,1.2523313489844934,young_adult,Cross,False
+False,3,female,30.0,0,0,8.6625,False,unknown,southampton,T3-1912-S-P0214,Amy Peterson,False,False,False,1,Third,S,Medium,3.463203463203463,young_adult,Peterson,True
+True,2,female,7.0,0,2,26.25,False,unknown,southampton,T2-1912-S-P0100,Cassandra Figueroa,False,False,True,3,Second,S,High,0.26666666666666666,child,Figueroa,False
+False,1,male,45.0,0,0,26.55,True,B,southampton,T1-1912-S-P0072,Anthony Mata,False,False,False,1,First,S,High,1.694915254237288,adult,Mata,True
+True,1,female,30.0,0,0,106.425,False,unknown,cherbourg,T1-1912-C-P0052,Jaclyn Cox,False,False,False,1,First,C,Very High,0.28188865398167723,young_adult,Cox,True
+False,3,male,28.0,0,0,14.5,True,unknown,southampton,T3-1912-S-P0215,Tim Rodriguez,True,False,False,1,Third,S,High,1.9310344827586208,young_adult,Rodriguez,True
+True,1,female,22.0,0,2,49.5,False,B,cherbourg,T1-1912-C-P0053,Debra Carr,False,False,False,3,First,C,Very High,0.4444444444444444,young_adult,Carr,False
+True,1,female,36.0,0,2,71.0,False,B,southampton,T1-1912-S-P0073,Jamie Reed,False,False,False,3,First,S,Very High,0.5070422535211268,adult,Reed,False
+False,3,female,9.0,4,2,31.275,False,unknown,southampton,T3-1912-S-P0216,Kimberly Lewis,False,False,True,7,Third,S,Very High,0.28776978417266186,child,Lewis,False
+False,3,female,11.0,4,2,31.275,False,unknown,southampton,T3-1912-S-P0217,Susan Gill,False,False,True,7,Third,S,Very High,0.3517186250999201,child,Gill,False
+True,2,male,32.0,1,0,26.0,True,unknown,southampton,T2-1912-S-P0101,Robert Hunter,False,False,False,2,Second,S,High,1.2307692307692308,young_adult,Hunter,False
+False,1,male,50.0,1,0,106.425,True,C,cherbourg,T1-1912-C-P0054,Martin Conley,False,False,False,2,First,C,Very High,0.4698144233027954,adult,Conley,False
+False,1,male,64.0,0,0,26.0,True,unknown,southampton,T1-1912-S-P0074,Joseph Crawford,False,False,False,1,First,S,High,2.4615384615384617,senior,Crawford,True
+True,2,female,19.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0102,Morgan Smith,False,False,False,2,Second,S,High,0.7307692307692307,young_adult,Smith,False
+True,2,male,28.0,0,0,13.8625,True,unknown,cherbourg,T2-1912-C-P0011,Charles Casey,True,False,False,1,Second,C,Medium,2.019837691614067,young_adult,Casey,True
+False,3,male,33.0,1,1,20.525,True,unknown,southampton,T3-1912-S-P0218,Jerome Clark,False,False,False,3,Third,S,High,1.607795371498173,young_adult,Clark,False
+True,2,male,8.0,1,1,36.75,False,unknown,southampton,T2-1912-S-P0103,Michael Hester,False,False,True,3,Second,S,Very High,0.21768707482993196,child,Hester,False
+True,1,male,17.0,0,2,110.8833,True,C,cherbourg,T1-1912-C-P0055,Miguel Decker,False,False,False,3,First,C,Very High,0.15331434039210592,teen,Decker,False
+False,2,male,27.0,0,0,26.0,True,unknown,southampton,T2-1912-S-P0104,Steven Cook,False,False,False,1,Second,S,High,1.0384615384615385,young_adult,Cook,True
+False,3,male,28.0,0,0,7.8292,True,unknown,queenstown,T3-1912-Q-P0047,Michael Mclaughlin,True,False,False,1,Third,Q,Low,3.576355183160476,young_adult,Mclaughlin,True
+True,3,male,22.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0040,James Sellers,False,False,False,1,Third,C,Low,3.0449826989619377,young_adult,Sellers,True
+True,3,female,22.0,0,0,7.775,False,unknown,southampton,T3-1912-S-P0219,Michelle Smith,False,False,False,1,Third,S,Low,2.8295819935691315,young_adult,Smith,True
+False,1,male,62.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0075,Chad Wilson,False,False,False,1,First,S,High,2.335216572504708,senior,Wilson,True
+True,1,female,48.0,1,0,39.6,False,A,cherbourg,T1-1912-C-P0056,Tiffany Johnson,False,False,False,2,First,C,Very High,1.2121212121212122,adult,Johnson,False
+False,1,male,28.0,0,0,227.525,True,unknown,cherbourg,T1-1912-C-P0057,Johnathan Gross,True,False,False,1,First,C,Very High,0.12306339962641467,young_adult,Gross,True
+True,1,female,39.0,1,1,79.65,False,E,southampton,T1-1912-S-P0076,Angela Smith,False,False,False,3,First,S,Very High,0.48964218455743874,adult,Smith,False
+True,3,female,36.0,1,0,17.4,False,unknown,southampton,T3-1912-S-P0220,Christina Smith,False,False,False,2,Third,S,High,2.0689655172413794,adult,Smith,False
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0048,Nathan Hansen,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Hansen,True
+False,3,male,40.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0221,Nicholas Nash,False,False,False,1,Third,S,Low,5.065984447427746,adult,Nash,True
+False,2,male,28.0,0,0,13.5,True,unknown,southampton,T2-1912-S-P0105,Willie Dudley,False,False,False,1,Second,S,Medium,2.074074074074074,young_adult,Dudley,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0222,Joseph Moss,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Moss,True
+False,3,female,28.0,0,0,8.05,False,unknown,southampton,T3-1912-S-P0223,Cassandra Hansen,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Hansen,True
+False,3,male,24.0,2,0,24.15,True,unknown,southampton,T3-1912-S-P0224,Gregory Green,False,False,False,3,Third,S,High,0.9937888198757765,young_adult,Green,False
+False,3,male,19.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0225,Seth Williams,False,False,False,1,Third,S,Low,2.4063426125281793,young_adult,Williams,True
+False,3,female,29.0,0,4,21.075,False,unknown,southampton,T3-1912-S-P0226,Pamela Wright,False,False,False,5,Third,S,High,1.376037959667853,young_adult,Wright,False
+False,3,male,28.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0041,Kevin Roy,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Roy,True
+True,3,male,32.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0227,Paul Robbins,False,False,False,1,Third,S,Low,4.0742532657686334,young_adult,Robbins,True
+True,2,male,62.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0106,Scott Roberts,False,False,False,1,Second,S,Medium,5.904761904761905,senior,Roberts,True
+True,1,female,53.0,2,0,51.4792,False,C,southampton,T1-1912-S-P0077,Angelica Cooper,False,False,False,3,First,S,Very High,1.0295420286251535,adult,Cooper,False
+True,1,male,36.0,0,0,26.3875,True,E,southampton,T1-1912-S-P0078,Austin Williams,False,False,False,1,First,S,High,1.3642823306489815,adult,Williams,True
+True,3,female,28.0,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0049,Jessica Morgan,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Morgan,True
+False,3,male,16.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0228,Daniel Hickman,False,False,False,1,Third,S,Medium,1.9875776397515525,teen,Hickman,True
+False,3,male,19.0,0,0,14.5,True,unknown,southampton,T3-1912-S-P0229,Troy Griffith,False,False,False,1,Third,S,High,1.3103448275862069,young_adult,Griffith,True
+True,2,female,34.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0107,Cynthia Cooper,False,False,False,1,Second,S,Medium,2.6153846153846154,young_adult,Cooper,True
+True,1,female,39.0,1,0,55.9,False,E,southampton,T1-1912-S-P0079,Hannah Davies,False,False,False,2,First,S,Very High,0.6976744186046512,adult,Davies,False
+False,3,female,28.0,1,0,14.4583,False,unknown,cherbourg,T3-1912-C-P0042,Dr. Audrey Ellis,True,False,False,2,Third,C,High,1.9366038884239503,young_adult,Ellis,False
+True,3,male,32.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0230,Michael Richardson,False,False,False,1,Third,S,Low,4.037854889589905,young_adult,Richardson,True
+True,2,female,25.0,1,1,30.0,False,unknown,southampton,T2-1912-S-P0108,Mrs. Jennifer Wagner,False,False,False,3,Second,S,Very High,0.8333333333333334,young_adult,Wagner,False
+True,1,female,39.0,1,1,110.8833,False,C,cherbourg,T1-1912-C-P0058,Deborah Campbell,False,False,False,3,First,C,Very High,0.3517211338407136,adult,Campbell,False
+False,2,male,54.0,0,0,26.0,True,unknown,southampton,T2-1912-S-P0109,Thomas Larson DVM,False,False,False,1,Second,S,High,2.076923076923077,adult,DVM,True
+False,1,male,36.0,0,0,40.125,True,A,cherbourg,T1-1912-C-P0059,Tyler Chavez,False,False,False,1,First,C,Very High,0.897196261682243,adult,Chavez,True
+False,3,male,28.0,0,0,8.7125,True,unknown,cherbourg,T3-1912-C-P0043,Jacob Smith,True,False,False,1,Third,C,Medium,3.2137733142037304,young_adult,Smith,True
+True,1,female,18.0,0,2,79.65,False,E,southampton,T1-1912-S-P0080,Mrs. Cynthia Morse,False,False,False,3,First,S,Very High,0.22598870056497172,young_adult,Morse,False
+False,2,male,47.0,0,0,15.0,True,unknown,southampton,T2-1912-S-P0110,Jeffrey Gonzalez,False,False,False,1,Second,S,High,3.1333333333333333,adult,Gonzalez,True
+True,1,male,60.0,1,1,79.2,True,B,cherbourg,T1-1912-C-P0060,Billy Wheeler,False,False,False,3,First,C,Very High,0.7575757575757576,senior,Wheeler,False
+False,3,male,22.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0231,Bryan West,False,False,False,1,Third,S,Medium,2.732919254658385,young_adult,West,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0232,Gabriel Steele,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Steele,True
+False,3,male,35.0,0,0,7.125,True,unknown,southampton,T3-1912-S-P0233,Andrew Ochoa,False,False,False,1,Third,S,Low,4.912280701754386,adult,Ochoa,True
+True,1,female,52.0,1,0,78.2667,False,D,cherbourg,T1-1912-C-P0061,Melissa Weaver,False,False,False,2,First,C,Very High,0.6643949470208914,adult,Weaver,False
+False,3,male,47.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0234,Christopher Fields,False,False,False,1,Third,S,Low,6.482758620689655,adult,Fields,True
+False,3,female,28.0,0,2,7.75,False,unknown,queenstown,T3-1912-Q-P0050,Teresa Richardson,True,False,False,3,Third,Q,Low,3.6129032258064515,young_adult,Richardson,False
+False,2,male,37.0,1,0,26.0,True,unknown,southampton,T2-1912-S-P0111,Kevin Stewart,False,False,False,2,Second,S,High,1.4230769230769231,adult,Stewart,False
+False,3,male,36.0,1,1,24.15,True,unknown,southampton,T3-1912-S-P0235,Craig Stevenson,False,False,False,3,Third,S,High,1.4906832298136647,adult,Stevenson,False
+True,2,female,28.0,0,0,33.0,False,unknown,southampton,T2-1912-S-P0112,Lindsay Taylor,True,False,False,1,Second,S,Very High,0.8484848484848485,young_adult,Taylor,True
+False,3,male,49.0,0,0,0.0,True,unknown,southampton,T3-1912-S-P0236,Nicholas Chandler,False,False,False,1,Third,S,Low,,adult,Chandler,True
+False,3,male,28.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0044,John Davis,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Davis,True
+True,1,male,49.0,1,0,56.9292,True,A,cherbourg,T1-1912-C-P0062,Justin Lara,False,False,False,2,First,C,Very High,0.8607182254449386,adult,Lara,False
+True,2,female,24.0,2,1,27.0,False,unknown,southampton,T2-1912-S-P0113,Alicia Erickson,False,False,False,4,Second,S,High,0.8888888888888888,young_adult,Erickson,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0237,Dr. Craig Pace,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Pace,True
+False,1,male,28.0,0,0,42.4,True,unknown,southampton,T1-1912-S-P0081,Willie Johnson,True,False,False,1,First,S,Very High,0.6603773584905661,young_adult,Johnson,True
+False,3,male,44.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0238,Jonathan Robinson,False,False,False,1,Third,S,Medium,5.46583850931677,adult,Robinson,True
+True,1,male,35.0,0,0,26.55,True,unknown,cherbourg,T1-1912-C-P0063,Joshua Walker,False,False,False,1,First,C,High,1.3182674199623352,adult,Walker,True
+False,3,male,36.0,1,0,15.55,True,unknown,southampton,T3-1912-S-P0239,James Lopez,False,False,False,2,Third,S,High,2.315112540192926,adult,Lopez,False
+False,3,male,30.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0240,Billy Robertson,False,False,False,1,Third,S,Low,3.7994883355708096,young_adult,Robertson,True
+True,1,male,27.0,0,0,30.5,True,unknown,southampton,T1-1912-S-P0082,Jason Cox,False,False,False,1,First,S,Very High,0.8852459016393442,young_adult,Cox,True
+True,2,female,22.0,1,2,41.5792,False,unknown,cherbourg,T2-1912-C-P0012,Nicole Ho,False,False,False,4,Second,C,Very High,0.5291107092007542,young_adult,Ho,False
+True,1,female,40.0,0,0,153.4625,False,C,southampton,T1-1912-S-P0083,Barbara Salazar,False,False,False,1,First,S,Very High,0.2606499959273438,adult,Salazar,True
+False,3,female,39.0,1,5,31.275,False,unknown,southampton,T3-1912-S-P0241,Linda Diaz,False,False,False,7,Third,S,Very High,1.2470023980815348,adult,Diaz,False
+False,3,male,28.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0242,Ricky Smith,True,False,False,1,Third,S,Low,3.971631205673759,young_adult,Smith,True
+True,3,female,28.0,1,0,15.5,False,unknown,queenstown,T3-1912-Q-P0051,Ann Jones,True,False,False,2,Third,Q,High,1.8064516129032258,young_adult,Jones,False
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0052,James Cervantes,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Cervantes,True
+False,3,male,35.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0243,Christian Huber,False,False,False,1,Third,S,Medium,4.3478260869565215,adult,Huber,True
+True,2,female,24.0,1,2,65.0,False,unknown,southampton,T2-1912-S-P0114,Patricia Sullivan,False,False,False,4,Second,S,Very High,0.36923076923076925,young_adult,Sullivan,False
+False,3,male,34.0,1,1,14.4,True,unknown,southampton,T3-1912-S-P0244,George Hicks,False,False,False,3,Third,S,Medium,2.361111111111111,young_adult,Hicks,False
+False,3,female,26.0,1,0,16.1,False,unknown,southampton,T3-1912-S-P0245,Chelsea Lopez,False,False,False,2,Third,S,High,1.6149068322981366,young_adult,Lopez,False
+True,2,female,4.0,2,1,39.0,False,F,southampton,T2-1912-S-P0115,Sierra Robles,False,False,True,4,Second,S,Very High,0.10256410256410256,child,Robles,False
+False,2,male,26.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0116,Robert Michael,False,False,False,1,Second,S,Medium,2.4761904761904763,young_adult,Michael,True
+False,3,male,27.0,1,0,14.4542,True,unknown,cherbourg,T3-1912-C-P0045,Kyle Coleman,False,False,False,2,Third,C,Medium,1.8679691715902644,young_adult,Coleman,False
+True,1,male,42.0,1,0,52.5542,True,D,southampton,T1-1912-S-P0084,Aaron Anderson,False,False,False,2,First,S,Very High,0.7991749470070898,adult,Anderson,False
+True,3,male,20.0,1,1,15.7417,True,unknown,cherbourg,T3-1912-C-P0046,Ryan Herrera Jr.,False,False,False,3,Third,C,High,1.2705108088707064,young_adult,Jr.,False
+False,3,male,21.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0246,Daniel Norris,False,False,False,1,Third,S,Low,2.6737287056606656,young_adult,Norris,True
+False,3,male,21.0,0,0,16.1,True,unknown,southampton,T3-1912-S-P0247,Brian Sanchez,False,False,False,1,Third,S,High,1.3043478260869563,young_adult,Sanchez,True
+False,1,male,61.0,0,0,32.3208,True,D,southampton,T1-1912-S-P0085,Mark Fletcher,False,False,False,1,First,S,Very High,1.8873295215464965,senior,Fletcher,True
+False,2,male,57.0,0,0,12.35,True,unknown,queenstown,T2-1912-Q-P0003,Dave Friedman,False,False,False,1,Second,Q,Medium,4.615384615384616,adult,Friedman,True
+True,1,female,21.0,0,0,77.9583,False,D,southampton,T1-1912-S-P0086,Tina Sherman,False,False,False,1,First,S,Very High,0.26937478113299035,young_adult,Sherman,True
+False,3,male,26.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0248,Juan Leonard,False,False,False,1,Third,S,Low,3.292889890828035,young_adult,Leonard,True
+False,3,male,28.0,0,0,7.7333,True,unknown,queenstown,T3-1912-Q-P0053,Dylan Gaines,True,False,False,1,Third,Q,Low,3.6207052616606106,young_adult,Gaines,True
+True,1,male,80.0,0,0,30.0,True,A,southampton,T1-1912-S-P0087,David Stevens,False,False,False,1,First,S,Very High,2.6666666666666665,senior,Stevens,True
+False,3,male,51.0,0,0,7.0542,True,unknown,southampton,T3-1912-S-P0249,Michael Miller,False,False,False,1,Third,S,Low,7.229735476737263,adult,Miller,True
+True,1,male,32.0,0,0,14.4542,True,B,cherbourg,T1-1912-C-P0064,Corey Kennedy,False,True,False,1,First,C,Medium,2.2138893885514244,young_adult,Kennedy,True
+False,1,male,28.0,0,0,0.0,True,unknown,southampton,T1-1912-S-P0088,Jason Porter,True,False,False,1,First,S,Low,,young_adult,Porter,True
+False,3,female,9.0,3,2,27.9,False,unknown,southampton,T3-1912-S-P0250,Jordan Brock,False,False,True,6,Third,S,High,0.3225806451612903,child,Brock,False
+True,2,female,28.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0117,Barbara Mullen,False,False,False,1,Second,S,Medium,2.1538461538461537,young_adult,Mullen,True
+False,3,male,32.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0251,Robert Jones,False,False,False,1,Third,S,Low,4.037854889589905,young_adult,Jones,True
+False,2,male,31.0,1,1,26.25,True,unknown,southampton,T2-1912-S-P0118,Brandon Peters,False,False,False,3,Second,S,High,1.180952380952381,young_adult,Peters,False
+False,3,female,41.0,0,5,39.6875,False,unknown,southampton,T3-1912-S-P0252,Karen Patrick,False,False,False,6,Third,S,Very High,1.0330708661417323,adult,Patrick,False
+False,3,male,28.0,1,0,16.1,True,unknown,southampton,T3-1912-S-P0253,Robert Davidson,True,False,False,2,Third,S,High,1.7391304347826086,young_adult,Davidson,False
+False,3,male,20.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0254,Joshua Watson,False,False,False,1,Third,S,Low,2.546408291105396,young_adult,Watson,True
+True,1,female,24.0,0,0,69.3,False,B,cherbourg,T1-1912-C-P0065,Ashley Aguilar,False,False,False,1,First,C,Very High,0.34632034632034636,young_adult,Aguilar,True
+False,3,female,2.0,3,2,27.9,False,unknown,southampton,T3-1912-S-P0255,Dr. Lisa Ferguson,False,False,True,6,Third,S,High,0.07168458781362008,child,Ferguson,False
+True,3,male,28.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0256,Richard Lambert,True,False,False,1,Third,S,Very High,0.4956120631976182,young_adult,Lambert,True
+True,3,female,0.75,2,1,19.2583,False,unknown,cherbourg,T3-1912-C-P0047,Elizabeth Jones,False,False,True,4,Third,C,High,0.03894424741540012,child,Jones,False
+True,1,male,48.0,1,0,76.7292,True,D,cherbourg,T1-1912-C-P0066,Aaron Wheeler,False,False,False,2,First,C,Very High,0.6255767035235608,adult,Wheeler,False
+False,3,male,19.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0257,Donald Martinez,False,False,False,1,Third,S,Low,2.4063426125281793,young_adult,Martinez,True
+True,1,male,56.0,0,0,35.5,True,A,cherbourg,T1-1912-C-P0067,Paul Ball,False,False,False,1,First,C,Very High,1.5774647887323943,adult,Ball,True
+False,3,male,28.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0258,Kevin Davis,True,True,False,1,Third,S,Medium,1.9371532149824964,young_adult,Davis,True
+True,3,female,23.0,0,0,7.55,False,unknown,southampton,T3-1912-S-P0259,Janice Dawson,False,False,False,1,Third,S,Low,3.0463576158940397,young_adult,Dawson,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0260,Christopher Hansen,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Hansen,True
+True,2,female,18.0,0,1,23.0,False,unknown,southampton,T2-1912-S-P0119,Kelly Wolfe,False,False,False,2,Second,S,High,0.782608695652174,young_adult,Wolfe,False
+False,3,male,21.0,0,0,8.4333,True,unknown,southampton,T3-1912-S-P0261,Jose Simon,False,False,False,1,Third,S,Medium,2.490128419479919,young_adult,Simon,True
+True,3,female,28.0,0,0,7.8292,False,unknown,queenstown,T3-1912-Q-P0054,Haley Herman,True,False,False,1,Third,Q,Low,3.576355183160476,young_adult,Herman,True
+False,3,female,18.0,0,0,6.75,False,unknown,queenstown,T3-1912-Q-P0055,Deborah Williams,False,False,False,1,Third,Q,Low,2.6666666666666665,young_adult,Williams,True
+False,2,male,24.0,2,0,73.5,True,unknown,southampton,T2-1912-S-P0120,Carlos Hansen,False,False,False,3,Second,S,Very High,0.32653061224489793,young_adult,Hansen,False
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0262,Robert Morrison,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Morrison,True
+False,3,female,32.0,1,1,15.5,False,unknown,queenstown,T3-1912-Q-P0056,Jessica Hill,False,False,False,3,Third,Q,High,2.064516129032258,young_adult,Hill,False
+False,2,male,23.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0121,John Morris,False,False,False,1,Second,S,Medium,1.7692307692307692,young_adult,Morris,True
+False,1,male,58.0,0,2,113.275,True,D,cherbourg,T1-1912-C-P0068,Ryan Barr,False,False,False,3,First,C,Very High,0.5120282498344736,adult,Barr,False
+True,1,male,50.0,2,0,133.65,True,unknown,southampton,T1-1912-S-P0089,Melvin Daniels,False,False,False,3,First,S,Very High,0.3741114852225963,adult,Daniels,False
+False,3,male,40.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0048,Brian Dean,False,False,False,1,Third,C,Low,5.536332179930796,adult,Dean,True
+False,1,male,47.0,0,0,25.5875,True,E,southampton,T1-1912-S-P0090,John Flores,False,False,False,1,First,S,High,1.8368343917928678,adult,Flores,True
+False,3,male,36.0,0,0,7.4958,True,unknown,southampton,T3-1912-S-P0263,David Sparks,False,False,False,1,Third,S,Low,4.802689506123429,adult,Sparks,True
+True,3,male,20.0,1,0,7.925,True,unknown,southampton,T3-1912-S-P0264,Kenneth Simmons,False,False,False,2,Third,S,Low,2.5236593059936907,young_adult,Simmons,False
+False,2,male,32.0,2,0,73.5,True,unknown,southampton,T2-1912-S-P0122,Henry Petersen,False,False,False,3,Second,S,Very High,0.43537414965986393,young_adult,Petersen,False
+False,2,male,25.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0123,Clifford Rasmussen,False,False,False,1,Second,S,Medium,1.9230769230769231,young_adult,Rasmussen,True
+False,3,male,28.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0265,Aaron Clements,True,False,False,1,Third,S,Low,3.6012861736334405,young_adult,Clements,True
+False,3,male,43.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0266,Scott Williams,False,False,False,1,Third,S,Medium,5.341614906832298,adult,Williams,True
+True,1,female,28.0,1,0,52.0,False,C,southampton,T1-1912-S-P0091,Brenda Lopez,True,False,False,2,First,S,Very High,0.5384615384615384,young_adult,Lopez,False
+True,2,female,40.0,1,1,39.0,False,unknown,southampton,T2-1912-S-P0124,Belinda Smith MD,False,False,False,3,Second,S,Very High,1.0256410256410255,adult,MD,False
+False,1,male,31.0,1,0,52.0,True,B,southampton,T1-1912-S-P0092,David Meyer,False,False,False,2,First,S,Very High,0.5961538461538461,young_adult,Meyer,False
+False,2,male,70.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0125,Seth Ross,False,False,False,1,Second,S,Medium,6.666666666666667,senior,Ross,True
+True,2,male,31.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0126,Matthew Jacobs,False,False,False,1,Second,S,Medium,2.3846153846153846,young_adult,Jacobs,True
+False,2,male,28.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0127,Jacob Salinas,True,True,False,1,Second,S,Medium,1.9371532149824964,young_adult,Salinas,True
+False,3,male,18.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0267,Aaron Carter,False,False,False,1,Third,S,Low,2.315112540192926,young_adult,Carter,True
+False,3,male,24.5,0,0,8.05,True,unknown,southampton,T3-1912-S-P0268,Gary Sims,False,False,False,1,Third,S,Medium,3.043478260869565,young_adult,Sims,True
+True,3,female,18.0,0,0,9.8417,False,unknown,southampton,T3-1912-S-P0269,Ashley Munoz,False,False,False,1,Third,S,Medium,1.8289523151488056,young_adult,Munoz,True
+False,3,female,43.0,1,6,46.9,False,unknown,southampton,T3-1912-S-P0270,Melanie Cook,False,False,False,8,Third,S,Very High,0.9168443496801706,adult,Cook,False
+True,1,male,36.0,0,1,512.3292,True,B,cherbourg,T1-1912-C-P0069,Daniel Miller,False,False,False,2,First,C,Very High,0.07026732030889514,adult,Miller,False
+False,3,female,28.0,0,0,8.1375,False,unknown,queenstown,T3-1912-Q-P0057,Nicole Smith,True,False,False,1,Third,Q,Medium,3.440860215053764,young_adult,Smith,True
+True,1,male,27.0,0,0,76.7292,True,D,cherbourg,T1-1912-C-P0070,Harold Ward,False,False,False,1,First,C,Very High,0.35188689573200294,young_adult,Ward,True
+False,3,male,20.0,0,0,9.225,True,unknown,southampton,T3-1912-S-P0271,David Boone,False,False,False,1,Third,S,Medium,2.1680216802168024,young_adult,Boone,True
+False,3,male,14.0,5,2,46.9,False,unknown,southampton,T3-1912-S-P0272,Christopher Edwards,False,False,False,8,Third,S,Very High,0.2985074626865672,teen,Edwards,False
+False,2,male,60.0,1,1,39.0,True,unknown,southampton,T2-1912-S-P0128,Michael Davis,False,False,False,3,Second,S,Very High,1.5384615384615385,senior,Davis,False
+False,2,male,25.0,1,2,14.4542,True,unknown,cherbourg,T2-1912-C-P0013,Gary Gardner,False,True,False,4,Second,C,Medium,1.7296010848058003,young_adult,Gardner,False
+False,3,male,14.0,4,1,39.6875,False,unknown,southampton,T3-1912-S-P0273,Johnny Gallegos,False,False,False,6,Third,S,Very High,0.352755905511811,teen,Gallegos,False
+False,3,male,19.0,0,0,10.1708,True,unknown,southampton,T3-1912-S-P0274,Kevin Jacobs,False,False,False,1,Third,S,Medium,1.8680929720375978,young_adult,Jacobs,True
+False,3,male,18.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0275,Sean Beck,False,False,False,1,Third,S,Low,2.3089355806972987,young_adult,Beck,True
+True,1,female,15.0,0,1,14.4542,False,B,southampton,T1-1912-S-P0093,Jessica Cochran,False,True,False,2,First,S,Medium,1.0377606508834802,teen,Cochran,False
+True,1,male,31.0,1,0,57.0,True,B,southampton,T1-1912-S-P0094,Martin Cunningham,False,False,False,2,First,S,Very High,0.543859649122807,young_adult,Cunningham,False
+True,3,female,4.0,0,1,14.4542,False,unknown,cherbourg,T3-1912-C-P0049,Mrs. Brandi Hicks,False,True,True,2,Third,C,Medium,0.27673617356892805,child,Hicks,False
+True,3,male,28.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0276,Bobby Riley,True,False,False,1,Third,S,Very High,0.4956120631976182,young_adult,Riley,True
+False,3,male,25.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0050,Michael Hester,False,False,False,1,Third,C,Low,3.4602076124567476,young_adult,Hester,True
+False,1,male,60.0,0,0,26.55,True,unknown,southampton,T1-1912-S-P0095,Michael Brady,False,False,False,1,First,S,High,2.2598870056497176,senior,Brady,True
+False,2,male,52.0,0,0,13.5,True,unknown,southampton,T2-1912-S-P0129,Brandon Schroeder,False,False,False,1,Second,S,Medium,3.8518518518518516,adult,Schroeder,True
+False,3,male,44.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0277,Eric Taylor,False,False,False,1,Third,S,Medium,5.46583850931677,adult,Taylor,True
+True,3,female,28.0,0,0,7.7333,False,unknown,queenstown,T3-1912-Q-P0058,Melanie Sanford,True,False,False,1,Third,Q,Low,3.6207052616606106,young_adult,Sanford,True
+False,1,male,49.0,1,1,110.8833,True,C,cherbourg,T1-1912-C-P0071,Casey Bowen,False,False,False,3,First,C,Very High,0.4419060399537171,adult,Bowen,False
+False,3,male,42.0,0,0,7.65,True,F,southampton,T3-1912-S-P0278,Brian Romero,False,False,False,1,Third,S,Low,5.490196078431373,adult,Romero,True
+True,1,female,18.0,1,0,227.525,False,C,cherbourg,T1-1912-C-P0072,Cindy Nicholson,False,False,False,2,First,C,Very High,0.07911218547412371,young_adult,Nicholson,False
+True,1,male,35.0,0,0,26.2875,True,E,southampton,T1-1912-S-P0096,Robert Ramos,False,False,False,1,First,S,High,1.3314312886352828,adult,Ramos,True
+False,3,female,18.0,0,1,14.4542,False,unknown,cherbourg,T3-1912-C-P0051,Kelly Jefferson,False,False,False,2,Third,C,Medium,1.2453127810601763,young_adult,Jefferson,False
+False,3,male,25.0,0,0,7.7417,True,unknown,queenstown,T3-1912-Q-P0059,John Thomas,False,False,False,1,Third,Q,Low,3.2292648901404086,young_adult,Thomas,True
+False,3,male,26.0,1,0,7.8542,True,unknown,southampton,T3-1912-S-P0279,Omar Taylor,False,False,False,2,Third,S,Low,3.310330778437015,young_adult,Taylor,False
+False,2,male,39.0,0,0,14.4542,True,unknown,southampton,T2-1912-S-P0130,Robert Stout,False,True,False,1,Second,S,Medium,2.6981776922970484,adult,Stout,True
+True,2,female,45.0,0,0,13.5,False,unknown,southampton,T2-1912-S-P0131,Lisa Garcia,False,False,False,1,Second,S,Medium,3.3333333333333335,adult,Garcia,True
+True,1,male,42.0,0,0,26.2875,True,E,southampton,T1-1912-S-P0097,Jack Cox,False,False,False,1,First,S,High,1.5977175463623394,adult,Cox,True
+True,1,female,22.0,0,0,151.55,False,unknown,southampton,T1-1912-S-P0098,Desiree Kidd,False,False,False,1,First,S,Very High,0.14516661167931375,young_adult,Kidd,True
+True,3,male,28.0,1,1,15.2458,True,unknown,cherbourg,T3-1912-C-P0052,Gabriel Harper,True,False,False,3,Third,C,High,1.8365713835941704,young_adult,Harper,False
+True,1,female,24.0,0,0,49.5042,False,C,cherbourg,T1-1912-C-P0073,Sherry Alvarado,False,False,False,1,First,C,Very High,0.4848073496794212,young_adult,Alvarado,True
+False,1,male,28.0,0,0,26.55,True,C,southampton,T1-1912-S-P0099,Aaron Allen,True,False,False,1,First,S,High,1.054613935969868,young_adult,Allen,True
+True,1,male,48.0,1,0,52.0,True,C,southampton,T1-1912-S-P0100,William Gardner,False,False,False,2,First,S,Very High,0.9230769230769231,adult,Gardner,False
+False,3,male,29.0,0,0,9.4833,True,unknown,southampton,T3-1912-S-P0280,Anthony Anderson,False,False,False,1,Third,S,Medium,3.0580072337688358,young_adult,Anderson,True
+False,2,male,52.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0132,George Pearson,False,False,False,1,Second,S,Medium,4.0,adult,Pearson,True
+False,3,male,19.0,0,0,7.65,True,F,southampton,T3-1912-S-P0281,Bobby Ferguson,False,False,False,1,Third,S,Low,2.4836601307189543,young_adult,Ferguson,True
+True,1,female,38.0,0,0,227.525,False,C,cherbourg,T1-1912-C-P0074,Caitlyn Nguyen,False,False,False,1,First,C,Very High,0.16701461377870563,adult,Nguyen,True
+True,2,female,27.0,0,0,10.5,False,E,southampton,T2-1912-S-P0133,Morgan Eaton,False,False,False,1,Second,S,Medium,2.5714285714285716,young_adult,Eaton,True
+False,3,male,28.0,0,0,15.5,True,unknown,queenstown,T3-1912-Q-P0060,Darren Kirk,True,False,False,1,Third,Q,High,1.8064516129032258,young_adult,Kirk,True
+False,3,male,33.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0282,Dustin Russell,False,False,False,1,Third,S,Low,4.244372990353698,young_adult,Russell,True
+True,2,female,6.0,0,1,33.0,False,unknown,southampton,T2-1912-S-P0134,Pamela Kelly,False,False,True,2,Second,S,Very High,0.18181818181818182,child,Kelly,False
+False,3,male,17.0,1,0,7.0542,True,unknown,southampton,T3-1912-S-P0283,Kurt Daniels,False,False,False,2,Third,S,Low,2.409911825579088,teen,Daniels,False
+False,2,male,34.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0135,Jaime Moore,False,False,False,1,Second,S,Medium,2.6153846153846154,young_adult,Moore,True
+False,2,male,50.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0136,Sean York,False,False,False,1,Second,S,Medium,3.8461538461538463,adult,York,True
+True,1,male,27.0,1,0,53.1,True,E,southampton,T1-1912-S-P0101,David Smith,False,False,False,2,First,S,Very High,0.5084745762711864,young_adult,Smith,False
+False,3,male,20.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0284,Randy Shah,False,False,False,1,Third,S,Medium,2.308802308802309,young_adult,Shah,True
+True,2,female,30.0,3,0,21.0,False,unknown,southampton,T2-1912-S-P0137,Andrea Chaney,False,False,False,4,Second,S,High,1.4285714285714286,young_adult,Chaney,False
+True,3,female,28.0,0,0,7.7375,False,unknown,queenstown,T3-1912-Q-P0061,Catherine Smith,True,False,False,1,Third,Q,Low,3.618739903069467,young_adult,Smith,True
+False,2,male,25.0,1,0,26.0,True,unknown,southampton,T2-1912-S-P0138,Calvin Perry,False,False,False,2,Second,S,High,0.9615384615384616,young_adult,Perry,False
+False,3,female,25.0,1,0,7.925,False,unknown,southampton,T3-1912-S-P0285,Shelby Galloway,False,False,False,2,Third,S,Low,3.1545741324921135,young_adult,Galloway,False
+True,1,female,29.0,0,0,211.3375,False,B,southampton,T1-1912-S-P0102,Natalie Brown,False,False,False,1,First,S,Very High,0.137221269296741,young_adult,Brown,True
+False,3,male,11.0,0,0,18.7875,False,unknown,cherbourg,T3-1912-C-P0053,Justin Rogers,False,False,True,1,Third,C,High,0.5854956753160345,child,Rogers,True
+False,2,male,28.0,0,0,0.0,True,unknown,southampton,T2-1912-S-P0139,Ray Kirby,True,False,False,1,Second,S,Low,,young_adult,Kirby,True
+False,2,male,23.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0140,David White,False,False,False,1,Second,S,Medium,1.7692307692307692,young_adult,White,True
+False,2,male,23.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0141,Jose Murray,False,False,False,1,Second,S,Medium,1.7692307692307692,young_adult,Murray,True
+False,3,male,28.5,0,0,16.1,True,unknown,southampton,T3-1912-S-P0286,George Pearson,False,False,False,1,Third,S,High,1.7701863354037266,young_adult,Pearson,True
+False,3,female,48.0,1,3,34.375,False,unknown,southampton,T3-1912-S-P0287,Alison Boyle,False,False,False,5,Third,S,Very High,1.3963636363636365,adult,Boyle,False
+True,1,male,35.0,0,0,512.3292,True,B,cherbourg,T1-1912-C-P0075,James Ramirez,False,False,False,1,First,C,Very High,0.06831545030031472,adult,Ramirez,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0288,Michael Kemp,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Kemp,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0289,Christian Wade,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Wade,True
+True,1,male,28.0,0,0,14.4542,True,D,southampton,T1-1912-S-P0103,Brian Alexander,True,True,False,1,First,S,Medium,1.9371532149824964,young_adult,Alexander,True
+False,1,male,36.0,1,0,78.85,True,C,southampton,T1-1912-S-P0104,John Long,False,False,False,2,First,S,Very High,0.456563094483196,adult,Long,False
+True,1,female,21.0,2,2,262.375,False,B,cherbourg,T1-1912-C-P0076,Samantha Smith,False,False,False,5,First,C,Very High,0.0800381133873273,young_adult,Smith,False
+False,3,male,24.0,1,0,16.1,True,unknown,southampton,T3-1912-S-P0290,Luis Taylor,False,False,False,2,Third,S,High,1.4906832298136645,young_adult,Taylor,False
+True,3,male,31.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0291,James Gutierrez,False,False,False,1,Third,S,Low,3.911671924290221,young_adult,Gutierrez,True
+False,1,male,70.0,1,1,71.0,True,B,southampton,T1-1912-S-P0105,Joseph Stone,False,False,False,3,First,S,Very High,0.9859154929577465,senior,Stone,False
+False,3,male,16.0,1,1,20.25,True,unknown,southampton,T3-1912-S-P0292,Ronnie Meadows,False,False,False,3,Third,S,High,0.7901234567901234,teen,Meadows,False
+True,2,female,30.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0142,Renee Warren,False,False,False,1,Second,S,Medium,2.3076923076923075,young_adult,Warren,True
+False,1,male,19.0,1,0,53.1,True,D,southampton,T1-1912-S-P0106,Andrew Sullivan,False,False,False,2,First,S,Very High,0.3578154425612053,young_adult,Sullivan,False
+False,3,male,31.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0062,Darryl Brown,False,False,False,1,Third,Q,Low,4.0,young_adult,Brown,True
+True,2,female,4.0,1,1,23.0,False,unknown,southampton,T2-1912-S-P0143,Ashley Spencer,False,False,True,3,Second,S,High,0.17391304347826086,child,Spencer,False
+True,3,male,6.0,0,1,12.475,False,E,southampton,T3-1912-S-P0293,Daniel Waters,False,False,True,2,Third,S,Medium,0.4809619238476954,child,Waters,False
+False,3,male,33.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0294,David Hernandez,False,False,False,1,Third,S,Medium,3.473684210526316,young_adult,Hernandez,True
+False,3,male,23.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0295,Michael Thompson,False,False,False,1,Third,S,Low,2.912941057270954,young_adult,Thompson,True
+True,2,female,48.0,1,2,65.0,False,unknown,southampton,T2-1912-S-P0144,Julie Perez,False,False,False,4,Second,S,Very High,0.7384615384615385,adult,Perez,False
+True,2,male,0.67,1,1,14.5,False,unknown,southampton,T2-1912-S-P0145,Justin Sosa,False,False,True,3,Second,S,High,0.04620689655172414,child,Sosa,False
+False,3,male,28.0,0,0,7.7958,True,unknown,southampton,T3-1912-S-P0296,Stephen Day MD,False,False,False,1,Third,S,Low,3.5916775699735757,young_adult,MD,True
+False,2,male,18.0,0,0,11.5,True,unknown,southampton,T2-1912-S-P0146,Brandon Irwin,False,False,False,1,Second,S,Medium,1.565217391304348,young_adult,Irwin,True
+False,3,male,34.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0297,Michael Anderson,False,False,False,1,Third,S,Medium,4.22360248447205,young_adult,Anderson,True
+True,1,female,33.0,0,0,86.5,False,B,southampton,T1-1912-S-P0107,Felicia Sheppard,False,False,False,1,First,S,Very High,0.3815028901734104,young_adult,Sheppard,True
+False,3,male,28.0,0,0,14.5,True,unknown,southampton,T3-1912-S-P0298,Alex Campos,True,False,False,1,Third,S,High,1.9310344827586208,young_adult,Campos,True
+False,3,male,41.0,0,0,7.125,True,unknown,southampton,T3-1912-S-P0299,Richard Johnson,False,False,False,1,Third,S,Low,5.754385964912281,adult,Johnson,True
+True,3,male,20.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0054,Mark Olson,False,False,False,1,Third,C,Low,2.766557848724617,young_adult,Olson,True
+True,1,female,36.0,1,2,120.0,False,B,southampton,T1-1912-S-P0108,Kristin Edwards,False,False,False,4,First,S,Very High,0.3,adult,Edwards,False
+False,3,male,16.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0300,Matthew Lee,False,False,False,1,Third,S,Low,2.057877813504823,teen,Lee,True
+True,1,female,51.0,1,0,77.9583,False,D,southampton,T1-1912-S-P0109,Hannah Young,False,False,False,2,First,S,Very High,0.6541958970372623,adult,Young,False
+False,1,male,28.0,0,0,39.6,True,unknown,cherbourg,T1-1912-C-P0077,Joshua Hampton,True,False,False,1,First,C,Very High,0.7070707070707071,young_adult,Hampton,True
+False,3,female,30.5,0,0,7.75,False,unknown,queenstown,T3-1912-Q-P0063,Becky Williams,False,False,False,1,Third,Q,Low,3.935483870967742,young_adult,Williams,True
+False,3,male,28.0,1,0,24.15,True,unknown,queenstown,T3-1912-Q-P0064,Steven Hudson DDS,True,False,False,2,Third,Q,High,1.1594202898550725,young_adult,DDS,False
+False,3,male,32.0,0,0,8.3625,True,unknown,southampton,T3-1912-S-P0301,Timothy Stafford,False,False,False,1,Third,S,Medium,3.82660687593423,young_adult,Stafford,True
+False,3,male,24.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0302,Charles Walker,False,False,False,1,Third,S,Medium,2.526315789473684,young_adult,Walker,True
+False,3,male,48.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0303,Keith Gilbert,False,False,False,1,Third,S,Low,6.111379898652951,adult,Gilbert,True
+False,2,female,57.0,0,0,10.5,False,E,southampton,T2-1912-S-P0147,Bonnie Kelly,False,False,False,1,Second,S,Medium,5.428571428571429,adult,Kelly,True
+False,3,male,28.0,0,0,7.225,True,unknown,cherbourg,T3-1912-C-P0055,Philip Morgan,True,False,False,1,Third,C,Low,3.8754325259515574,young_adult,Morgan,True
+True,2,female,54.0,1,3,23.0,False,unknown,southampton,T2-1912-S-P0148,Jacqueline Henry,False,False,False,5,Second,S,High,2.347826086956522,adult,Henry,False
+False,3,male,18.0,0,0,7.75,True,unknown,southampton,T3-1912-S-P0304,Dylan Gomez,False,False,False,1,Third,S,Low,2.3225806451612905,young_adult,Gomez,True
+False,3,male,28.0,0,0,7.75,True,F,queenstown,T3-1912-Q-P0065,David Schultz,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Schultz,True
+True,3,female,5.0,0,0,14.4542,False,unknown,southampton,T3-1912-S-P0305,Kimberly Hunter,False,True,True,1,Third,S,Medium,0.3459202169611601,child,Hunter,True
+False,3,male,28.0,0,0,7.7375,True,unknown,queenstown,T3-1912-Q-P0066,Kevin Fitzpatrick,True,False,False,1,Third,Q,Low,3.618739903069467,young_adult,Fitzpatrick,True
+True,1,female,43.0,0,1,211.3375,False,B,southampton,T1-1912-S-P0110,Bridget Baker,False,False,False,2,First,S,Very High,0.2034660199917194,adult,Baker,False
+True,3,female,13.0,0,0,7.2292,False,unknown,cherbourg,T3-1912-C-P0056,Emily Gardner,False,False,False,1,Third,C,Low,1.798262601671001,teen,Gardner,True
+True,1,female,17.0,1,0,57.0,False,B,southampton,T1-1912-S-P0111,Emily Davis,False,False,False,2,First,S,Very High,0.2982456140350877,teen,Davis,False
+False,1,male,29.0,0,0,30.0,True,D,southampton,T1-1912-S-P0112,Joshua Jones,False,False,False,1,First,S,Very High,0.9666666666666667,young_adult,Jones,True
+False,3,male,28.0,1,2,23.45,True,unknown,southampton,T3-1912-S-P0306,Jordan Thompson,True,False,False,4,Third,S,High,1.1940298507462688,young_adult,Thompson,False
+False,3,male,25.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0307,Alexander Martinez,False,False,False,1,Third,S,Low,3.546099290780142,young_adult,Martinez,True
+False,3,male,25.0,0,0,7.25,True,unknown,southampton,T3-1912-S-P0308,Jeffrey Gibson,False,False,False,1,Third,S,Low,3.4482758620689653,young_adult,Gibson,True
+True,3,female,18.0,0,0,7.4958,False,unknown,southampton,T3-1912-S-P0309,Michelle Shelton,False,False,False,1,Third,S,Low,2.4013447530617147,young_adult,Shelton,True
+False,3,male,8.0,4,1,29.125,False,unknown,queenstown,T3-1912-Q-P0067,Robert Avery,False,False,True,6,Third,Q,High,0.27467811158798283,child,Avery,False
+True,3,male,1.0,1,2,20.575,False,unknown,southampton,T3-1912-S-P0310,Austin Bowen,False,False,True,4,Third,S,High,0.04860267314702309,child,Bowen,False
+False,1,male,46.0,0,0,79.2,True,B,cherbourg,T1-1912-C-P0078,Anthony Hall,False,False,False,1,First,C,Very High,0.5808080808080808,adult,Hall,True
+False,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0068,Robert Martin,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Martin,True
+False,2,male,16.0,0,0,26.0,True,unknown,southampton,T2-1912-S-P0149,Daryl Marks,False,False,False,1,Second,S,High,0.6153846153846154,teen,Marks,True
+False,3,female,28.0,8,2,69.55,False,unknown,southampton,T3-1912-S-P0311,Brittany Scott,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Scott,False
+False,1,male,28.0,0,0,30.6958,True,unknown,cherbourg,T1-1912-C-P0079,Alejandro Lopez,True,False,False,1,First,C,Very High,0.9121769101961832,young_adult,Lopez,True
+False,3,male,25.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0312,Alejandro Sanders,False,False,False,1,Third,S,Low,3.1662402796423414,young_adult,Sanders,True
+False,2,male,39.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0150,David Norton,False,False,False,1,Second,S,Medium,3.0,adult,Norton,True
+True,1,female,49.0,0,0,25.9292,False,D,southampton,T1-1912-S-P0113,Theresa Foster,False,False,False,1,First,S,High,1.8897613501380681,adult,Foster,True
+True,3,female,31.0,0,0,8.6833,False,unknown,southampton,T3-1912-S-P0313,Teresa Dyer,False,False,False,1,Third,S,Medium,3.5700712862621358,young_adult,Dyer,True
+False,3,male,30.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0057,Zachary Zimmerman,False,False,False,1,Third,C,Low,4.149836773086926,young_adult,Zimmerman,True
+False,3,female,30.0,1,1,24.15,False,unknown,southampton,T3-1912-S-P0314,Dr. Susan Brown MD,False,False,False,3,Third,S,High,1.2422360248447206,young_adult,MD,False
+False,2,male,34.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0151,Brian Brown,False,False,False,1,Second,S,Medium,2.6153846153846154,young_adult,Brown,True
+True,2,female,31.0,1,1,26.25,False,unknown,southampton,T2-1912-S-P0152,Angela Davis,False,False,False,3,Second,S,High,1.180952380952381,young_adult,Davis,False
+True,1,male,11.0,1,2,120.0,False,B,southampton,T1-1912-S-P0114,Kyle Myers,False,False,True,4,First,S,Very High,0.09166666666666666,child,Myers,False
+True,3,male,0.42,0,1,14.4542,False,unknown,cherbourg,T3-1912-C-P0058,Brian Snyder,False,True,True,2,Third,C,Medium,0.029057298224737446,child,Snyder,False
+True,3,male,27.0,0,0,6.975,True,unknown,southampton,T3-1912-S-P0315,Karl Zimmerman,False,False,False,1,Third,S,Low,3.870967741935484,young_adult,Zimmerman,True
+False,3,male,31.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0316,Andrew Gross,False,False,False,1,Third,S,Low,3.9871382636655945,young_adult,Gross,True
+False,1,male,39.0,0,0,0.0,True,A,southampton,T1-1912-S-P0115,Daryl Luna,False,False,False,1,First,S,Low,,adult,Luna,True
+False,3,female,18.0,0,0,7.775,False,unknown,southampton,T3-1912-S-P0317,Lisa Mitchell,False,False,False,1,Third,S,Low,2.315112540192926,young_adult,Mitchell,True
+False,2,male,39.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0153,Christian Kramer,False,False,False,1,Second,S,Medium,3.0,adult,Kramer,True
+True,1,female,33.0,1,0,53.1,False,E,southampton,T1-1912-S-P0116,Jennifer Johnson,False,False,False,2,First,S,Very High,0.6214689265536723,young_adult,Johnson,False
+False,3,male,26.0,0,0,7.8875,True,unknown,southampton,T3-1912-S-P0318,Corey Bates,False,False,False,1,Third,S,Low,3.2963549920760697,young_adult,Bates,True
+False,3,male,39.0,0,0,24.15,True,unknown,southampton,T3-1912-S-P0319,Gregory Terrell,False,False,False,1,Third,S,High,1.6149068322981368,adult,Terrell,True
+False,2,male,35.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0154,John Webb,False,False,False,1,Second,S,Medium,3.3333333333333335,adult,Webb,True
+False,3,female,6.0,4,2,31.275,False,unknown,southampton,T3-1912-S-P0320,Tracy Clark,False,False,True,7,Third,S,Very High,0.19184652278177458,child,Clark,False
+False,3,male,30.5,0,0,8.05,True,unknown,southampton,T3-1912-S-P0321,Harold Wilson,False,False,False,1,Third,S,Medium,3.7888198757763973,young_adult,Wilson,True
+False,1,male,28.0,0,0,0.0,True,B,southampton,T1-1912-S-P0117,Gary Long,True,False,False,1,First,S,Low,,young_adult,Long,True
+False,3,female,23.0,0,0,7.925,False,unknown,southampton,T3-1912-S-P0322,Ann Johnson,False,False,False,1,Third,S,Low,2.9022082018927446,young_adult,Johnson,True
+False,2,male,31.0,1,1,37.0042,True,unknown,cherbourg,T2-1912-C-P0014,James Armstrong,False,False,False,3,Second,C,Very High,0.8377427427156918,young_adult,Armstrong,False
+False,3,male,43.0,0,0,6.45,True,unknown,southampton,T3-1912-S-P0323,Steven Brown,False,False,False,1,Third,S,Low,6.666666666666666,adult,Brown,True
+False,3,male,10.0,3,2,27.9,False,unknown,southampton,T3-1912-S-P0324,Jason Gray,False,False,True,6,Third,S,High,0.35842293906810035,child,Gray,False
+True,1,female,52.0,1,1,93.5,False,B,southampton,T1-1912-S-P0118,Donna Davis,False,False,False,3,First,S,Very High,0.5561497326203209,adult,Davis,False
+True,3,male,27.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0325,Scott Hoover,False,False,False,1,Third,S,Medium,3.116883116883117,young_adult,Hoover,True
+False,1,male,38.0,0,0,0.0,True,unknown,southampton,T1-1912-S-P0119,Daniel Stanley PhD,False,False,False,1,First,S,Low,,adult,PhD,True
+True,3,female,27.0,0,1,12.475,False,E,southampton,T3-1912-S-P0326,Jessica Kim,False,False,False,2,Third,S,Medium,2.164328657314629,young_adult,Kim,False
+False,3,male,2.0,4,1,39.6875,False,unknown,southampton,T3-1912-S-P0327,Michael Petersen,False,False,True,6,Third,S,Very High,0.050393700787401574,child,Petersen,False
+False,3,male,28.0,0,0,6.95,True,unknown,queenstown,T3-1912-Q-P0069,Anthony Phillips,True,False,False,1,Third,Q,Low,4.028776978417266,young_adult,Phillips,True
+False,3,male,28.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0328,Juan Guerrero,True,False,False,1,Third,S,Very High,0.4956120631976182,young_adult,Guerrero,True
+True,2,male,1.0,0,2,37.0042,False,unknown,cherbourg,T2-1912-C-P0015,Matthew Miller,False,False,True,3,Second,C,Very High,0.02702395944244167,child,Miller,False
+True,3,male,28.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0070,Joshua Cherry,True,False,False,1,Third,Q,Low,3.6129032258064515,young_adult,Cherry,True
+True,1,female,62.0,0,0,80.0,False,B,unknown,T1-1912-U-P0002,Penny Miller,False,False,False,1,First,unknown,Very High,0.775,senior,Miller,True
+True,3,female,15.0,1,0,14.4542,False,unknown,cherbourg,T3-1912-C-P0059,Jessica Montgomery,False,False,False,2,Third,C,Medium,1.0377606508834802,teen,Montgomery,False
+True,2,male,0.83,1,1,18.75,False,unknown,southampton,T2-1912-S-P0155,Randy Castillo,False,False,True,3,Second,S,High,0.04426666666666666,child,Castillo,False
+False,3,male,28.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0060,Brian Figueroa,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Figueroa,True
+False,3,male,23.0,0,0,7.8542,True,unknown,southampton,T3-1912-S-P0329,Timothy Gibbs,False,False,False,1,Third,S,Low,2.9283695347712055,young_adult,Gibbs,True
+False,3,male,18.0,0,0,8.3,True,unknown,southampton,T3-1912-S-P0330,Mr. James Price,False,False,False,1,Third,S,Medium,2.1686746987951806,young_adult,Price,True
+True,1,female,39.0,1,1,83.1583,False,E,cherbourg,T1-1912-C-P0080,Ms. Tammy Hernandez,False,False,False,3,First,C,Very High,0.4689850562120678,adult,Hernandez,False
+False,3,male,21.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0331,Joshua Gibson,False,False,False,1,Third,S,Medium,2.4242424242424243,young_adult,Gibson,True
+False,3,male,28.0,0,0,8.05,True,unknown,southampton,T3-1912-S-P0332,Anthony Santiago,True,False,False,1,Third,S,Medium,3.4782608695652173,young_adult,Santiago,True
+True,3,male,32.0,0,0,56.4958,True,unknown,southampton,T3-1912-S-P0333,Phillip Evans,False,False,False,1,Third,S,Very High,0.5664137865115637,young_adult,Evans,True
+True,1,male,28.0,0,0,29.7,True,C,cherbourg,T1-1912-C-P0081,Daniel Thompson,True,False,False,1,First,C,High,0.9427609427609428,young_adult,Thompson,True
+False,3,male,20.0,0,0,7.925,True,unknown,southampton,T3-1912-S-P0334,Alvin Harvey,False,False,False,1,Third,S,Low,2.5236593059936907,young_adult,Harvey,True
+False,2,male,16.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0156,Bryce Ellison,False,False,False,1,Second,S,Medium,1.5238095238095237,teen,Ellison,True
+True,1,female,30.0,0,0,31.0,False,unknown,cherbourg,T1-1912-C-P0082,Cynthia Proctor,False,False,False,1,First,C,Very High,0.967741935483871,young_adult,Proctor,True
+False,3,male,34.5,0,0,6.4375,True,unknown,cherbourg,T3-1912-C-P0061,Dr. Robert Castillo Jr.,False,False,False,1,Third,C,Low,5.359223300970874,young_adult,Jr.,True
+False,3,male,17.0,0,0,8.6625,True,unknown,southampton,T3-1912-S-P0335,Donald Berry,False,False,False,1,Third,S,Medium,1.9624819624819625,teen,Berry,True
+False,3,male,42.0,0,0,7.55,True,unknown,southampton,T3-1912-S-P0336,Joshua Carlson,False,False,False,1,Third,S,Low,5.562913907284768,adult,Carlson,True
+False,3,male,28.0,8,2,69.55,True,unknown,southampton,T3-1912-S-P0337,Benjamin Lewis,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Lewis,False
+False,3,male,35.0,0,0,7.8958,True,unknown,cherbourg,T3-1912-C-P0062,Chad Peterson,False,False,False,1,Third,C,Low,4.432736391499278,adult,Peterson,True
+False,2,male,28.0,0,1,33.0,True,unknown,southampton,T2-1912-S-P0157,Daniel Carey,False,False,False,2,Second,S,Very High,0.8484848484848485,young_adult,Carey,False
+True,1,female,28.0,1,0,89.1042,False,C,cherbourg,T1-1912-C-P0083,Carrie Esparza MD,True,False,False,2,First,C,Very High,0.3142388349819649,young_adult,MD,False
+False,3,male,4.0,4,2,31.275,False,unknown,southampton,T3-1912-S-P0338,Aaron Lopez,False,False,True,7,Third,S,Very High,0.1278976818545164,child,Lopez,False
+False,3,male,74.0,0,0,7.775,True,unknown,southampton,T3-1912-S-P0339,Mark Mayer,False,False,False,1,Third,S,Low,9.517684887459806,senior,Mayer,True
+False,3,female,9.0,1,1,15.2458,False,unknown,cherbourg,T3-1912-C-P0063,Emily Chase,False,False,True,3,Third,C,High,0.590326516155269,child,Chase,False
+True,1,female,16.0,0,1,39.4,False,D,southampton,T1-1912-S-P0120,Emily Preston,False,False,False,2,First,S,Very High,0.40609137055837563,teen,Preston,False
+False,2,female,44.0,1,0,26.0,False,unknown,southampton,T2-1912-S-P0158,Elizabeth Hernandez,False,False,False,2,Second,S,High,1.6923076923076923,adult,Hernandez,False
+True,3,female,18.0,0,1,9.35,False,unknown,southampton,T3-1912-S-P0340,Megan Barrett,False,False,False,2,Third,S,Medium,1.9251336898395723,young_adult,Barrett,False
+True,1,female,45.0,1,1,164.8667,False,unknown,southampton,T1-1912-S-P0121,Amanda Mcdonald,False,False,False,3,First,S,Very High,0.27294778145010484,adult,Mcdonald,False
+True,1,male,51.0,0,0,26.55,True,E,southampton,T1-1912-S-P0122,Aaron Smith,False,False,False,1,First,S,High,1.9209039548022597,adult,Smith,True
+True,3,female,24.0,0,3,19.2583,False,unknown,cherbourg,T3-1912-C-P0064,Amy Allen,False,False,False,4,Third,C,High,1.2462159172928038,young_adult,Allen,False
+False,3,male,28.0,0,0,7.2292,True,unknown,cherbourg,T3-1912-C-P0065,Paul Guzman,True,False,False,1,Third,C,Low,3.8731809882144637,young_adult,Guzman,True
+False,3,male,41.0,2,0,14.1083,True,unknown,southampton,T3-1912-S-P0341,Michael Ewing,False,False,False,3,Third,S,Medium,2.9060907409113783,adult,Ewing,False
+False,2,male,21.0,1,0,11.5,True,unknown,southampton,T2-1912-S-P0159,Darin Trujillo,False,False,False,2,Second,S,Medium,1.826086956521739,young_adult,Trujillo,False
+True,1,female,48.0,0,0,25.9292,False,D,southampton,T1-1912-S-P0123,Lauren Allen,False,False,False,1,First,S,High,1.851194791971985,adult,Allen,True
+False,3,female,28.0,8,2,69.55,False,unknown,southampton,T3-1912-S-P0342,Alyssa Mitchell,True,False,False,11,Third,S,Very High,0.402588066139468,young_adult,Mitchell,False
+False,2,male,24.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0160,Douglas Pena,False,False,False,1,Second,S,Medium,1.8461538461538463,young_adult,Pena,True
+True,2,female,42.0,0,0,13.0,False,unknown,southampton,T2-1912-S-P0161,Kimberly Rocha,False,False,False,1,Second,S,Medium,3.230769230769231,adult,Rocha,True
+True,2,female,27.0,1,0,13.8583,False,unknown,cherbourg,T2-1912-C-P0016,Kelly Lopez,False,False,False,2,Second,C,Medium,1.9482909159132074,young_adult,Lopez,False
+False,1,male,31.0,0,0,50.4958,True,A,southampton,T1-1912-S-P0124,Francis Taylor,False,False,False,1,First,S,Very High,0.6139124442032803,young_adult,Taylor,True
+False,3,male,28.0,0,0,9.5,True,unknown,southampton,T3-1912-S-P0343,Kurt Lowe,True,False,False,1,Third,S,Medium,2.9473684210526314,young_adult,Lowe,True
+True,3,male,4.0,1,1,11.1333,False,unknown,southampton,T3-1912-S-P0344,Adam Hayes,False,False,True,3,Third,S,Medium,0.35928251282189466,child,Hayes,False
+False,3,male,26.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0345,Franklin Randolph,False,False,False,1,Third,S,Low,3.292889890828035,young_adult,Randolph,True
+True,1,female,47.0,1,1,52.5542,False,D,southampton,T1-1912-S-P0125,Michelle Martin,False,False,False,3,First,S,Very High,0.894314821650791,adult,Martin,False
+False,1,male,33.0,0,0,5.0,True,B,southampton,T1-1912-S-P0126,Richard Rodriguez,False,False,False,1,First,S,Low,6.6,young_adult,Rodriguez,True
+False,3,male,47.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0346,Todd Evans,False,True,False,1,Third,S,Medium,3.251650039434905,adult,Evans,True
+True,2,female,28.0,1,0,24.0,False,unknown,cherbourg,T2-1912-C-P0017,Jocelyn Vega,False,False,False,2,Second,C,High,1.1666666666666667,young_adult,Vega,False
+True,3,female,15.0,0,0,7.225,False,unknown,cherbourg,T3-1912-C-P0066,Pamela Lewis,False,False,False,1,Third,C,Low,2.0761245674740487,teen,Lewis,True
+False,3,male,20.0,0,0,9.8458,True,unknown,southampton,T3-1912-S-P0347,Thomas Cannon,False,False,False,1,Third,S,Medium,2.0313230006703367,young_adult,Cannon,True
+False,3,male,19.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0348,Brian Hill,False,False,False,1,Third,S,Low,2.4063426125281793,young_adult,Hill,True
+False,3,male,28.0,0,0,7.8958,True,unknown,southampton,T3-1912-S-P0349,Brandon Freeman,True,False,False,1,Third,S,Low,3.5461891131994223,young_adult,Freeman,True
+True,1,female,56.0,0,1,83.1583,False,C,cherbourg,T1-1912-C-P0084,Robin Johnson,False,False,False,2,First,C,Very High,0.6734144396891231,adult,Johnson,False
+True,2,female,25.0,0,1,26.0,False,unknown,southampton,T2-1912-S-P0162,Caitlyn Thompson,False,False,False,2,Second,S,High,0.9615384615384616,young_adult,Thompson,False
+False,3,male,33.0,0,0,14.4542,True,unknown,southampton,T3-1912-S-P0350,Scott Mathis,False,True,False,1,Third,S,Medium,2.2830734319436563,young_adult,Mathis,True
+False,3,female,22.0,0,0,10.5167,False,unknown,southampton,T3-1912-S-P0351,Samantha Moore,False,False,False,1,Third,S,Medium,2.0919109606625654,young_adult,Moore,True
+False,2,male,28.0,0,0,10.5,True,unknown,southampton,T2-1912-S-P0163,Gary Casey,False,False,False,1,Second,S,Medium,2.6666666666666665,young_adult,Casey,True
+False,3,male,25.0,0,0,7.05,True,unknown,southampton,T3-1912-S-P0352,Michael Carroll,False,False,False,1,Third,S,Low,3.546099290780142,young_adult,Carroll,True
+False,3,female,39.0,0,5,29.125,False,unknown,queenstown,T3-1912-Q-P0071,Amy Gonzales,False,False,False,6,Third,Q,High,1.3390557939914163,adult,Gonzales,False
+False,2,male,27.0,0,0,13.0,True,unknown,southampton,T2-1912-S-P0164,Michael Johnson,False,False,False,1,Second,S,Medium,2.076923076923077,young_adult,Johnson,True
+True,1,female,19.0,0,0,30.0,False,B,southampton,T1-1912-S-P0127,Lisa Buck,False,False,False,1,First,S,Very High,0.6333333333333333,young_adult,Buck,True
+False,3,female,28.0,1,2,23.45,False,unknown,southampton,T3-1912-S-P0353,Alexandria Lawrence,True,False,False,4,Third,S,High,1.1940298507462688,young_adult,Lawrence,False
+True,1,male,26.0,0,0,14.4542,True,C,cherbourg,T1-1912-C-P0085,Christopher Reed,False,True,False,1,First,C,Medium,1.7987851281980325,young_adult,Reed,True
+False,3,male,32.0,0,0,7.75,True,unknown,queenstown,T3-1912-Q-P0072,James Horton,False,False,False,1,Third,Q,Low,4.129032258064516,young_adult,Horton,True
