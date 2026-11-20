@@ -144,6 +144,10 @@ Prepare the UCI Adult dataset for modeling with scikit-learn pipelines for encod
 
 ### Data Cleaning and Exploratory Data Analysis
 
+[![Week 6 Brief](https://img.shields.io/badge/Week_6-Assignment_Brief-0078D4?style=for-the-badge&logoColor=white)](Week-6/BRIEF.md)
+
+**Work in pairs of exactly two students. Select one dataset. Each student submits only the completed notebook (`.ipynb`) individually on Moodle.**
+
 Four practice datasets using the tools from Weeks 1–5. Each notebook contains **18 required questions**, including cleaning, descriptive statistics, a **histogram**, a **boxplot**, a **scatter plot**, interpretation and CSV export.
 
 The CSVs are deliberately messy teaching adaptations of real datasets. Work with the supplied files; no scaling, model training or statistical tests are required.
