@@ -140,6 +140,50 @@ Prepare the UCI Adult dataset for modeling with scikit-learn pipelines for encod
 
 ---
 
+## 📆 Week 6
+
+### Data Cleaning and Exploratory Data Analysis
+
+Four practice datasets using the tools from Weeks 1–5. Each notebook contains **18 required questions**, including cleaning, descriptive statistics, a **histogram**, a **boxplot**, a **scatter plot**, interpretation and CSV export.
+
+The CSVs are deliberately messy teaching adaptations of real datasets. Work with the supplied files; no scaling, model training or statistical tests are required.
+
+#### Student Performance
+
+Explore Mathematics results from two Portuguese secondary schools. Each row is one course record, not a person tracked across subjects.
+
+| 🧩 Student | 🌐 Colab | 📂 Messy dataset |
+| :---: | :---: | :---: |
+| [![GitHub-Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-student-performance-student.ipynb) | [![Colab-Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-student-performance-student.ipynb) | [![Download-Messy student performance CSV](https://img.shields.io/badge/Download-Messy_student_performance_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_student_performance.csv) |
+
+#### Bike Sharing
+
+Explore daily bicycle rentals in Washington, D.C., in 2011–2012. Each row represents one day.
+
+| 🧩 Student | 🌐 Colab | 📂 Messy dataset |
+| :---: | :---: | :---: |
+| [![GitHub-Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-bike-sharing-student.ipynb) | [![Colab-Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-bike-sharing-student.ipynb) | [![Download-Messy bike sharing CSV](https://img.shields.io/badge/Download-Messy_bike_sharing_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_bike_sharing.csv) |
+
+#### Auto MPG
+
+Explore fuel economy and vehicle characteristics for cars from model years 1970–1982. Each row is a vehicle record; different rows can have similar names.
+
+| 🧩 Student | 🌐 Colab | 📂 Messy dataset |
+| :---: | :---: | :---: |
+| [![GitHub-Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-auto-mpg-student.ipynb) | [![Colab-Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-auto-mpg-student.ipynb) | [![Download-Messy auto mpg CSV](https://img.shields.io/badge/Download-Messy_auto_mpg_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_auto_mpg.csv) |
+
+#### Palmer Penguins
+
+Explore measurements of penguins from the Palmer Archipelago, Antarctica. Each row is an observed penguin in the source sample.
+
+| 🧩 Student | 🌐 Colab | 📂 Messy dataset |
+| :---: | :---: | :---: |
+| [![GitHub-Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-penguins-student.ipynb) | [![Colab-Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-penguins-student.ipynb) | [![Download-Messy penguins CSV](https://img.shields.io/badge/Download-Messy_penguins_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_penguins.csv) |
+
+For Colab, download and upload the matching messy CSV using the Files panel. Each notebook loads the local CSV; it does not replace it with a clean download. See the [Week 6 guide and dataset sources](Week-6/README.md).
+
+---
+
 ## 🛠️ Mini-project 1
 
 ### Service Ticket Data Pipeline

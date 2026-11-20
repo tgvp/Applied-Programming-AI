@@ -1,0 +1,351 @@
+,record_id,species,island,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g ,sex
+0,1,adelie,torgersen,39.1,18.7,181.0,3750.0,male
+1,2,adelie,torgersen,39.5,17.4,186.0,3800.0,female
+2,3,adelie,torgersen,40.3,18.0 mm,195.0,3250.0,female
+3,4,adelie,torgersen,,,,,
+4,5,  ADELIE ,torgersen,36.7,19.3,193.0,3450.0,female
+5,6,adelie,torgersen,39.3,20.6,190.0,3650.0,male
+6,7,adelie,torgersen,38.9,17.8,181.0,3625.0,female
+7,8,adelie,torgersen,39.2,19.6,195.0,4675.0,male
+8,9,adelie,torgersen,34.1,18.1,193.0,3475.0,
+9,10,adelie,torgersen,42.0,20.2,190.0,4250.0,
+10,11,adelie,torgersen,37.8,,186.0,3300.0,
+11,12,adelie,torgersen,37.8,17.3,180.0,3700.0,
+12,13,adelie,torgersen,41.1,17.6,182.0,3200.0,female
+13,14,adelie,torgersen,38.6,21.2,191.0,3800.0,male
+14,15,  ADELIE ,torgersen,34.6,21.1,198.0,4400.0,male
+15,16,adelie,torgersen,36.6,17.8,185.0,3700.0,female
+16,17,adelie,torgersen,38.7,19.0,195.0,3450.0,female
+17,18,adelie,torgersen,42.5,20.7,197.0,4500.0,male
+18,19,  ADELIE ,torgersen,34.4,18.4,184.0,3325.0,female
+19,20,adelie,torgersen,46.0,21.5 mm,194.0,4200.0,male
+20,21,  ADELIE ,biscoe,37.8,18.3 mm,174.0,3400.0,female
+21,22,  ADELIE ,biscoe,37.7,18.7,180.0,3600.0,male
+22,23,adelie,biscoe,35.9,19.2,189.0,3800.0,female
+23,24,adelie,biscoe,38.2,18.1,185.0,3950.0,male
+24,25,adelie,biscoe,38.8,17.2,180.0,3800.0,male
+25,26,adelie,biscoe,35.3,18.9,187.0,3800.0,female
+26,27,  ADELIE ,biscoe,40.6,18.6,183.0,3550.0,male
+27,28,adelie,biscoe,40.5,17.9,187.0,3200.0,female
+28,29,adelie,biscoe,37.9,18.6,172.0,3150.0,female
+29,30,adelie,biscoe,40.5,18.9 mm,180.0,3950.0,male
+30,31,  ADELIE ,dream,39.5,16.7,178.0,3250.0,female
+31,32,adelie,dream,37.2,18.1,178.0,3900.0,male
+32,33,adelie,dream,39.5,17.8,188.0,3300.0,female
+33,34,adelie,dream,40.9,18.9,184.0,3900.0,male
+34,35,adelie,dream,36.4,17.0,195.0,3325.0,female
+35,36,adelie,dream,39.2,21.1,196.0,4150.0,male
+36,37,adelie,dream,38.8,20.0,190.0,3950.0,male
+37,38,adelie,dream,42.2,18.5,180.0,3550.0,female
+38,39,adelie,dream,37.6,19.3,181.0,3300.0,female
+39,40,adelie,dream,39.8,19.1,184.0,4650.0,male
+40,41,adelie,dream,36.5,18.0,182.0,3150.0,female
+41,42,adelie,dream,40.8,18.4,195.0,3900.0,male
+42,43,adelie,dream,36.0,18.5,186.0,3100.0,female
+43,44,adelie,dream,44.1,19.7,196.0,4400.0,male
+44,45,adelie,dream,37.0,16.9,185.0,3000.0,female
+45,46,adelie,dream,39.6,18.8,190.0,4600.0,male
+46,47,adelie,dream,41.1,19.0,182.0,3425.0,male
+47,48,adelie,dream,37.5,18.9,179.0,2975.0,
+48,49,adelie,dream,36.0,17.9,190.0,3450.0,female
+49,50,adelie,dream,42.3,21.2,191.0,4150.0,male
+50,51,adelie,biscoe,39.6,17.7,186.0,3500.0,female
+51,52,adelie,biscoe,40.1,18.9,188.0,4300.0,male
+52,53,adelie,biscoe,35.0,17.9,190.0,3450.0,female
+53,54,adelie,biscoe,42.0,19.5 mm,200.0,4050.0,male
+54,55,adelie,biscoe,34.5,18.1,187.0,2900.0,female
+55,56,adelie,biscoe,41.4,18.6,191.0,3700.0,male
+56,57,adelie,biscoe,39.0,?,186.0,3550.0,female
+57,58,adelie,biscoe,40.6,18.8,193.0,3800.0,male
+58,59,adelie,biscoe,36.5,16.6,181.0,2850.0,female
+59,60,adelie,biscoe,37.6,19.1,194.0,3750.0,male
+60,61,adelie,biscoe,35.7,16.9,185.0,3150.0,female
+61,62,adelie,biscoe,41.3,21.1,195.0,4400.0,male
+62,63,adelie,biscoe,37.6,17.0,185.0,3600.0,female
+63,64,adelie,biscoe,41.1,18.2,192.0,4050.0,male
+64,65,adelie,biscoe,36.4,,184.0,2850.0,female
+65,66,adelie,biscoe,41.6,18.0,192.0,3950.0,male
+66,67,adelie,biscoe,35.5,16.2,195.0,3350.0,female
+67,68,adelie,biscoe,41.1,19.1,188.0,4100.0,male
+68,69,adelie,torgersen,35.9,16.6,190.0,3050.0,female
+69,70,adelie,torgersen,41.8,19.4,198.0,4450.0,male
+70,71,adelie,torgersen,33.5,19.0,190.0,3600.0,female
+71,72,adelie,torgersen,39.7,18.4,190.0,3900.0,male
+72,73,adelie,torgersen,39.6,17.2,196.0,3550.0,female
+73,74,adelie,torgersen,45.8,18.9,197.0,4150.0,male
+74,75,adelie,torgersen,35.5,17.5,190.0,3700.0,female
+75,76,  ADELIE ,torgersen,42.8,18.5 mm,195.0,4250.0,male
+76,77,adelie,torgersen,40.9,16.8,191.0,3700.0,female
+77,78,adelie,torgersen,37.2,19.4,184.0,3900.0,male
+78,79,adelie,torgersen,36.2,16.1,187.0,3550.0,female
+79,80,adelie,torgersen,42.1,19.1,195.0,4000.0,male
+80,81,adelie,torgersen,34.6,17.2,189.0,3200.0,female
+81,82,adelie,torgersen,42.9,17.6,196.0,4700.0,male
+82,83,adelie,torgersen,36.7,,187.0,3800.0,female
+83,84,adelie,torgersen,35.1,?,193.0,4200.0,male
+84,85,adelie,dream,37.3,17.8,191.0,3350.0,female
+85,86,adelie,dream,41.3,20.3 mm,194.0,3550.0,male
+86,87,adelie,dream,36.3,19.5,190.0,3800.0,male
+87,88,adelie,dream,36.9,18.6,189.0,3500.0,female
+88,89,adelie,dream,38.3,19.2,189.0,3950.0,male
+89,90,adelie,dream,38.9,18.8,190.0,3600.0,female
+90,91,,dream,35.7,18.0,202.0,3550.0,female
+91,92,adelie,dream,41.1,18.1,205.0,4300.0,male
+92,93,adelie,dream,34.0,17.1,185.0,3400.0,female
+93,94,adelie,dream,39.6,18.1,186.0,4450.0,male
+94,95,adelie,dream,36.2,17.3,187.0,3300.0,female
+95,96,adelie,dream,40.8,18.9,208.0,4300.0,male
+96,97,adelie,dream,38.1,18.6,190.0,3700.0,female
+97,98,adelie,dream,40.3,18.5,196.0,4350.0,male
+98,99,adelie,dream,33.1,16.1,178.0,2900.0,female
+99,100,adelie,dream,43.2,18.5,192.0,4100.0,male
+100,101,adelie,biscoe,35.0,17.9,192.0,-100.0,female
+101,102,adelie,biscoe,41.0,20.0,203.0,4725.0,male
+102,103,adelie,biscoe,37.7,16.0 mm,183.0,3075.0,female
+103,104,adelie,biscoe,37.8,20.0,190.0,4250.0,male
+104,105,adelie,biscoe,37.9,18.6,193.0,2925.0,female
+105,106,adelie,biscoe,39.7,18.9,184.0,3550.0,male
+106,107,adelie,biscoe,38.6,17.2,199.0,3750.0,female
+107,108,adelie,biscoe,38.2,20.0,190.0,3900.0,male
+108,109,adelie,biscoe,38.1,17.0,181.0,3175.0,female
+109,110,adelie,biscoe,43.2,19.0,197.0,4775.0,male
+110,111,adelie,biscoe,38.1,16.5,198.0,3825.0,female
+111,112,adelie,biscoe,45.6,20.3,191.0,4600.0,male
+112,113,adelie,biscoe,39.7,17.7,193.0,3200.0,female
+113,114,adelie,biscoe,42.2,19.5,197.0,4275.0,male
+114,115,adelie,biscoe,39.6,20.7,191.0,3900.0,female
+115,116,adelie,biscoe,42.7,18.3,196.0,4075.0,male
+116,117,adelie,torgersen,38.6,17.0,188.0,2900.0,female
+117,118,adelie,torgersen,37.3,20.5,199.0,3775.0,male
+118,119,adelie,torgersen,35.7,17.0,189.0,3350.0,female
+119,120,adelie,torgersen,41.1,18.6,189.0,3325.0,male
+120,121,adelie,torgersen,36.2,17.2,187.0,3150.0,female
+121,122,adelie,torgersen,37.7,19.8,198.0,3500.0,male
+122,123,adelie,torgersen,40.2,17.0,176.0,3450.0,female
+123,124,adelie,torgersen,41.4,18.5,202.0,3875.0,male
+124,125,adelie,torgersen,35.2,15.9,186.0,3050.0,female
+125,126,adelie,torgersen,40.6,19.0,199.0,4000.0,male
+126,127,adelie,torgersen,38.8,17.6,191.0,3275.0,female
+127,128,adelie,torgersen,41.5,18.3,195.0,4300.0,male
+128,129,adelie,torgersen,39.0,17.1 mm,191.0,3050.0,female
+129,130,adelie,torgersen,44.1,18.0,210.0,4000.0,male
+130,131,adelie,torgersen,38.5,17.9 mm,190.0,3325.0,female
+131,132,adelie,torgersen,43.1,19.2,197.0,3500.0,male
+132,133,adelie,dream,36.8,18.5,193.0,3500.0,female
+133,134,adelie,dream,37.5,,199.0,4475.0,male
+134,135,adelie,dream,38.1,17.6,187.0,3425.0,female
+135,136,adelie,dream,41.1,17.5,190.0,3900.0,male
+136,137,adelie,dream,35.6,17.5,191.0,3175.0,female
+137,138,adelie,dream,40.2,20.1,200.0,3975.0,male
+138,139,adelie,dream,37.0,16.5,185.0,3400.0,female
+139,140,adelie,dream,39.7,17.9,193.0,4250.0,male
+140,141,  ADELIE ,dream,40.2,17.1,193.0,3400.0,female
+141,142,  ADELIE ,dream,40.6,17.2,187.0,3475.0,male
+142,143,adelie,dream,32.1,15.5,188.0,3050.0,female
+143,144,adelie,dream,40.7,17.0,190.0,-100.0,male
+144,145,adelie,dream,37.3,16.8,192.0,3000.0,female
+145,146,adelie,dream,39.0,18.7,185.0,3650.0,male
+146,147,adelie,dream,39.2,18.6,190.0,4250.0,male
+147,148,adelie,dream,36.6,18.4,184.0,3475.0,female
+148,149,adelie,dream,36.0,17.8,195.0,3450.0,female
+149,150,adelie,dream,37.8,18.1,193.0,3750.0,male
+150,151,adelie,dream,36.0,17.1,187.0,3700.0,female
+151,152,adelie,dream,41.5,18.5,201.0,4000.0,male
+152,153,gentoo,biscoe,46.1,13.2,211.0,4500.0,female
+153,154,gentoo,biscoe,50.0,16.3,230.0,5700.0,male
+154,155,gentoo,biscoe,48.7,14.1,210.0,4450.0,female
+155,156,gentoo,biscoe,50.0,15.2,218.0,5700.0,male
+156,157,gentoo,biscoe,47.6,14.5,215.0,5400.0,male
+157,158,gentoo,biscoe,46.5,13.5,210.0,4550.0,female
+158,159,gentoo,biscoe,45.4,14.6,211.0,4800.0,female
+159,160,gentoo,biscoe,46.7,15.3,219.0,5200.0,male
+160,161,gentoo,biscoe,43.3,13.4,209.0,4400.0,female
+161,162,gentoo,biscoe,46.8,15.4,215.0,5150.0,male
+162,163,,biscoe,40.9,13.7,214.0,4650.0,female
+163,164,gentoo,biscoe,49.0,16.1,216.0,5550.0,male
+164,165,gentoo,biscoe,45.5,13.7,214.0,4650.0,female
+165,166,gentoo,biscoe,48.4,14.6 mm,213.0,5850.0,male
+166,167,gentoo,biscoe,45.8,14.6,210.0,4200.0,female
+167,168,gentoo,biscoe,49.3,15.7,217.0,5850.0,male
+168,169,  GENTOO ,biscoe,42.0,13.5,210.0,4150.0,female
+169,170,  GENTOO ,biscoe,49.2,15.2,221.0,6300.0,male
+170,171,gentoo,biscoe,46.2,14.5,209.0,4800.0,female
+171,172,gentoo,biscoe,48.7,15.1,222.0,5350.0,male
+172,173,gentoo,biscoe,50.2,14.3,218.0,5700.0,male
+173,174,gentoo,biscoe,45.1,14.5 mm,215.0,5000.0,female
+174,175,gentoo,biscoe,46.5,14.5,213.0,4400.0,female
+175,176,  GENTOO ,biscoe,46.3,15.8,215.0,5050.0,male
+176,177,  GENTOO ,biscoe,42.9,13.1,215.0,5000.0,female
+177,178,gentoo,biscoe,46.1,15.1,215.0,5100.0,male
+178,179,gentoo,biscoe,44.5,,216.0,4100.0,
+179,180,gentoo,biscoe,47.8,15.0,215.0,5650.0,male
+180,181,gentoo,biscoe,48.2,14.3,210.0,4600.0,female
+181,182,  GENTOO ,biscoe,50.0,15.3,220.0,5550.0,male
+182,183,gentoo,biscoe,47.3,15.3,222.0,5250.0,male
+183,184,gentoo,biscoe,42.8,14.2,209.0,4700.0,female
+184,185,gentoo,biscoe,45.1,14.5,207.0,5050.0,female
+185,186,gentoo,biscoe,59.6,?,230.0,6050.0,male
+186,187,gentoo,biscoe,49.1,14.8,220.0,5150.0,female
+187,188,gentoo,biscoe,48.4,16.3,220.0,5400.0,male
+188,189,gentoo,biscoe,42.6,13.7,213.0,4950.0,female
+189,190,gentoo,biscoe,44.4,17.3,219.0,5250.0,male
+190,191,gentoo,biscoe,44.0,,208.0,4350.0,female
+191,192,gentoo,biscoe,48.7,15.7 mm,208.0,5350.0,male
+192,193,gentoo,biscoe,42.7,13.7,208.0,3950.0,female
+193,194,gentoo,biscoe,49.6,16.0,225.0,5700.0,male
+194,195,gentoo,biscoe,45.3,13.7,210.0,-100.0,female
+195,196,gentoo,biscoe,49.6,15.0,216.0,4750.0,male
+196,197,gentoo,biscoe,50.5,15.9,222.0,5550.0,male
+197,198,gentoo,biscoe,43.6,13.9,217.0,4900.0,female
+198,199,gentoo,biscoe,45.5,13.9,210.0,4200.0,female
+199,200,gentoo,biscoe,50.5,15.9,225.0,5400.0,male
+200,201,gentoo,biscoe,44.9,13.3,213.0,5100.0,female
+201,202,gentoo,biscoe,45.2,15.8,215.0,5300.0,male
+202,203,gentoo,biscoe,46.6,14.2,210.0,4850.0,female
+203,204,gentoo,biscoe,48.5,14.1,220.0,5300.0,male
+204,205,gentoo,biscoe,45.1,14.4,210.0,4400.0,female
+205,206,gentoo,biscoe,50.1,15.0,225.0,5000.0,male
+206,207,gentoo,biscoe,46.5,14.4,217.0,4900.0,female
+207,208,gentoo,biscoe,45.0,15.4,220.0,5050.0,male
+208,209,gentoo,biscoe,43.8,13.9,208.0,4300.0,female
+209,210,gentoo,biscoe,45.5,15.0,220.0,5000.0,male
+210,211,gentoo,biscoe,43.2,14.5,208.0,4450.0,female
+211,212,gentoo,biscoe,50.4,15.3,224.0,5550.0,male
+212,213,gentoo,biscoe,45.3,13.8,208.0,4200.0,female
+213,214,gentoo,biscoe,46.2,14.9,221.0,5300.0,male
+214,215,gentoo,biscoe,45.7,13.9,214.0,4400.0,female
+215,216,gentoo,biscoe,54.3,15.7,231.0,5650.0,male
+216,217,gentoo,biscoe,45.8,14.2,219.0,4700.0,female
+217,218,gentoo,biscoe,49.8,16.8,230.0,5700.0,male
+218,219,  GENTOO ,biscoe,46.2,14.4,214.0,4650.0,
+219,220,gentoo,biscoe,49.5,16.2,229.0,5800.0,male
+220,221,gentoo,biscoe,43.5,14.2,220.0,4700.0,female
+221,222,gentoo,biscoe,50.7,15.0,223.0,5550.0,male
+222,223,gentoo,biscoe,47.7,15.0,216.0,4750.0,female
+223,224,gentoo,biscoe,46.4,15.6 mm,221.0,5000.0,male
+224,225,gentoo,biscoe,48.2,15.6,221.0,5100.0,male
+225,226,gentoo,biscoe,46.5,14.8,217.0,5200.0,female
+226,227,gentoo,biscoe,46.4,15.0,216.0,4700.0,female
+227,228,gentoo,biscoe,48.6,16.0,230.0,5800.0,male
+228,229,  GENTOO ,biscoe,47.5,14.2,209.0,4600.0,female
+229,230,gentoo,biscoe,51.1,?,220.0,6000.0,male
+230,231,gentoo,biscoe,45.2,13.8,215.0,4750.0,female
+231,232,gentoo,biscoe,45.2,16.4,223.0,5950.0,male
+232,233,gentoo,biscoe,49.1,14.5,212.0,4625.0,female
+233,234,gentoo,biscoe,52.5,15.6,221.0,5450.0,male
+234,235,,biscoe,47.4,14.6,212.0,4725.0,female
+235,236,gentoo,biscoe,50.0,15.9,224.0,5350.0,male
+236,237,gentoo,biscoe,44.9,13.8,212.0,4750.0,female
+237,238,gentoo,biscoe,50.8,17.3,228.0,5600.0,male
+238,239,gentoo,biscoe,43.4,14.4,218.0,4600.0,female
+239,240,  GENTOO ,biscoe,51.3,14.2,218.0,5300.0,male
+240,241,gentoo,biscoe,47.5,14.0,212.0,4875.0,female
+241,242,gentoo,biscoe,52.1,17.0,230.0,5550.0,male
+242,243,gentoo,biscoe,47.5,15.0,218.0,4950.0,female
+243,244,gentoo,biscoe,52.2,,228.0,5400.0,male
+244,245,gentoo,biscoe,45.5,14.5,212.0,4750.0,female
+245,246,gentoo,biscoe,49.5,16.1,224.0,5650.0,male
+246,247,gentoo,biscoe,44.5,14.7,214.0,4850.0,female
+247,248,gentoo,biscoe,50.8,15.7,226.0,5200.0,male
+248,249,gentoo,biscoe,49.4,15.8,216.0,4925.0,male
+249,250,gentoo,biscoe,46.9,14.6,222.0,4875.0,female
+250,251,gentoo,biscoe,48.4,14.4,203.0,4625.0,female
+251,252,gentoo,biscoe,51.1,16.5,225.0,5250.0,male
+252,253,gentoo,biscoe,48.5,15.0 mm,219.0,4850.0,female
+253,254,gentoo,biscoe,55.9,17.0,228.0,5600.0,male
+254,255,gentoo,biscoe,47.2,15.5 mm,215.0,4975.0,female
+255,256,gentoo,biscoe,49.1,15.0,228.0,5500.0,male
+256,257,gentoo,biscoe,47.3,13.8 mm,216.0,4725.0,
+257,258,gentoo,biscoe,46.8,16.1,215.0,5500.0,male
+258,259,gentoo,biscoe,41.7,14.7,210.0,4700.0,female
+259,260,gentoo,biscoe,53.4,15.8,219.0,5500.0,male
+260,261,gentoo,biscoe,43.3,14.0,208.0,4575.0,female
+261,262,gentoo,biscoe,48.1,15.1,209.0,5500.0,male
+262,263,gentoo,biscoe,50.5,15.2,216.0,5000.0,female
+263,264,gentoo,biscoe,49.8,15.9,229.0,5950.0,male
+264,265,gentoo,biscoe,43.5,15.2,213.0,4650.0,female
+265,266,gentoo,biscoe,51.5,16.3,230.0,5500.0,male
+266,267,gentoo,biscoe,46.2,14.1,217.0,4375.0,female
+267,268,gentoo,biscoe,55.1,?,230.0,5850.0,male
+268,269,gentoo,biscoe,44.5,15.7,217.0,4875.0,
+269,270,gentoo,biscoe,48.8,16.2,222.0,6000.0,male
+270,271,gentoo,biscoe,47.2,13.7,214.0,4925.0,female
+271,272,gentoo,biscoe,,,,,
+272,273,gentoo,biscoe,46.8,14.3,215.0,4850.0,female
+273,274,gentoo,biscoe,50.4,15.7,222.0,5750.0,male
+274,275,gentoo,biscoe,45.2,14.8,212.0,5200.0,female
+275,276,gentoo,biscoe,49.9,16.1,213.0,5400.0,male
+276,277,chinstrap,dream,46.5,17.9,192.0,3500.0,female
+277,278,chinstrap,dream,50.0,19.5,196.0,3900.0,male
+278,279,chinstrap,dream,51.3,19.2,193.0,3650.0,male
+279,280,chinstrap,dream,45.4,18.7,188.0,3525.0,female
+280,281,  CHINSTRAP ,dream,52.7,19.8,197.0,3725.0,male
+281,282,chinstrap,dream,45.2,17.8,198.0,3950.0,female
+282,283,chinstrap,dream,46.1,18.2,178.0,3250.0,female
+283,284,  CHINSTRAP ,dream,51.3,18.2,197.0,3750.0,male
+284,285,chinstrap,dream,46.0,18.9,195.0,4150.0,female
+285,286,chinstrap,dream,51.3,19.9,198.0,3700.0,male
+286,287,  CHINSTRAP ,dream,46.6,17.8,193.0,3800.0,female
+287,288,chinstrap,dream,51.7,20.3,194.0,3775.0,male
+288,289,chinstrap,dream,47.0,17.3,185.0,3700.0,female
+289,290,chinstrap,dream,52.0,18.1 mm,201.0,4050.0,male
+290,291,chinstrap,dream,45.9,17.1,190.0,3575.0,female
+291,292,chinstrap,dream,50.5,19.6,201.0,4050.0,male
+292,293,  CHINSTRAP ,dream,50.3,20.0,197.0,3300.0,male
+293,294,chinstrap,dream,58.0,17.8,181.0,3700.0,female
+294,295,chinstrap,dream,46.4,18.6,190.0,3450.0,female
+295,296,chinstrap,dream,49.2,18.2,195.0,4400.0,male
+296,297,chinstrap,dream,42.4,17.3,181.0,3600.0,female
+297,298,chinstrap,dream,48.5,17.5,191.0,3400.0,male
+298,299,chinstrap,dream,43.2,16.6,187.0,2900.0,female
+299,300,  CHINSTRAP ,dream,50.6,19.4,193.0,3800.0,male
+300,301,chinstrap,dream,46.7,17.9,195.0,3300.0,female
+301,302,chinstrap,dream,52.0,19.0,197.0,4150.0,male
+302,303,chinstrap,dream,50.5,18.4,200.0,3400.0,female
+303,304,chinstrap,dream,49.5,19.0 mm,200.0,3800.0,male
+304,305,  CHINSTRAP ,dream,46.4,17.8,191.0,3700.0,female
+305,306,chinstrap,dream,52.8,20.0,205.0,4550.0,male
+306,307,  CHINSTRAP ,dream,40.9,16.6,187.0,3200.0,female
+307,308,chinstrap,dream,54.2,20.8,201.0,4300.0,male
+308,309,chinstrap,dream,42.5,?,187.0,3350.0,female
+309,310,chinstrap,dream,51.0,18.8,203.0,4100.0,male
+310,311,chinstrap,dream,49.7,18.6,195.0,3600.0,male
+311,312,chinstrap,dream,47.5,16.8,199.0,3900.0,female
+312,313,chinstrap,dream,47.6,18.3,195.0,3850.0,female
+313,314,chinstrap,dream,52.0,20.7,210.0,4800.0,male
+314,315,chinstrap,dream,46.9,?,192.0,2700.0,female
+315,316,chinstrap,dream,53.5,19.9,205.0,4500.0,male
+316,317,chinstrap,dream,49.0,19.5,210.0,3950.0,male
+317,318,chinstrap,dream,46.2,17.5,187.0,3650.0,female
+318,319,chinstrap,dream,50.9,19.1,196.0,3550.0,male
+319,320,chinstrap,dream,45.5,17.0,196.0,3500.0,female
+320,321,  CHINSTRAP ,dream,50.9,17.9,196.0,3675.0,female
+321,322,chinstrap,dream,50.8,18.5,201.0,4450.0,male
+322,323,chinstrap,dream,50.1,17.9,190.0,3400.0,female
+323,324,chinstrap,dream,49.0,19.6,212.0,4300.0,male
+324,325,  CHINSTRAP ,dream,51.5,18.7,187.0,3250.0,male
+325,326,chinstrap,dream,49.8,17.3,198.0,3675.0,female
+326,327,chinstrap,dream,48.1,16.4,199.0,3325.0,female
+327,328,chinstrap,dream,51.4,19.0,201.0,3950.0,male
+328,329,chinstrap,dream,45.7,17.3,193.0,3600.0,female
+329,330,chinstrap,dream,50.7,19.7 mm,203.0,4050.0,male
+330,331,chinstrap,dream,42.5,17.3,187.0,3350.0,female
+331,332,chinstrap,dream,52.2,18.8,197.0,3450.0,male
+332,333,chinstrap,dream,45.2,16.6,191.0,3250.0,female
+333,334,chinstrap,dream,49.3,19.9,203.0,4050.0,male
+334,335,chinstrap,dream,50.2,18.8,202.0,3800.0,male
+335,336,chinstrap,dream,45.6,19.4,194.0,3525.0,female
+336,337,chinstrap,dream,51.9,19.5,206.0,3950.0,male
+337,338,chinstrap,dream,46.8,16.5,189.0,3650.0,female
+338,339,chinstrap,dream,45.7,17.0,195.0,3650.0,female
+339,340,chinstrap,dream,55.8,19.8,207.0,4000.0,male
+340,341,chinstrap,dream,43.5,18.1,202.0,3400.0,female
+341,342,chinstrap,dream,49.6,18.2,193.0,3775.0,male
+342,343,chinstrap,dream,50.8,19.0,210.0,4100.0,male
+343,344,chinstrap,dream,50.2,18.7,198.0,3775.0,female
+344,57,adelie,biscoe,39.0,?,186.0,3550.0,female
+345,282,chinstrap,dream,45.2,17.8,198.0,3950.0,female
+346,258,gentoo,biscoe,46.8,16.1,215.0,5500.0,male
+347,118,adelie,torgersen,37.3,20.5,199.0,3775.0,male
+348,201,gentoo,biscoe,44.9,13.3,213.0,5100.0,female
+349,207,gentoo,biscoe,46.5,14.4,217.0,4900.0,female
