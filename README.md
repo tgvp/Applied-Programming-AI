@@ -180,7 +180,46 @@ Explore measurements of penguins from the Palmer Archipelago, Antarctica. Each r
 | :---: | :---: | :---: |
 | [![GitHub-Student](https://img.shields.io/badge/GitHub-Student-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-penguins-student.ipynb) | [![Colab-Student](https://img.shields.io/badge/Colab-Student-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Programming-AI/blob/main/Week-6/mia-pr-week-6-penguins-student.ipynb) | [![Download-Messy penguins CSV](https://img.shields.io/badge/Download-Messy_penguins_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Programming-AI/main/raw/messy_penguins.csv) |
 
-For Colab, download and upload the matching messy CSV using the Files panel. Each notebook loads the local CSV; it does not replace it with a clean download. See the [Week 6 guide and dataset sources](Week-6/README.md).
+For Colab, download and upload the matching messy CSV using the Files panel. Each notebook loads the local CSV; it does not replace it with a clean download.
+
+<details>
+<summary>Dataset sources, attribution and preparation</summary>
+
+### Student Performance
+
+[Original dataset](https://archive.ics.uci.edu/dataset/320/student+performance)
+
+Cortez, P. (2008). Student Performance. UCI. https://doi.org/10.24432/C5TG7T (CC BY 4.0).
+
+Selected nine columns from student-mat.csv (Mathematics only, 395 records). Renamed grade columns and converted study-time codes to descriptive categories. Portuguese-language records were not combined with Mathematics.
+
+### Bike Sharing
+
+[Original dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)
+
+Fanaee-T, H. (2013). Bike Sharing. UCI. https://doi.org/10.24432/C5W894 (CC BY 4.0). Original study: Fanaee-T and Gama, Event labeling combining ensemble detectors and background knowledge, doi:10.1007/s13748-013-0040-3.
+
+Selected the 731 daily records from day.csv, not hour.csv. Converted weather and working-day codes to labels. Temperature is temp × 41 and humidity is hum × 100, following the README packaged with the daily data. These conversions were done before the exercise; no scaling is required.
+
+### Auto MPG
+
+[Original dataset](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+
+Quinlan, R. (1993). Auto MPG. UCI. https://doi.org/10.24432/C5859H (CC BY 4.0).
+
+Selected seven columns from auto-mpg.data (398 rows). Origin codes became usa/europe/japan; model years became four-digit years. Original missing horsepower values were preserved. Displacement and acceleration were omitted to keep the exercise focused.
+
+### Palmer Penguins
+
+[Original dataset](https://allisonhorst.github.io/palmerpenguins/)
+
+Horst, A. M., Hill, A. P., and Gorman, K. B. (2020). palmerpenguins. https://doi.org/10.5281/zenodo.3960218. Data: Gorman, Williams and Fraser (2014), doi:10.1371/journal.pone.0090081, Palmer Station LTER. Dataset distributed under CC0.
+
+Used the simplified penguins.csv from the official palmerpenguins repository (344 records); omitted year. Kept the original missing measurements and sex values.
+
+UCI datasets are adapted under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Palmer Penguins data are distributed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/). All messy CSVs are modified teaching versions; the alterations are described above.
+
+</details>
 
 ---
 
