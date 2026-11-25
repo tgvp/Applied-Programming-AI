@@ -1,66 +1,64 @@
 # Course Schedule and Assessments
 
-This course develops practical fluency with the main tools used to prepare data, build, evaluate models, and organise reproducible AI workflows.
+This course develops practical skills in data preparation, machine learning pipelines, model selection, evaluation, and reproducible experimentation with Python and scikit-learn.
 
-The sequence starts with Python and numerical computation, moves through data preparation and classical machine learning, and then introduces deep learning and complete AI workflows.
+The sequence progresses from numerical computation and exploratory data analysis to complete machine learning workflows. Particular attention is given to preventing data leakage, selecting models through cross-validation, and evaluating predictions on held-out data. Deep learning and PyTorch are deferred to the advanced course in the following semester.
 
 ## Course schedule
 
-| Week | Main topic | Practical milestone |
+The Week 1–6 labels below identify the published teaching materials. The remaining sessions and deadlines are listed by calendar date.
+
+| Materials / Date | Main topic | Practical milestone |
 | --- | --- | --- |
-| 1 | Python environment, NumPy, and vectorised computation | Python and NumPy foundations |
-| 2 | Pandas: DataFrames, selection, transformation, and data types | Explore a real dataset |
-| 3 | Data preparation: missing values, categorical data, scaling, and features | Mini-project 1: Data Pipeline · Quiz 1 |
-| 4 | Exploratory data analysis: distributions, group comparisons, and relationships | Use visual evidence to interpret Titanic passenger distributions and survival rates |
-| 5 | Scikit-learn pipelines: `Pipeline`, `ColumnTransformer`, estimators, and train/test splits | Fit a reproducible preprocessing and prediction pipeline on training data and evaluate on held-out data |
-| 6 | ML experimentation and model selection: cross-validation, metrics, leakage, tuning, and comparison | Mini-project 2: ML Experiment · Quiz 2 |
-| 7 | PyTorch I: tensors, autograd, and `nn.Module` | Build a basic model |
-| 8 | PyTorch II: `Dataset`, `DataLoader`, training, and validation loops | Complete a training loop · Theoretical Test 1 |
-| 9 | PyTorch III: regularisation, checkpoints, and monitoring | Mini-project 3: PyTorch Model · Quiz 3 |
-| 10 | Model evaluation and error analysis | Compare and diagnose models |
-| 11 | Inference and code organisation for AI projects | Build an inference script |
-| 12 | Reproducibility and project structure | Mini-project 4: Reproducible AI Workflow · Quiz 4 |
-| 13 | Integrating components into one workflow | Prepare the final project · Theoretical Test 2 |
-| 14–15 | Integrative project and presentations | Final project and individual presentation |
+| Week 1 | Python environment, NumPy, and vectorised computation | Python and NumPy foundations |
+| Week 2 | Pandas: DataFrames, selection, transformation, and data types | Explore a real dataset |
+| Week 3 | Data preparation: data types, missing values, categorical data, and features | Clean and validate data |
+| Week 4 | Exploratory data analysis: distributions, group comparisons, and relationships | Interpret data using descriptive statistics and visual evidence |
+| Week 5 | Scikit-learn preprocessing pipelines: numerical and categorical transformations | Construct a reusable preprocessing pipeline |
+| Week 6 | Data cleaning and exploratory analysis of a selected dataset | Work in pairs on Student Performance, Bike Sharing, Auto MPG, or Palmer Penguins |
+| 27 Nov 2026 | Mini-project 2 presentations (Week 6, in pairs); prediction targets, train/test splits, baselines, metrics, and leakage prevention with pipelines | Present Mini-project 2 and build a first correctly evaluated model |
+| 4 Dec 2026 | Validation, cross-validation, hyperparameter selection, and `GridSearchCV` | Compare pipeline configurations · Scheduled release of Mini-project 3 |
+| 11 Dec 2026 | Model evaluation and error analysis; test revision; reproducible execution, saving/loading pipelines, and inference | Mini-project 3 due · Prepare for the final project |
+| 18 Dec 2026 | Final theoretical test and final project briefing | Final test · Scheduled release of Mini-project 4 — Final Project |
+| 8 Jan 2027 | Final project submission deadline | Mini-project 4 — Final Project due |
+
+The January entry is a submission deadline, not a scheduled teaching session. Any presentation arrangements will be announced separately.
 
 ## Assessment
 
-The final grade is expressed on the Portuguese 0–20 scale.
+The final grade is expressed on the Portuguese 0–20 scale. There are two quizzes, one final theoretical test, and four projects. **Mini-project 4 is the final project**, not an additional assessment.
 
-| Component | Number | Weight per item | Total weight | Percentage |
-| --- | ---: | ---: | ---: | ---: |
-| Participation | Continuous | — | 1.0 value | 5% |
-| Theoretical tests on Moodle | 2 | 2.0 values | 4.0 values | 20% |
-| Quizzes | 4 | 0.5 value | 2.0 values | 10% |
-| Mini-project 1 | 1 | 1.0 value | 1.0 value | 5% |
-| Mini-project 2 | 1 | 1.5 values | 1.5 values | 7.5% |
-| Mini-project 3 | 1 | 2.0 values | 2.0 values | 10% |
-| Mini-project 4 | 1 | 2.5 values | 2.5 values | 12.5% |
-| Final project | 1 | 6.0 values | 6.0 values | 30% |
-| **Total** |  |  | **20.0 values** | **100%** |
-
-This distribution preserves the curricular unit structure:
-
-- **Theoretical component:** 4.0 values (20%), corresponding to the two Moodle tests.
-- **Practical and continuous component:** 16.0 values (80%), corresponding to participation, quizzes, mini-projects, and the final project.
+| Component | Maximum contribution (out of 20) | Percentage | Release / submission |
+| --- | ---: | ---: | --- |
+| Participation | 1.0 | 5% | Continuous |
+| Quiz 1 | 1.0 | 5% | Completed |
+| Quiz 2 | 1.0 | 5% | Completed |
+| Final theoretical test | 5.0 | 25% | 18 Dec 2026 |
+| Mini-project 1 | 1.0 | 5% | Completed |
+| Mini-project 2 | 1.5 | 7.5% | As previously announced |
+| Mini-project 3 — Model Selection and Evaluation | 2.0 | 10% | Release scheduled for 4 Dec 2026 · Due 11 Dec 2026 |
+| Mini-project 4 — Final Project | 7.5 | 37.5% | Release scheduled for 18 Dec 2026 · Due 8 Jan 2027 |
+| **Total** | **20.0** | **100%** | |
 
 ### Assessment progression
 
-- Mini-project 1 checks the ability to prepare and transform data.
-- Mini-project 2 checks the ability to create and compare reproducible ML experiments.
-- Mini-project 3 checks the ability to implement and train a PyTorch model.
-- Mini-project 4 checks the ability to organise a reproducible AI workflow.
-- The final project integrates the complete workflow and includes an individual presentation.
+- Mini-project 1 assesses data preparation and transformation.
+- Mini-project 2 retains the objectives and requirements in its previously announced brief.
+- Mini-project 3 extends the dataset selected in Week 6 into a scikit-learn modelling experiment: define a prediction task, construct a pipeline, establish a baseline, select hyperparameters using cross-validation, and evaluate on held-out data. Use classification or regression and appropriate metrics for the selected target. Keep learned preprocessing inside the pipeline and choose a split strategy appropriate to the task.
+- Mini-project 4 is the final integrative project. Starting from a new messy dataset supplied by the lecturer, complete the workflow from diagnosis, cleaning, and exploration through modelling, model selection, evaluation, and reproducible inference. Include executable code and instructions explaining how to reproduce the solution. PyTorch and deep learning are not required.
+- The final theoretical test assesses the taught concepts, including interpretation of code and results, data splitting, leakage prevention, metrics, cross-validation, and model selection. The session on 11 December includes consolidation and revision.
 
 ### Grade calculation
 
+Each term below is the component's contribution on the 0–20 final-grade scale, capped at the value listed in the assessment table.
+
 ```text
 Final grade = Participation
-            + Theoretical Test 1 + Theoretical Test 2
-            + Quiz 1 + Quiz 2 + Quiz 3 + Quiz 4
+            + Quiz 1 + Quiz 2
+            + Final Theoretical Test
             + Mini-project 1 + Mini-project 2
-            + Mini-project 3 + Mini-project 4
-            + Final Project
-```
+            + Mini-project 3
+            + Mini-project 4 (Final Project)
 
-All individual weights above are already expressed in values and sum to 20.
+Maximum = 1.0 + 1.0 + 1.0 + 5.0 + 1.0 + 1.5 + 2.0 + 7.5 = 20.0
+```
