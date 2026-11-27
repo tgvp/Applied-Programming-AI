@@ -1,4 +1,6 @@
-# Week 7 movie data
+# MovieLens teaching dataset
+
+CSV: [`../movies_modeling.csv`](../movies_modeling.csv). Teaching notebook: [Week 7 solution](../../Week-7/mia-pr-week-7-solution.ipynb).
 
 Derived from [GroupLens MovieLens latest-small](https://grouplens.org/datasets/movielens/latest/), downloaded 26 November 2026 from https://files.grouplens.org/datasets/movielens/ml-latest-small.zip.
 The archive README identifies the snapshot as generated on 26 September 2018. Archive SHA-256: `696d65a3dfceac7c45750ad32df2c259311949efec81f0f144fdfb91ebc9e436`.

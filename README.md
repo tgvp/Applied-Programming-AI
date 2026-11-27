@@ -237,11 +237,11 @@ Use MovieLens data to predict average film ratings with scikit-learn pipelines a
 | :---: | :---: |
 | [![GitHub Solution](https://img.shields.io/badge/GitHub-Solution-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tgvp/Applied-Programming-AI/blob/main/Week-7/mia-pr-week-7-solution.ipynb) | [![Colab Solution](https://img.shields.io/badge/Colab-Solution-238636?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/tgvp/Applied-Programming-AI/blob/main/Week-7/mia-pr-week-7-solution.ipynb) |
 
-[![Download Movies CSV](https://img.shields.io/badge/Download-Movies_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Applied-Programming-AI/main/Week-7/data/movies_modeling.csv)
+[![Download Movies CSV](https://img.shields.io/badge/Download-Movies_CSV-217346?style=for-the-badge&logoColor=white)](https://raw.githubusercontent.com/tgvp/Applied-Programming-AI/main/raw/movies_modeling.csv)
 
-For Colab, download and upload `movies_modeling.csv` using the Files panel. Locally, keep the CSV in the `data` folder beside the notebook. The figures are embedded in the notebook.
+For Colab, download and upload `movies_modeling.csv` using the Files panel. Locally, the notebook reads the CSV from the repository’s `raw` folder. The figures are embedded in the notebook.
 
-The teaching dataset contains 1,297 films with at least 20 ratings. See the [dataset description and attribution](Week-7/data/README.md) and the [original MovieLens usage conditions](Week-7/data/MOVIELENS_LICENSE.txt).
+The teaching dataset contains 1,297 films with at least 20 ratings. See the [dataset description and attribution](raw/docs/movies_modeling.md) and the [original MovieLens usage conditions](raw/docs/MOVIELENS_LICENSE.txt).
 
 ---
 
