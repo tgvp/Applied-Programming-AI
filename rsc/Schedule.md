@@ -16,11 +16,13 @@ The Week 1–6 labels below identify the published teaching materials. The remai
 | Week 4 | Exploratory data analysis: distributions, group comparisons, and relationships | Interpret data using descriptive statistics and visual evidence |
 | Week 5 | Scikit-learn preprocessing pipelines: numerical and categorical transformations | Construct a reusable preprocessing pipeline |
 | Week 6 | Data cleaning and exploratory analysis of a selected dataset | Work in pairs on Student Performance, Bike Sharing, Auto MPG, or Palmer Penguins |
-| 27 Nov 2026 | Mini-project 2 presentations (Week 6, in pairs); prediction targets, train/test splits, baselines, metrics, and leakage prevention with pipelines | Present Mini-project 2 and build a first correctly evaluated model |
-| 4 Dec 2026 | Validation, cross-validation, hyperparameter selection, and `GridSearchCV` | Compare pipeline configurations · Scheduled release of Mini-project 3 |
-| 11 Dec 2026 | Model evaluation and error analysis; test revision; reproducible execution, saving/loading pipelines, and inference | Mini-project 3 due · Prepare for the final project |
+| 27 Nov 2026 | Mini-project 2 presentations; train/test splits, baselines, metrics, leakage prevention with pipelines, cross-validation, and hyperparameter selection with `GridSearchCV` | Present Mini-project 2 · Compare pipeline configurations · Mini-project 3 released |
+| 4 Dec 2026 | Data validation: required columns, data types, missing values, valid ranges, categories, duplicates, and consistency checks | Build a data-quality report · Support work on Mini-project 3 · Define input validation rules for the final project |
+| 11 Dec 2026 | Model evaluation; reproducible execution, saving/loading pipelines, and validation of inference inputs | Mini-project 3 due · Discuss modelling results · Prepare a reproducible workflow for the final project |
 | 18 Dec 2026 | Final theoretical test and final project briefing | Final test · Scheduled release of Mini-project 4 — Final Project |
 | 8 Jan 2027 | Final project submission deadline | Mini-project 4 — Final Project due |
+
+Data validation checks whether input data satisfy defined quality rules; model validation estimates predictive performance on held-out observations. The data-validation material introduced on 4 December prepares the final project and does not add new requirements to the released Mini-project 3 brief.
 
 The January entry is a submission deadline, not a scheduled teaching session. Any presentation arrangements will be announced separately.
 
@@ -36,7 +38,7 @@ The final grade is expressed on the Portuguese 0–20 scale. There are two quizz
 | Final theoretical test | 5.0 | 25% | 18 Dec 2026 |
 | Mini-project 1 | 1.0 | 5% | Completed |
 | Mini-project 2 | 1.5 | 7.5% | As previously announced |
-| Mini-project 3 — Model Selection and Evaluation | 2.0 | 10% | Release scheduled for 4 Dec 2026 · Due 11 Dec 2026 |
+| Mini-project 3 — Model Selection and Evaluation | 2.0 | 10% | Released 27 Nov 2026 · Due 11 Dec 2026 |
 | Mini-project 4 — Final Project | 7.5 | 37.5% | Release scheduled for 18 Dec 2026 · Due 8 Jan 2027 |
 | **Total** | **20.0** | **100%** | |
 
